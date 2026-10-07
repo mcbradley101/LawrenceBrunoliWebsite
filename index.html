@@ -1,11 +1,1054 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Lawrence Brunoli, Inc.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lawrence Brunoli, Inc. | Construction & Project Management</title>
+
+    <meta name="description" content="Lawrence Brunoli, Inc. is a Connecticut-based construction company providing general contracting, construction management, design-build, consulting, and owner representation.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1c1c1c;
+            background: #f7f6f1;
+            line-height: 1.6;
+        }
+
+        /* =========================
+           COLORS
+        ========================= */
+
+        :root {
+            --green: #123b2a;
+            --dark-green: #09251a;
+            --gold: #c6a15b;
+            --light-gold: #dfc78e;
+            --cream: #f7f6f1;
+            --white: #ffffff;
+            --charcoal: #222222;
+        }
+
+        /* =========================
+           NAVIGATION
+        ========================= */
+
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 28px 6%;
+            color: white;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            display: block;
+            color: var(--gold);
+            font-size: 11px;
+            letter-spacing: 4px;
+            margin-top: 3px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--light-gold);
+        }
+
+        /* =========================
+           HERO
+        ========================= */
+
+        .hero {
+            min-height: 90vh;
+
+            display: flex;
+            align-items: center;
+
+            position: relative;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(5, 27, 18, 0.95) 0%,
+                    rgba(8, 35, 24, 0.82) 45%,
+                    rgba(8, 35, 24, 0.35) 100%
+                ),
+                url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2200&q=85")
+                center/cover;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 160px 6% 100px;
+            color: white;
+        }
+
+        .eyebrow {
+            color: var(--gold);
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 22px;
+        }
+
+        .hero h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(48px, 7vw, 88px);
+            line-height: 1.02;
+            font-weight: normal;
+            margin-bottom: 28px;
+        }
+
+        .hero p {
+            max-width: 620px;
+            font-size: 19px;
+            color: #e7e7e7;
+            margin-bottom: 38px;
+        }
+
+        .gold-line {
+            width: 70px;
+            height: 3px;
+            background: var(--gold);
+            margin-bottom: 28px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 16px 28px;
+            margin-right: 12px;
+
+            text-decoration: none;
+
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+
+            transition: all 0.3s;
+        }
+
+        .button-gold {
+            background: var(--gold);
+            color: var(--dark-green);
+        }
+
+        .button-gold:hover {
+            background: var(--light-gold);
+        }
+
+        .button-outline {
+            border: 1px solid rgba(255,255,255,0.6);
+            color: white;
+        }
+
+        .button-outline:hover {
+            background: white;
+            color: var(--dark-green);
+        }
+
+        /* =========================
+           INTRO
+        ========================= */
+
+        .intro {
+            padding: 110px 8%;
+            background: var(--cream);
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 90px;
+            align-items: center;
+        }
+
+        .section-label {
+            color: var(--gold);
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            color: var(--green);
+            font-size: clamp(36px, 4vw, 58px);
+            font-weight: normal;
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+
+        .intro p {
+            font-size: 17px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .intro-image {
+            min-height: 470px;
+
+            background:
+                linear-gradient(
+                    rgba(9,37,26,0.08),
+                    rgba(9,37,26,0.08)
+                ),
+                url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85")
+                center/cover;
+        }
+
+        /* =========================
+           STATS
+        ========================= */
+
+        .stats {
+            background: var(--green);
+            color: white;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            padding: 65px 8%;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 15px;
+            border-right: 1px solid rgba(255,255,255,0.15);
+        }
+
+        .stat:last-child {
+            border-right: none;
+        }
+
+        .stat-number {
+            font-family: Georgia, serif;
+            font-size: 45px;
+            color: var(--gold);
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #ddd;
+        }
+
+        /* =========================
+           SERVICES
+        ========================= */
+
+        .services {
+            padding: 110px 8%;
+            background: white;
+        }
+
+        .services-header {
+            max-width: 700px;
+            margin-bottom: 55px;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            background: #ddd;
+        }
+
+        .service {
+            background: white;
+            padding: 45px 35px;
+            min-height: 260px;
+
+            transition: all 0.3s;
+        }
+
+        .service:hover {
+            background: var(--green);
+            color: white;
+            transform: translateY(-4px);
+        }
+
+        .service-number {
+            color: var(--gold);
+            font-size: 13px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .service h3 {
+            font-family: Georgia, serif;
+            color: var(--green);
+            font-size: 25px;
+            font-weight: normal;
+            margin: 25px 0 15px;
+        }
+
+        .service:hover h3 {
+            color: white;
+        }
+
+        .service p {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .service:hover p {
+            color: #ddd;
+        }
+
+        /* =========================
+           PROJECTS
+        ========================= */
+
+        .projects {
+            padding: 110px 8%;
+            background: var(--dark-green);
+            color: white;
+        }
+
+        .projects h2 {
+            color: white;
+        }
+
+        .projects-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            margin-bottom: 50px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 18px;
+        }
+
+        .project {
+            min-height: 420px;
+            position: relative;
+
+            display: flex;
+            align-items: end;
+
+            overflow: hidden;
+        }
+
+        .project:first-child {
+            min-height: 600px;
+        }
+
+        .project-image {
+            position: absolute;
+            inset: 0;
+
+            background-size: cover;
+            background-position: center;
+
+            transition: transform 0.6s;
+        }
+
+        .project:hover .project-image {
+            transform: scale(1.05);
+        }
+
+        .project::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+
+            background:
+                linear-gradient(
+                    transparent 30%,
+                    rgba(0,0,0,0.9)
+                );
+        }
+
+        .project-info {
+            position: relative;
+            z-index: 2;
+            padding: 30px;
+        }
+
+        .project-type {
+            color: var(--gold);
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .project h3 {
+            font-family: Georgia, serif;
+            font-size: 28px;
+            font-weight: normal;
+            margin-top: 7px;
+        }
+
+        /* =========================
+           TEAM
+        ========================= */
+
+        .team {
+            padding: 110px 8%;
+            background: var(--cream);
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 70px;
+            align-items: center;
+        }
+
+        .team-image {
+            min-height: 500px;
+
+            background:
+                url("https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1400&q=85")
+                center/cover;
+        }
+
+        .team-content p {
+            font-size: 17px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        /* =========================
+           CTA
+        ========================= */
+
+        .cta {
+            padding: 110px 8%;
+            background: var(--green);
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            color: white;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .cta p {
+            max-width: 600px;
+            margin: 0 auto 35px;
+            color: #ddd;
+            font-size: 17px;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer {
+            background: #061810;
+            color: white;
+            padding: 65px 8% 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 60px;
+            padding-bottom: 55px;
+        }
+
+        footer h3 {
+            font-family: Georgia, serif;
+            font-size: 25px;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+
+        footer p {
+            color: #aaa;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: #aaa;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        footer a:hover {
+            color: var(--gold);
+        }
+
+        .copyright {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 25px;
+            color: #777;
+            font-size: 12px;
+        }
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 900px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero-content {
+                padding-left: 7%;
+                padding-right: 7%;
+            }
+
+            .intro-grid,
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 45px;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stat {
+                border-right: none;
+                border-bottom: 1px solid rgba(255,255,255,0.15);
+                padding: 25px 10px;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project,
+            .project:first-child {
+                min-height: 420px;
+            }
+
+            .projects-header {
+                display: block;
+            }
+
+            .projects-header .button {
+                margin-top: 15px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 35px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Lawrence Brunoli, Inc.</h1>
-    <p>New website coming soon.</p>
+
+    <!-- =========================
+         NAVIGATION
+    ========================= -->
+
+    <nav>
+        <div class="logo">
+            BRUNOLI
+            <span>LAWRENCE BRUNOLI, INC.</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- =========================
+         HERO
+    ========================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                Connecticut Construction & Project Management
+            </div>
+
+            <div class="gold-line"></div>
+
+            <h1>
+                Building With Experience.<br>
+                Built To Last.
+            </h1>
+
+            <p>
+                Lawrence Brunoli, Inc. provides comprehensive construction
+                services for public, institutional, commercial, and
+                infrastructure projects throughout Connecticut and beyond.
+            </p>
+
+            <a href="#projects" class="button button-gold">
+                EXPLORE OUR WORK
+            </a>
+
+            <a href="#contact" class="button button-outline">
+                CONTACT US
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================= -->
+
+    <section class="intro" id="about">
+
+        <div class="intro-grid">
+
+            <div>
+
+                <div class="section-label">
+                    Lawrence Brunoli, Inc.
+                </div>
+
+                <h2>
+                    Experience You Can Build On.
+                </h2>
+
+                <p>
+                    Since 1987, Lawrence Brunoli, Inc. has provided
+                    construction services for clients throughout Connecticut
+                    and the surrounding region.
+                </p>
+
+                <p>
+                    From complex public infrastructure to institutional and
+                    commercial construction, our team brings experience,
+                    accountability, and hands-on project management to every
+                    job.
+                </p>
+
+                <a href="#contact" class="button button-gold">
+                    LEARN MORE
+                </a>
+
+            </div>
+
+            <div class="intro-image"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         STATS
+    ========================= -->
+
+    <section class="stats">
+
+        <div class="stat">
+            <div class="stat-number">1987</div>
+            <div class="stat-label">Year Founded</div>
+        </div>
+
+        <div class="stat">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Major Projects</div>
+        </div>
+
+        <div class="stat">
+            <div class="stat-number">35+</div>
+            <div class="stat-label">Years Experience</div>
+        </div>
+
+        <div class="stat">
+            <div class="stat-number">CT</div>
+            <div class="stat-label">Based In Connecticut</div>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================= -->
+
+    <section class="services" id="services">
+
+        <div class="services-header">
+
+            <div class="section-label">
+                What We Do
+            </div>
+
+            <h2>
+                Comprehensive Construction Services.
+            </h2>
+
+            <p>
+                From initial planning through project completion, our team
+                provides the expertise and management needed to deliver
+                complex construction projects.
+            </p>
+
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service">
+                <div class="service-number">01</div>
+
+                <h3>General Contracting</h3>
+
+                <p>
+                    Professional construction management and execution from
+                    project start through completion.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-number">02</div>
+
+                <h3>Construction Management</h3>
+
+                <p>
+                    Coordinated project management focused on quality,
+                    schedule, budget, and accountability.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-number">03</div>
+
+                <h3>Design-Build</h3>
+
+                <p>
+                    Integrated design and construction services that
+                    streamline the process for project owners.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-number">04</div>
+
+                <h3>Construction Consulting</h3>
+
+                <p>
+                    Construction expertise supporting planning, estimating,
+                    coordination, and project execution.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-number">05</div>
+
+                <h3>Owner Representation</h3>
+
+                <p>
+                    Experienced project oversight designed to protect the
+                    owner's goals, budget, schedule, and interests.
+                </p>
+            </div>
+
+            <div class="service">
+                <div class="service-number">06</div>
+
+                <h3>Project Expertise</h3>
+
+                <p>
+                    Experience across government, education, transportation,
+                    infrastructure, and institutional construction.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+    ========================= -->
+
+    <section class="projects" id="projects">
+
+        <div class="projects-header">
+
+            <div>
+
+                <div class="section-label">
+                    Selected Work
+                </div>
+
+                <h2>
+                    Projects That Matter.
+                </h2>
+
+            </div>
+
+            <a href="#contact" class="button button-outline">
+                VIEW ALL PROJECTS
+            </a>
+
+        </div>
+
+
+        <div class="project-grid">
+
+            <div class="project">
+
+                <div
+                    class="project-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1600&q=85');">
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-type">
+                        Government
+                    </div>
+
+                    <h3>
+                        Public Infrastructure
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="project">
+
+                <div
+                    class="project-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=85');">
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-type">
+                        Education
+                    </div>
+
+                    <h3>
+                        Institutional Construction
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="project">
+
+                <div
+                    class="project-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=85');">
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-type">
+                        Construction
+                    </div>
+
+                    <h3>
+                        Building Projects
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TEAM
+    ========================= -->
+
+    <section class="team" id="team">
+
+        <div class="team-grid">
+
+            <div class="team-image"></div>
+
+            <div class="team-content">
+
+                <div class="section-label">
+                    The Brunoli Team
+                </div>
+
+                <h2>
+                    Experienced People. Direct Accountability.
+                </h2>
+
+                <p>
+                    Our leadership and project management teams bring decades
+                    of construction experience to every project.
+                </p>
+
+                <p>
+                    We believe successful projects are built on communication,
+                    preparation, accountability, and strong relationships
+                    with our clients and project partners.
+                </p>
+
+                <a href="#contact" class="button button-gold">
+                    MEET OUR TEAM
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT CTA
+    ========================= -->
+
+    <section class="cta" id="contact">
+
+        <div class="section-label">
+            Start a Conversation
+        </div>
+
+        <h2>
+            Have a Project in Mind?
+        </h2>
+
+        <p>
+            Let's talk about how Lawrence Brunoli, Inc. can help bring your
+            next project from concept to completion.
+        </p>
+
+        <a href="tel:8606769900" class="button button-gold">
+            CALL 860-676-9900
+        </a>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer>
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h3>
+                    Lawrence Brunoli, Inc.
+                </h3>
+
+                <p>
+                    Construction • Management • Experience
+                </p>
+
+                <p>
+                    11 Eastview Drive<br>
+                    Farmington, CT 06032
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Explore
+                </h3>
+
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#team">Team</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <a href="tel:8606769900">
+                    860-676-9900
+                </a>
+
+                <a href="#contact">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Lawrence Brunoli, Inc. All Rights Reserved.
+        </div>
+
+    </footer>
+
 </body>
 </html>
