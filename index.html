@@ -444,11 +444,15 @@
             margin-bottom: 50px;
         }
 
-        .project-grid {
+        
+.project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
+
 
         .project {
     min-height: 420px;
