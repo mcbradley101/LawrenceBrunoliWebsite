@@ -864,12 +864,90 @@
 .site-navigation { position: relative; inset: auto; padding: 20px 3%; display: flex; align-items: center; justify-content: flex-start; gap: 32px; flex-wrap: nowrap; width: 100%; }
 .site-navigation .logo { flex: 0 0 auto; }
 .site-navigation .logo img { display: block; height: 180px; width: auto; max-width: none; object-fit: contain; }
-.site-navigation .nav-links { display: flex; flex-wrap: nowrap; align-items: center; list-style: none; gap: 8px 18px; margin: 0; padding: 0; }
-.site-navigation .nav-links a { display: block; padding: 12px 2px; color: var(--white); font-size: 18px; letter-spacing: .5px; text-decoration: none; font-weight: bold; white-space: nowrap; transition: color 180ms ease, transform 180ms ease; }
-.site-navigation .nav-links a:hover, .site-navigation .nav-links a:focus-visible { color: var(--gold); transform: scale(1.06); }
-.site-navigation .nav-links a[aria-current="page"] { color: var(--light-gold); }
-.site-navigation .nav-links a[aria-current="page"]:hover, .site-navigation .nav-links a[aria-current="page"]:focus-visible { color: var(--gold); }
-.site-navigation .nav-links a[aria-current="page"] { text-decoration: underline; text-underline-offset: 7px; }
+.site-navigation .nav-links { display: flex; flex-wrap: nowrap; align-items: center; list-style: none; gap: 20px 18px; margin: 0; padding: 0; }
+/* Raised architectural buttons. The gold surface crossfades over the green. */
+.site-navigation .nav-links a {
+    position: relative;
+    isolation: isolate;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 12px;
+    border: 2.5px solid #D4B26D;
+    border-radius: 7px;
+    background: linear-gradient(135deg, #346248 0%, #173D2B 60%, #092519 100%);
+    color: #F4E6C9;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: -5px 6px 0 #051B11, -5px 7.5px 0 #9B7A40,
+        inset 0 1px 0 #ffffff26, inset 0 -2px 0 #D4B26D55;
+    transition: transform 250ms ease, border-color 250ms ease,
+        box-shadow 250ms ease, color 250ms ease;
+}
+.site-navigation .nav-links a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 4px;
+    background: linear-gradient(to bottom left, #FFF0C9 0%, #D8B671 48%, #A47C3A 100%);
+    opacity: 0;
+    transition: opacity 250ms ease;
+}
+/* Reserve the bold label's width to prevent hover from moving nearby links.
+   All three visible text layers share one grid cell and the same baseline. */
+.nav-label { display: inline-grid; position: relative; }
+.nav-label::after, .nav-label-main, .nav-label-shadow, .nav-label-shine {
+    grid-area: 1 / 1;
+}
+.nav-label::after { content: attr(data-label); font-weight: 700; visibility: hidden; }
+.nav-label-main { position: relative; z-index: 3; transition: color 250ms ease; }
+.nav-label-shadow, .nav-label-shine {
+    position: relative;
+    font-weight: 700;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease;
+}
+.nav-label-shadow {
+    z-index: 1;
+    color: #28452E;
+    -webkit-text-stroke: .35px #725F39;
+    transform: translate(-1.4px, .7px);
+}
+.nav-label-shine {
+    z-index: 2;
+    color: #FFFFFF;
+    -webkit-text-stroke: .66px #FFF8E7;
+    transform: translate(.72px, -.84px);
+}
+.site-navigation .nav-links a[aria-current="page"] .nav-label-main {
+    text-decoration: underline;
+    text-decoration-color: #D4B26D;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+}
+.site-navigation .nav-links a:is(:hover, :focus-visible) {
+    color: #123F2A;
+    border-color: #FFF0CA;
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: -7px 9px 0 #102C1B, -7px 10.5px 0 #9B7A40,
+        inset -1px -2px 0 #725F3955, inset 1px 1px 0 #FFF8E799;
+}
+.site-navigation .nav-links a:is(:hover, :focus-visible)::before,
+.site-navigation .nav-links a:is(:hover, :focus-visible) .nav-label-shadow,
+.site-navigation .nav-links a:is(:hover, :focus-visible) .nav-label-shine { opacity: 1; }
+.site-navigation .nav-links a:is(:hover, :focus-visible) .nav-label-main {
+    color: #123F2A;
+    font-weight: 700;
+    text-decoration: none;
+}
+.site-navigation .nav-links a:focus-visible { outline: 3px solid #FFF0CA; outline-offset: 6px; }
 .menu-toggle { display: none; background: transparent; border: 1px solid var(--gold); color: var(--white); padding: 12px 16px; font: inherit; cursor: pointer; border-radius: 3px; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; }
 .skip-link { position: absolute; top: -100px; left: 16px; z-index: 100; background: var(--gold); color: var(--dark-green); padding: 12px 20px; }
@@ -907,8 +985,8 @@ h1,h2,h3,p,a { overflow-wrap: break-word; }
  .site-navigation { flex-wrap: wrap; gap: 16px 28px; }
  .site-navigation .logo img { height: 140px; }
  .site-navigation .menu-toggle { margin-left: auto; font-size: 18px; }
- .site-navigation .nav-links { width: 100%; flex-direction: column; align-items: stretch; gap: 0; position: static; background: var(--dark-green); padding: 10px 0; }
- .site-navigation .nav-links a { padding: 14px 12px; font-size: 20px; transform-origin: left center; }
+ .site-navigation .nav-links { width: 100%; flex-direction: column; align-items: stretch; gap: 20px; position: static; background: var(--dark-green); padding: 10px 0; }
+ .site-navigation .nav-links a { display: flex; padding: 14px 12px; font-size: 20px; transform-origin: center; }
  .js .site-navigation .menu-toggle { display: block; }
  .js .site-navigation .nav-links { display: none; }
  .js .site-navigation .nav-links.menu-open { display: flex; }
@@ -919,7 +997,7 @@ h1,h2,h3,p,a { overflow-wrap: break-word; }
  .page-hero { padding: 60px 7%; }
  section.content { padding: 55px 7%; }
 }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
 
 @media (max-width: 600px) {
  .site-navigation { padding: 16px 5%; }
