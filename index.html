@@ -17,866 +17,8 @@
 
     <meta name="description" content="Lawrence Brunoli, Inc. is a Connecticut-based construction company providing general contracting, construction management, design-build, consulting, and owner representation.">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            color: #1c1c1c;
-            background: #f7f6f1;
-            line-height: 1.6;
-        }
-
-        /* =========================
-           COLORS
-        ========================= */
-
-        :root {
-            --green: #123b2a;
-            --dark-green: #09251a;
-            --gold: #c6a15b;
-            --light-gold: #dfc78e;
-            --cream: #f7f6f1;
-            --white: #ffffff;
-            --charcoal: #222222;
-        }
-
-        /* =========================
-           NAVIGATION
-        ========================= */
-
-        nav {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 10;
-
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            padding: 28px 6%;
-            color: white;
-        }
-
-        .logo img {
-    height: 180px;
-    width: auto;
-    display: block;
-}
-
-        .nav-links {
-            display: flex;
-            gap: 32px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-size: 13px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: var(--light-gold);
-        }
-
-        /* =========================
-           HERO
-        ========================= */
-
-        .hero {
-            min-height: 90vh;
-
-            display: flex;
-            align-items: center;
-
-            position: relative;
-
-            background:
-                linear-gradient(
-                    90deg,
-                    rgba(5, 27, 18, 0.95) 0%,
-                    rgba(8, 35, 24, 0.82) 45%,
-                    rgba(8, 35, 24, 0.35) 100%
-                ),
-                url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2200&q=85")
-                center/cover;
-        }
-
-        .hero-content {
-            max-width: 800px;
-           padding: 250px 6% 100px;
-            color: white;
-        }
-
-        .eyebrow {
-            color: var(--gold);
-            font-size: 13px;
-            font-weight: bold;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            margin-bottom: 22px;
-        }
-
-        .hero h1 {
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: clamp(48px, 7vw, 88px);
-            line-height: 1.02;
-            font-weight: normal;
-            margin-bottom: 28px;
-        }
-
-        .hero p {
-            max-width: 620px;
-            font-size: 19px;
-            color: #e7e7e7;
-            margin-bottom: 38px;
-        }
-
-        .gold-line {
-            width: 70px;
-            height: 3px;
-            background: var(--gold);
-            margin-bottom: 28px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 16px 28px;
-            margin-right: 12px;
-
-            text-decoration: none;
-
-            font-size: 12px;
-            font-weight: bold;
-            letter-spacing: 1.5px;
-
-            transition: all 0.3s;
-        }
-
-        .button-gold {
-            background: var(--gold);
-            color: var(--dark-green);
-        }
-
-        .button-gold:hover {
-            background: var(--light-gold);
-        }
-
-        .button-outline {
-            border: 1px solid rgba(255,255,255,0.6);
-            color: white;
-        }
-
-        .button-outline:hover {
-            background: white;
-            color: var(--dark-green);
-        }
-
-        /* =========================
-           INTRO
-        ========================= */
-
-        .intro {
-            padding: 110px 8%;
-            background: var(--cream);
-        }
-
-        .intro-grid {
-            display: grid;
-            grid-template-columns: 1fr 1.2fr;
-            gap: 90px;
-            align-items: center;
-        }
-
-        .section-label {
-            color: var(--gold);
-            font-size: 12px;
-            font-weight: bold;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            margin-bottom: 18px;
-        }
-
-        h2 {
-            font-family: Georgia, "Times New Roman", serif;
-            color: var(--green);
-            font-size: clamp(36px, 4vw, 58px);
-            font-weight: normal;
-            line-height: 1.1;
-            margin-bottom: 25px;
-        }
-
-        .intro p {
-            font-size: 17px;
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        .intro-image {
-            min-height: 470px;
-
-            background:
-                linear-gradient(
-                    rgba(9,37,26,0.08),
-                    rgba(9,37,26,0.08)
-                ),
-                url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85")
-                center/cover;
-        }
-
-        /* =========================
-           STATS
-        ========================= */
-
-        .stats {
-            background: var(--green);
-            color: white;
-
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-
-            padding: 65px 8%;
-        }
-
-        .stat {
-            text-align: center;
-            padding: 15px;
-            border-right: 1px solid rgba(255,255,255,0.15);
-        }
-
-        .stat:last-child {
-            border-right: none;
-        }
-
-        .stat-number {
-            font-family: Georgia, serif;
-            font-size: 45px;
-            color: var(--gold);
-            margin-bottom: 5px;
-        }
-
-        .stat-label {
-            font-size: 12px;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            color: #ddd;
-        }
-
-        /* =========================
-           SERVICES
-        ========================= */
-
-        .services {
-            padding: 110px 8%;
-            background: white;
-        }
-
-        .services-header {
-            max-width: 700px;
-            margin-bottom: 55px;
-        }
-
-        .service-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2px;
-            background: #ddd;
-        }
-
-        .service {
-            background: white;
-            padding: 45px 35px;
-            min-height: 260px;
-
-            transition: all 0.3s;
-        }
-
-        .service:hover {
-            background: var(--green);
-            color: white;
-            transform: translateY(-4px);
-        }
-
-        .service-number {
-            color: var(--gold);
-            font-size: 13px;
-            letter-spacing: 2px;
-            font-weight: bold;
-        }
-
-        .service h3 {
-            font-family: Georgia, serif;
-            color: var(--green);
-            font-size: 25px;
-            font-weight: normal;
-            margin: 25px 0 15px;
-        }
-
-        .service:hover h3 {
-            color: white;
-        }
-
-        .service p {
-            color: #666;
-            font-size: 15px;
-        }
-
-        .service:hover p {
-            color: #ddd;
-        }
-                /* =========================
-           COMPANY PROFILE
-        ========================= */
-
-        .company-profile {
-            padding: 100px 8%;
-            background: var(--cream);
-            color: var(--charcoal);
-        }
-
-        .company-profile-content {
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .company-profile .section-label {
-            color: var(--green);
-            font-size: 13px;
-            font-weight: bold;
-            letter-spacing: 3px;
-            margin-bottom: 18px;
-        }
-
-        .company-profile h2 {
-            font-family: Georgia, "Times New Roman", serif;
-            color: var(--green);
-            font-size: clamp(36px, 4vw, 52px);
-            font-weight: normal;
-            line-height: 1.15;
-            margin-bottom: 28px;
-        }
-
-        .company-profile p {
-            max-width: 900px;
-            margin: 0 auto 22px;
-            color: var(--charcoal);
-            font-size: 16px;
-            line-height: 1.9;
-        }
-
-
-                /* =========================
-           BRIEF HISTORY
-        ========================= */
-
-        .brief-history {
-            padding: 100px 8%;
-            background: var(--dark-green);
-            color: var(--white);
-        }
-
-        .brief-history-content {
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .brief-history .section-label {
-            color: var(--gold);
-            font-size: 13px;
-            font-weight: bold;
-            letter-spacing: 3px;
-            margin-bottom: 18px;
-        }
-
-        .brief-history h2 {
-            font-family: Georgia, "Times New Roman", serif;
-            color: var(--white);
-            font-size: clamp(36px, 4vw, 52px);
-            font-weight: normal;
-            line-height: 1.15;
-            margin-bottom: 28px;
-        }
-
-        .brief-history p {
-            max-width: 900px;
-            margin: 0 auto 22px;
-            color: #e8e8e3;
-            font-size: 16px;
-            line-height: 1.9;
-        }
-
-
-
-        
-        /* =========================
-           WHY CHOOSE US
-        ========================= */
-
-        .why-us {
-            padding: 100px 8%;
-            background: var(--cream);
-            color: var(--charcoal);
-        }
-
-        .why-us-header {
-            max-width: 900px;
-            margin: 0 auto 60px;
-            text-align: center;
-        }
-
-        .why-us .section-label {
-            color: var(--green);
-            font-size: 15px;
-            font-weight: bold;
-            letter-spacing: 3px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .why-us h2 {
-            font-family: Georgia, "Times New Roman", serif;
-            color: var(--green);
-            font-size: clamp(36px, 4vw, 52px);
-            font-weight: normal;
-            line-height: 1.15;
-            margin-bottom: 22px;
-            text-align: center;
-        }
-
-        .why-us-header > p {
-            max-width: 700px;
-            margin: 0 auto;
-            color: #555;
-            font-size: 17px;
-            line-height: 1.8;
-            text-align: center;
-        }
-
-        .why-us-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 35px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .why-us-item {
-            padding-top: 25px;
-            border-top: 2px solid var(--gold);
-            text-align: center;
-        }
-
-        .why-us-number {
-            display: block;
-            color: var(--gold);
-            font-size: 14px;
-            font-weight: bold;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-        }
-
-        .why-us-item h3 {
-            font-family: Georgia, "Times New Roman", serif;
-            color: var(--green);
-            font-size: 24px;
-            font-weight: normal;
-            line-height: 1.3;
-            margin-bottom: 14px;
-        }
-
-        .why-us-item p {
-            color: #555;
-            font-size: 15px;
-            line-height: 1.8;
-        }
-
-      
-        /* =========================
-           PROJECTS
-        ========================= */
-
-        .projects {
-            padding: 110px 8%;
-            background: var(--dark-green);
-            color: white;
-        }
-
-        .projects h2 {
-            color: white;
-        }
-
-        .projects-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: end;
-            margin-bottom: 50px;
-        }
-
-        
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 28px;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-
-        .project {
-    min-height: 420px;
-    position: relative;
-
-    display: flex;
-    align-items: end;
-
-    overflow: hidden;
-
-    border: 1px solid rgba(255,255,255,0.15);
-    transition: border-color 0.3s ease;
-}
-
-.project:hover {
-    border-color: var(--gold);
-}
-      .project,
-.project:first-child {
-    min-height: 360px;
-}
-
-.project h3 {
-    font-size: 21px;
-    line-height: 1.3;
-}
-
-        .project-image {
-            position: absolute;
-            inset: 0;
-
-            background-size: cover;
-            background-position: center top;
-
-            transition: transform 0.6s;
-        }
-
-        .project:hover .project-image {
-            transform: scale(1.05);
-        }
-
-        .project::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-
-            background:
-                linear-gradient(
-                    transparent 30%,
-                    rgba(0,0,0,0.9)
-                );
-        }
-
-        .project-info {
-            position: relative;
-            z-index: 2;
-            padding: 32px;
-        }
-
-        .project-type {
-            color: var(--gold);
-            font-size: 11px;
-            font-weight: bold;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-.project-location {
-    color: #ddd;
-    font-size: 12px;
-    margin-top: 6px;
-    letter-spacing: 0.5px;
-}
-        
-      .project h3 {
-    font-family: Georgia, serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 1.15;
-    margin-top: 7px;
-    margin-bottom: 8px;
-}
-
-        /* =========================
-           TEAM
-        ========================= */
-
-        .team {
-            padding: 110px 8%;
-            background: var(--cream);
-        }
-
-        .team-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 70px;
-            align-items: center;
-        }
-
-        .team-image {
-            min-height: 500px;
-
-            background:
-                url("https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1400&q=85")
-                center/cover;
-        }
-
-        .team-content p {
-            font-size: 17px;
-            color: #555;
-            margin-bottom: 25px;
-        }
-
-        /* =========================
-           CTA
-        ========================= */
-
-        .cta {
-            padding: 110px 8%;
-            background: var(--green);
-            color: white;
-            text-align: center;
-        }
-
-        .cta h2 {
-            color: white;
-            max-width: 800px;
-            margin: 0 auto 30px;
-        }
-
-        .cta p {
-            max-width: 600px;
-            margin: 0 auto 35px;
-            color: #ddd;
-            font-size: 17px;
-        }
-
-        /* =========================
-           FOOTER
-        ========================= */
-
-        footer {
-            background: #061810;
-            color: white;
-            padding: 65px 8% 30px;
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
-            gap: 60px;
-            padding-bottom: 55px;
-        }
-
-        footer h3 {
-            font-family: Georgia, serif;
-            font-size: 25px;
-            font-weight: normal;
-            margin-bottom: 15px;
-        }
-
-        footer p {
-            color: #aaa;
-            font-size: 14px;
-            margin-bottom: 8px;
-        }
-
-        footer a {
-            color: #aaa;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-
-        footer a:hover {
-            color: var(--gold);
-        }
-
-        .copyright {
-            border-top: 1px solid rgba(255,255,255,0.1);
-            padding-top: 25px;
-            color: #777;
-            font-size: 12px;
-        }
-        .mobile-menu {
-    display: none;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 34px;
-    cursor: pointer;
-}
-
-        /* =========================
-           MOBILE
-        ========================= */
-
-        @media (max-width: 900px) {
-            .mobile-menu {
-    display: block;
-}
-            .logo img {
-    height: 70px;
-}
-
-            .nav-links {
-                display: none;
-            }
-            .nav-links.mobile-open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    right: 6%;
-    background: var(--dark-green);
-    padding: 30px 25px;
-    gap: 18px;
-}
-
-            .hero-content {
-    padding: 150px 7% 80px;
-}
-.hero-content .button {
-    margin-bottom: 14px;
-}
-            .hero h1 {
-    font-size: 48px;
-}
-            .intro-grid,
-            .team-grid {
-                grid-template-columns: 1fr;
-                gap: 45px;
-            }
-
-            .stats {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .stat {
-                border-right: none;
-                border-bottom: 1px solid rgba(255,255,255,0.15);
-                padding: 25px 10px;
-            }
-
-          
-            .service-grid {
-                grid-template-columns: 1fr;
-            }
-
-           .why-us-header {
-    max-width: 900px;
-    margin: 0 auto 60px;
-    text-align: center;
-}
-            .why-us-grid {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-            
-            .project-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .project,
-            .project:first-child {
-                min-height: 360px;
-            }
-
-            .projects-header {
-                display: block;
-            }
-
-            .projects-header .button {
-                margin-top: 15px;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-                gap: 35px;
-            }
-        }
-        
-/* TESTIMONIALS & RECOGNITION */
-.testimonials {
-    padding: 100px 8%;
-    background: var(--cream);
-    color: var(--charcoal);
-}
-
-.testimonials-heading {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.testimonials-heading .section-label {
-    color: var(--gold);
-}
-
-.testimonials-heading h2 {
-    color: var(--green);
-    font-size: 42px;
-    margin-top: 12px;
-}
-
-.recognition-card {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 45px;
-    background: var(--white);
-    border-top: 4px solid var(--gold);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
-}
-
-.recognition-card h3 {
-    color: var(--green);
-    font-size: 26px;
-    margin-bottom: 20px;
-}
-
-.recognition-card p {
-    font-size: 16px;
-    line-height: 1.9;
-    margin-bottom: 16px;
-}
-
-@media (max-width: 768px) {
-    .testimonials {
-        padding: 70px 6%;
-    }
-
-    .testimonials-heading h2 {
-        font-size: 32px;
-    }
-
-    .recognition-card {
-        padding: 28px;
-    }
-}
-
-    </style>
+    <link rel="stylesheet" href="site.css">
+    <script src="site.js" defer></script>
 </head>
 
 <body>
@@ -885,21 +27,26 @@
          NAVIGATION
     ========================= -->
 
-    <nav>
-       <a href="#home" class="logo">
-<img src="ChatGPT%20Image%20Oct%207,%202026,%2003_54_46%20PM.png" alt="Lawrence Brunoli, Inc.">
-       </a>
-
-        <ul class="nav-links">
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#services">SERVICES</a></li>
-<li><a href="projects.html">PROJECTS</a></li>
-<li><a href="about.html">OUR STAFF</a></li>
-            <li><a href="recognition.html">RECOGNITION</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+    <nav class="site-navigation" aria-label="Main navigation">
+        <a href="index.html" class="logo" aria-label="Lawrence Brunoli, Inc. — Home">
+            <img src="ChatGPT%20Image%20Oct%207,%202026,%2003_54_46%20PM.png" alt="Lawrence Brunoli, Inc.">
+        </a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">MENU</button>
+        <ul class="nav-links" id="primary-menu">
+                <li><a href="index.html" aria-current="page">HOME</a></li>
+                <li><a href="company.html">COMPANY</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about.html">OUR PEOPLE</a></li>
+                <li><a href="recognition.html">TESTIMONIALS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="equipment.html">OWNED EQUIPMENT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
         </ul>
-   <button type="button" class="mobile-menu" onclick="toggleMenu()" aria-label="Open navigation menu">☰</button>
-</nav>
+    </nav>
+</header>
+<main id="main-content">
     <!-- =========================
          HERO
     ========================= -->
@@ -929,7 +76,7 @@
                 EXPLORE OUR WORK
             </a>
 
-            <a href="#contact" class="button button-outline">
+            <a href="contact.html" class="button button-outline">
                 CONTACT US
             </a>
 
@@ -970,7 +117,7 @@
                     project.
                 </p>
 
-                <a href="#stats" class="button button-gold">
+                <a href="company.html" class="button button-gold">
                     LEARN MORE
                 </a>
 
@@ -1112,12 +259,12 @@
          PROJECTS
     ========================= -->
 
-        <!-- OUR STAFF SUMMARY -->
+        <!-- OUR PEOPLE SUMMARY -->
 
 <section class="company-profile" id="staff">
     <div class="company-profile-content">
         <div class="section-label">OUR PEOPLE</div>
-        <h2>Our Staff</h2>
+        <h2>Our People</h2>
         <p>
             Our experienced team brings construction knowledge,
             communication, and dedication to every project.
@@ -1143,17 +290,50 @@
 <section class="testimonials" id="testimonials">
     <div class="testimonials-heading">
         <div class="section-label">OUR TRACK RECORD</div>
-        <h2>Testimonials &amp; Recognition</h2>
+        <h2>Testimonials</h2>
         <p>
             Learn more about our project experience, achievements,
             and recognition for excellence in construction.
         </p>
         <a href="recognition.html" class="button button-gold">
-            VIEW RECOGNITION
+            VIEW TESTIMONIALS
         </a>
     </div>
 </section>
-   
+    <!-- OUR PEOPLE -->
+<section class="company-profile" id="people-detail">
+    <div class="company-profile-content">
+        <div class="section-label">OUR PEOPLE</div>
+        <h2>Our People</h2>
+
+        <p>
+            Lawrence Brunoli, Inc. is composed of a staff of diligent
+            and experienced individuals that have an extensive knowledge
+            of construction practices. They are skilled in the use of
+            construction software and technology.
+        </p>
+
+        <p>
+            Our employees utilize and implement their abilities into each
+            project to ensure that they are built and managed effectively
+            from beginning to end. From the start of a project to its
+            conclusion, we strive to exceed our clients' expectations.
+            We are driven by a philosophy of integrity, hard work and
+            dedication to the customer.
+        </p>
+
+        <p>
+            To achieve client satisfaction, we recognize the importance
+            of successful communication. The staff at Lawrence Brunoli,
+            Inc. works hard to understand their clients' needs by listening
+            to their requests, assessing their requirements and executing
+            the task to provide the best result possible. Lawrence Brunoli,
+            Inc. provides a clear and comprehensive explanation of its work
+            for any service provided. It is our goal to provide a high-quality
+            service and ensure complete client satisfaction.
+        </p>
+    </div>
+</section>
 
 <!-- WHY CHOOSE US -->
 <section class="why-us" id="why-us">
@@ -1213,7 +393,7 @@
 
             </div>
 
-            <a href="#contact" class="button button-outline">
+            <a href="contact.html" class="button button-outline">
                 DISCUSS YOUR PROJECT
             </a>
 
@@ -1353,7 +533,43 @@
          TEAM
     ========================= -->
 
-    
+    <section class="team" id="team">
+
+        <div class="team-grid">
+
+            <div class="team-image"></div>
+
+            <div class="team-content">
+
+                <div class="section-label">
+                    The Brunoli Team
+                </div>
+
+                <h2>
+                    Experienced People. Direct Accountability.
+                </h2>
+
+                <p>
+                    Our leadership and project management teams bring decades
+                    of construction experience to every project.
+                </p>
+
+                <p>
+                    We believe successful projects are built on communication,
+                    preparation, accountability, and strong relationships
+                    with our clients and project partners.
+                </p>
+
+<a href="contact.html" class="button button-gold">
+    CONTACT OUR TEAM
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
 
     <!-- =========================
          CONTACT CTA
@@ -1386,7 +602,8 @@
          FOOTER
     ========================= -->
 
-    <footer>
+    </main>
+<footer class="site-footer">
 
         <div class="footer-grid">
 
@@ -1414,12 +631,14 @@
                     Explore
                 </h3>
 
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="projects.html">Projects</a>
-                <a href="recognition.html">Recognition</a>
-                <a href="about.html">Our Staff</a>
-                <a href="#contact">Contact</a>
+                <a href="index.html">HOME</a>
+                <a href="company.html">COMPANY</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="about.html">OUR PEOPLE</a>
+                <a href="recognition.html">TESTIMONIALS</a>
+                <a href="services.html">SERVICES</a>
+                <a href="equipment.html">OWNED EQUIPMENT</a>
+                <a href="contact.html">CONTACT US</a>
 
             </div>
 
@@ -1434,7 +653,7 @@
                     Call: 860-676-9900
                 </a>
 
-                <a href="#contact">
+                <a href="contact.html">
                     Contact Us
                 </a>
 
@@ -1447,18 +666,6 @@
         </div>
 
       </footer>
-
-   <script>
-    function toggleMenu() {
-        document.querySelector(".nav-links").classList.toggle("mobile-open");
-    }
-
-    document.querySelectorAll(".nav-links a").forEach(function(link) {
-        link.addEventListener("click", function() {
-            document.querySelector(".nav-links").classList.remove("mobile-open");
-        });
-    });
-</script>
 
 </body>
 </html>

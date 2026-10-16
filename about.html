@@ -3,199 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our People & Recognition | Lawrence Brunoli, Inc.</title>
+    <title>Our People | Lawrence Brunoli, Inc.</title>
     <meta name="description" content="Meet the people behind Lawrence Brunoli, Inc. and learn about our company's recognition and achievements.">
-    <style>
-        :root {
-            --green: #123b2a;
-            --dark-green: #09251a;
-            --gold: #c6a15b;
-            --cream: #f7f6f1;
-            --white: #ffffff;
-            --charcoal: #222222;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            color: var(--charcoal);
-            line-height: 1.8;
-        }
-
-        header {
-            background: var(--dark-green);
-            padding: 22px 6%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 24px;
-            flex-wrap: wrap;
-        }
-
-        .brand {
-            color: var(--white);
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 19px;
-            letter-spacing: 1px;
-        }
-
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 22px;
-        }
-
-        nav a {
-            color: var(--white);
-            text-decoration: none;
-            font-size: 13px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: var(--gold);
-        }
-
-        .page-hero {
-            background: var(--green);
-            color: var(--white);
-            padding: 75px 8%;
-            text-align: center;
-        }
-
-        .eyebrow {
-            color: var(--gold);
-            font-size: 13px;
-            font-weight: bold;
-            letter-spacing: 3px;
-        }
-
-        h1 {
-            font-size: clamp(36px, 5vw, 56px);
-            line-height: 1.2;
-            margin: 15px 0;
-        }
-
-        .page-hero p {
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        section.content {
-            padding: 75px 8%;
-        }
-
-        .staff {
-            background: var(--cream);
-        }
-
-        .label {
-            color: #9b7939;
-            font-weight: bold;
-            font-size: 13px;
-            letter-spacing: 2px;
-        }
-
-        h2 {
-            color: var(--green);
-            font-size: clamp(30px, 4vw, 42px);
-            line-height: 1.3;
-            margin: 10px 0 25px;
-        }
-
-        .content-inner {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .content-inner p {
-            margin-bottom: 20px;
-        }
-
-        .recognition {
-            background: var(--white);
-        }
-
-        .recognition-card {
-            background: var(--cream);
-            border-top: 4px solid var(--gold);
-            padding: 35px;
-            margin-top: 30px;
-        }
-
-        .recognition-card h3 {
-            color: var(--green);
-            margin-top: 0;
-            font-size: 24px;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 22px;
-            background: var(--gold);
-            color: var(--dark-green);
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer {
-            background: var(--dark-green);
-            color: var(--white);
-            padding: 28px 8%;
-            text-align: center;
-            font-size: 14px;
-        }
-
-        @media (max-width: 600px) {
-            header {
-                align-items: flex-start;
-                flex-direction: column;
-            }
-
-            nav {
-                gap: 14px;
-            }
-
-            section.content {
-                padding: 55px 7%;
-            }
-
-            .recognition-card {
-                padding: 24px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="site.css">
+    <script src="site.js" defer></script>
 </head>
 <body>
 
-<header>
-    <a class="brand" href="index.html">LAWRENCE BRUNOLI, INC.</a>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="index.html#about">ABOUT</a>
-        <a href="index.html#services">SERVICES</a>
-        <a href="index.html#projects">PROJECTS</a>
-        <a href="about.html">OUR PEOPLE</a>
-        <a href="index.html#contact">CONTACT</a>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+    <nav class="site-navigation" aria-label="Main navigation">
+        <a href="index.html" class="logo" aria-label="Lawrence Brunoli, Inc. — Home">
+            <img src="ChatGPT%20Image%20Oct%207,%202026,%2003_54_46%20PM.png" alt="Lawrence Brunoli, Inc.">
+        </a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">MENU</button>
+        <ul class="nav-links" id="primary-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="company.html">COMPANY</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about.html" aria-current="page">OUR PEOPLE</a></li>
+                <li><a href="recognition.html">TESTIMONIALS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="equipment.html">OWNED EQUIPMENT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
     </nav>
 </header>
+<main id="main-content">
 
 <div class="page-hero">
     <div class="eyebrow">THE PEOPLE BEHIND THE WORK</div>
-    <h1>Our People & Recognition</h1>
+    <h1>Our People</h1>
     <p>Experience, dedication, and a commitment to delivering quality construction projects throughout Connecticut and beyond.</p>
 </div>
 
 <section class="content staff" id="staff">
     <div class="content-inner">
         <div class="label">OUR PEOPLE</div>
-        <h2>Our Staff</h2>
+        <h2>Our People</h2>
 
         <p>Our staff brings experience, professionalism, and a hands-on approach to every project. We work collaboratively to help ensure that each project is carefully planned, managed, and completed to meet our clients' needs.</p>
 
@@ -208,10 +53,10 @@
 <section class="content recognition" id="recognition">
     <div class="content-inner">
         <div class="label">OUR TRACK RECORD</div>
-        <h2>Testimonials & Recognition</h2>
+        <h2>Testimonials</h2>
 
         <div class="recognition-card">
-            <h3>Recognition for Excellence</h3>
+            <h3>Award for Excellence</h3>
             <p>Lawrence Brunoli, Inc. received the SBA Administrator's Award for Excellence in recognition of work on the Danbury Federal Correctional project.</p>
 
             <p>The project, valued at under $17 million, involved restrictive work areas and was completed four months ahead of schedule.</p>
@@ -221,9 +66,70 @@
     </div>
 </section>
 
-<footer>
-    Lawrence Brunoli, Inc. &nbsp; | &nbsp; Connecticut Construction & Project Management
-</footer>
+</main>
+<footer class="site-footer">
+
+        <div class="footer-grid">
+
+            <div>
+
+                <h3>
+                    Lawrence Brunoli, Inc.
+                </h3>
+
+                <p>
+                    Construction • Project Management • General Contracting
+                </p>
+
+                <p>
+                    11 Eastview Drive<br>
+                    Farmington, CT 06032
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Explore
+                </h3>
+
+                <a href="index.html">HOME</a>
+                <a href="company.html">COMPANY</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="about.html">OUR PEOPLE</a>
+                <a href="recognition.html">TESTIMONIALS</a>
+                <a href="services.html">SERVICES</a>
+                <a href="equipment.html">OWNED EQUIPMENT</a>
+                <a href="contact.html">CONTACT US</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <a href="tel:8606769900">
+                    Call: 860-676-9900
+                </a>
+
+                <a href="contact.html">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Lawrence Brunoli, Inc. All Rights Reserved.
+        </div>
+
+      </footer>
 
 </body>
 </html>
