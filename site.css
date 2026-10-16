@@ -864,7 +864,21 @@
 .site-navigation { position: relative; inset: auto; padding: 20px 3%; display: flex; align-items: center; justify-content: flex-start; gap: 32px; flex-wrap: nowrap; width: 100%; }
 .site-navigation .logo { flex: 0 0 auto; }
 .site-navigation .logo img { display: block; height: 180px; width: auto; max-width: none; object-fit: contain; }
-.site-navigation .nav-links { display: flex; flex-wrap: nowrap; align-items: center; list-style: none; gap: 20px 18px; margin: 0; padding: 0; }
+/* Fill each column top-to-bottom: Home/Company, Projects/Our People,
+   Testimonials/Services, Owned Equipment/Contact Us. DOM and tab order stay intact. */
+.site-navigation .nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, max-content);
+    grid-template-rows: repeat(2, auto);
+    align-items: stretch;
+    list-style: none;
+    gap: 28px 32px;
+    margin: 0;
+    padding: 0;
+}
+.site-navigation .nav-links > li { display: flex; }
+.site-navigation .nav-links > li > a { width: 100%; }
 /* Raised architectural buttons. The gold surface crossfades over the green. */
 .site-navigation .nav-links a {
     position: relative;
@@ -872,13 +886,14 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 13px 12px;
+    padding: 16px 20px;
+    min-height: 68px;
     border: 2.5px solid #D4B26D;
     border-radius: 7px;
     background: linear-gradient(135deg, #346248 0%, #173D2B 60%, #092519 100%);
     color: #F4E6C9;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: 0;
@@ -981,12 +996,12 @@ h1,h2,h3,p,a { overflow-wrap: break-word; }
 .contact-detail { background: white; padding: 28px; border-top: 3px solid var(--gold); }
 .contact-detail h2 { font-size: 28px; }
 .contact-detail a { color: var(--green); }
-@media (max-width: 1400px) {
+@media (max-width: 1240px) {
  .site-navigation { flex-wrap: wrap; gap: 16px 28px; }
  .site-navigation .logo img { height: 140px; }
  .site-navigation .menu-toggle { margin-left: auto; font-size: 18px; }
- .site-navigation .nav-links { width: 100%; flex-direction: column; align-items: stretch; gap: 20px; position: static; background: var(--dark-green); padding: 10px 0; }
- .site-navigation .nav-links a { display: flex; padding: 14px 12px; font-size: 20px; transform-origin: center; }
+ .site-navigation .nav-links { display: flex; width: 100%; flex-direction: column; align-items: stretch; gap: 20px; position: static; background: var(--dark-green); padding: 10px 0; }
+ .site-navigation .nav-links a { display: flex; padding: 16px 20px; font-size: 24px; transform-origin: center; }
  .js .site-navigation .menu-toggle { display: block; }
  .js .site-navigation .nav-links { display: none; }
  .js .site-navigation .nav-links.menu-open { display: flex; }
