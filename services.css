@@ -11,7 +11,7 @@
 .services-page .services-intro h2 { font-size: clamp(36px, 3.8vw, 56px); line-height: 1.14; letter-spacing: -.035em; margin: 0; }
 .services-page .services-intro p { max-width: 460px; color: var(--services-muted); font-size: 17px; line-height: 1.85; }
 .services-page .services-detail { padding: 88px 0; background: var(--cream); border-top: 1px solid #123b2a14; }
-.services-page .services-detail-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(48px, 7vw, 104px); align-items: start; }
+.services-page .services-detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(40px, 5vw, 72px); align-items: center; }
 .services-page .services-number { font: 400 34px / 1 Georgia, "Times New Roman", serif; color: #8a692e; margin-bottom: 36px; }
 .services-page .services-detail h2 { font-size: clamp(32px, 3.2vw, 47px); line-height: 1.13; letter-spacing: -.025em; margin-bottom: 30px; }
 .services-page .services-gold-rule { width: 64px; height: 2px; background: var(--gold); }
@@ -44,10 +44,10 @@
 .services-page .services-contact-action:hover { background: var(--light-gold); transform: translateY(-2px); }
 @media (max-width: 1050px) {
     .services-page .services-intro-grid { gap: 40px; }
-    .services-page .services-detail-grid { grid-template-columns: .95fr 1.05fr; gap: 40px; }
+    .services-page .services-detail-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
     .services-page .services-detail h2 { font-size: 32px; }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .services-page .services-banner { padding: 56px 0; }
     .services-page .services-banner-inner, .services-page .services-intro-grid, .services-page .services-detail-grid, .services-page .services-award-panel, .services-page .services-closing-inner { grid-template-columns: 1fr; }
     .services-page .services-banner-inner { gap: 28px; }
@@ -64,4 +64,39 @@
 }
 @media (prefers-reduced-motion: reduce) {
     .services-page .services-contact-action:hover { transform: none; }
+}
+
+/* Each service owns its description/diagram pair. Reading order stays text first. */
+.services-page .services-content { min-width: 0; grid-column: 1; grid-row: 1; }
+.services-page .services-detail-heading { margin-bottom: 32px; }
+.services-page .service-diagram {
+    min-width: 0;
+    width: 100%;
+    max-width: 500px;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    margin: 0;
+    padding: 24px;
+    background: #f7f6f1;
+    border: 1px solid #c6a15b88;
+    border-radius: 10px;
+}
+.services-page .services-detail-reversed .services-content { grid-column: 2; }
+.services-page .services-detail-reversed .service-diagram { grid-column: 1; }
+.services-page .service-diagram-svg { display: block; width: 100%; height: auto; }
+.services-page .service-diagram-connectors path { fill: none; stroke: #346248; stroke-width: 2.5px; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.services-page .service-diagram-node rect { fill: #123b2a; stroke: #c6a15b; stroke-width: 1.5px; vector-effect: non-scaling-stroke; }
+.services-page .service-diagram-company rect { fill: #09251a; }
+.services-page .service-diagram-node text { fill: #ffffff; font-family: Georgia, "Times New Roman", serif; font-size: 22px; font-weight: 400; text-anchor: middle; }
+.services-page .service-diagram-node text.service-diagram-role { font-size: 21px; }
+.services-page .service-diagram figcaption { color: #526057; font-size: 13px; line-height: 1.7; margin-top: 18px; text-align: center; }
+@media (max-width: 900px) {
+    .services-page .services-content,
+    .services-page .services-detail-reversed .services-content { grid-column: 1; grid-row: 1; }
+    .services-page .service-diagram,
+    .services-page .services-detail-reversed .service-diagram { grid-column: 1; grid-row: 2; }
+}
+@media (max-width: 480px) {
+    .services-page .service-diagram { padding: 12px; }
 }
