@@ -1,0 +1,85 @@
+/* Isolated Our People presentation; shared navigation and footer stay unchanged. */
+.people-page { --people-muted: #526057; --people-rule: #c6a15b66; }
+.people-page .people-container { width: min(1280px, 86%); margin-inline: auto; }
+.people-page .people-banner { padding: 76px 0 80px; background: var(--green); }
+.people-page .people-banner-inner { display: grid; grid-template-columns: 1.15fr 1fr; align-items: end; gap: 48px; }
+.people-page .people-banner h1 { margin: 16px 0 0; font-size: clamp(56px, 7vw, 100px); letter-spacing: -.035em; }
+.people-page .people-banner p { margin: 0 0 8px; padding-left: 30px; border-left: 1px solid var(--gold); font-size: clamp(20px, 2vw, 26px); line-height: 1.5; }
+.people-page .people-kicker { color: #7e6028; font-size: 11px; font-weight: 700; letter-spacing: 2px; line-height: 1.7; margin-bottom: 22px; }
+.people-page .people-intro { padding: 96px 0 80px; background: var(--cream); }
+.people-page .people-intro-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; }
+.people-page h2 { font-size: clamp(38px, 4.1vw, 60px); line-height: 1.12; letter-spacing: -.035em; }
+.people-page .people-intro-statement { max-width: 400px; color: var(--green); font: 400 clamp(24px, 2.5vw, 32px) / 1.35 Georgia, "Times New Roman", serif; }
+.people-page .people-intro-copy p { font-size: 16px; line-height: 1.85; color: var(--people-muted); margin-bottom: 20px; }
+.people-page .people-leadership { background: var(--dark-green); padding: 88px 0 96px; border-block: 1px solid var(--people-rule); }
+.people-page .people-section-heading .people-kicker { color: var(--light-gold); }
+.people-page .people-section-heading h2 { color: var(--white); margin-bottom: 44px; }
+.people-page .people-leader { display: grid; grid-template-columns: 1.25fr 1fr; background: var(--cream); border-top: 3px solid var(--gold); }
+.people-page .people-leader-bio { padding: clamp(28px, 4vw, 56px); }
+.people-page .people-leader h3 { font: 400 clamp(32px, 3.2vw, 46px) / 1.15 Georgia, "Times New Roman", serif; letter-spacing: -.025em; color: var(--green); margin-bottom: 18px; }
+.people-page .people-role { color: #735623; font-size: 15px; line-height: 1.6; margin-bottom: 16px; }
+.people-page .people-email { display: inline-block; color: var(--green); font-size: 15px; text-decoration-thickness: 1px; text-underline-offset: 5px; padding: 8px 0; margin-bottom: 24px; overflow-wrap: anywhere; transition: color 220ms ease; }
+.people-page .people-email:hover { color: #7e6028; }
+.people-page .people-leader-bio > p:not(.people-role) { font-size: 15px; line-height: 1.85; color: var(--people-muted); margin-bottom: 22px; }
+.people-page h4 { color: var(--green); font-size: 13px; line-height: 1.6; font-weight: 700; margin: 24px 0 12px; }
+.people-page .people-responsibilities { margin: 0; padding-left: 18px; color: var(--people-muted); font-size: 15px; line-height: 1.85; }
+.people-page .people-responsibilities li { padding-left: 4px; margin-bottom: 12px; }
+.people-page .people-responsibilities li::marker { color: #8a692e; }
+.people-page .people-career { background: #ecece4; padding: clamp(28px, 4vw, 56px); border-left: 1px solid #123b2a15; }
+.people-page .people-career > h4 { margin-top: 0; }
+.people-page .people-career-list > div { padding: 22px 0; border-bottom: 1px solid var(--people-rule); }
+.people-page .people-career-list dt { color: #735623; font: 400 25px / 1.35 Georgia, "Times New Roman", serif; margin-bottom: 16px; }
+.people-page .people-career-list dt span { display: block; color: var(--people-muted); font: 400 12px / 1.6 Arial, Helvetica, sans-serif; margin-top: 5px; }
+.people-page .people-career-list dd { margin: 0; color: var(--people-muted); font-size: 14px; line-height: 1.8; }
+.people-page .people-career-list dd strong { color: var(--green); }
+.people-page .people-career-list dd span { display: block; }
+.people-page .people-education-year { font: 400 30px / 1.2 Georgia, "Times New Roman", serif; color: #735623; margin-bottom: 12px; }
+.people-page .people-education p:not(.people-education-year) { color: var(--people-muted); font-size: 14px; line-height: 1.8; }
+.people-page .people-team { padding: 104px 0; background: var(--cream); }
+.people-page .people-team-heading { display: grid; grid-template-columns: 1.3fr .8fr; gap: 72px; align-items: end; margin-bottom: 48px; }
+.people-page .people-team-heading h2 { margin: 0; max-width: 650px; }
+.people-page .people-team-heading > p { color: var(--people-muted); font-size: 16px; line-height: 1.8; }
+.people-page .people-profile-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.people-page .people-profile { min-width: 0; background: white; border: 1px solid #123b2a18; border-top: 2px solid var(--gold); transition: box-shadow 220ms ease; }
+.people-page .people-profile:hover { box-shadow: 0 14px 32px #09251a0b; }
+.people-page .people-profile-heading { position: relative; padding: 36px 36px 12px; border-bottom: 1px solid #123b2a15; }
+.people-page .people-profile-marker { color: #8a692e; font: 400 28px / 1 Georgia, "Times New Roman", serif; margin-bottom: 28px; }
+.people-page .people-profile h3 { font: 400 clamp(30px, 3vw, 38px) / 1.2 Georgia, "Times New Roman", serif; letter-spacing: -.025em; color: var(--green); margin-bottom: 12px; }
+.people-page .people-profile-heading .people-role { margin-bottom: 8px; }
+.people-page .people-profile-heading .people-email { margin-bottom: 8px; }
+.people-page .people-profile-body { padding: 12px 36px 36px; }
+.people-page .people-profile-body > p { color: var(--people-muted); font-size: 15px; line-height: 1.85; margin-bottom: 18px; }
+.people-page .people-career-highlight { padding: 20px; margin-top: 28px; background: var(--cream); border-left: 2px solid var(--gold); color: var(--people-muted); font-size: 13px; line-height: 1.8; }
+.people-page .people-career-highlight strong { display: block; color: var(--green); margin-bottom: 8px; font-size: 12px; }
+.people-page .people-closing { padding: 80px 0; background: var(--green); border-top: 1px solid var(--gold); }
+.people-page .people-closing-inner { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 48px; }
+.people-page .people-closing .people-kicker { color: var(--light-gold); }
+.people-page .people-closing h2 { color: var(--white); font-size: clamp(32px, 3.5vw, 48px); margin: 0; }
+.people-page .people-closing-actions { display: flex; flex-direction: column; gap: 16px; }
+.people-page .people-action { display: inline-flex; justify-content: center; align-items: center; padding: 18px 28px; border: 1px solid var(--gold); text-decoration: none; font-size: 14px; font-weight: 700; transition: background-color 220ms ease, color 220ms ease; }
+.people-page .people-action-gold { color: var(--dark-green); background: var(--gold); }
+.people-page .people-action-gold:hover { background: var(--light-gold); }
+.people-page .people-action-outline { color: var(--white); }
+.people-page .people-action-outline:hover { color: var(--dark-green); background: var(--gold); }
+@media (max-width: 1050px) {
+    .people-page .people-intro-grid { gap: 40px; }
+    .people-page .people-leader { grid-template-columns: 1fr 1fr; }
+    .people-page .people-leader-bio, .people-page .people-career { padding: 28px; }
+    .people-page .people-profile-heading { padding: 28px 24px 12px; }
+    .people-page .people-profile-body { padding: 12px 24px 28px; }
+    .people-page .people-team-heading { gap: 36px; }
+}
+@media (max-width: 800px) {
+    .people-page .people-banner { padding: 56px 0; }
+    .people-page .people-banner-inner, .people-page .people-intro-grid, .people-page .people-leader, .people-page .people-team-heading, .people-page .people-profile-grid, .people-page .people-closing-inner { grid-template-columns: 1fr; }
+    .people-page .people-banner-inner { gap: 28px; }
+    .people-page .people-banner p { padding-left: 20px; }
+    .people-page .people-intro, .people-page .people-leadership, .people-page .people-team, .people-page .people-closing { padding: 64px 0; }
+    .people-page .people-intro-grid { gap: 28px; }
+    .people-page .people-leader h3 { font-size: clamp(32px, 5.5vw, 44px); }
+    .people-page .people-career { border-left: 0; border-top: 1px solid #123b2a15; }
+    .people-page .people-team-heading { gap: 24px; margin-bottom: 32px; }
+    .people-page .people-profile-grid { gap: 24px; }
+    .people-page .people-closing-inner { gap: 32px; }
+    .people-page .people-closing-actions { max-width: 420px; }
+}
