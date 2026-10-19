@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Owned Equipment | Lawrence Brunoli, Inc.</title>
-    <meta name="description" content="Explore Lawrence Brunoli, Inc. equipment information.">
+    <meta name="description" content="Explore the company-provided inventory of excavators, bulldozers, loaders, compactors, telehandlers, miscellaneous equipment, and trucks.">
     <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="equipment.css">
     <script src="site.js" defer></script>
 </head>
-<body>
+<body class="equipment-page">
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
     <nav class="site-navigation" aria-label="Main navigation">
@@ -29,27 +30,526 @@
     </nav>
 </header>
 <main id="main-content">
-    <div class="page-hero">
-        <div class="eyebrow">BUILT FOR THE WORK</div>
-        <h1>Owned Equipment</h1>
-        <p>Explore Lawrence Brunoli, Inc. equipment information.</p>
-    </div>
-<section class="content equipment-content">
-    <div class="content-inner">
-        <div class="inventory-notice">
-            <div class="label">EQUIPMENT INFORMATION</div>
-            <h2>Equipment inventory pending verification</h2>
-            <p>The company's original equipment information is not currently available here. Equipment listings and photographs will be added once the original inventory can be verified.</p>
-            <div class="inventory-details">
-                <div class="inventory-detail"><h3>Equipment names</h3><p>The original equipment names and categories are needed to complete this inventory.</p></div>
-                <div class="inventory-detail"><h3>Specifications</h3><p>Models, capacities, quantities, and other specifications will appear only when confirmed by the original source.</p></div>
-                <div class="inventory-detail"><h3>Original photographs</h3><p>Verified company equipment photographs will be used where available.</p></div>
+    <div class="page-hero equipment-banner">
+        <div class="equipment-container equipment-banner-inner">
+            <div>
+                <div class="eyebrow">LAWRENCE BRUNOLI, INC.</div>
+                <h1>OWNED EQUIPMENT</h1>
             </div>
-            <p><a href="https://www.lbrunoli.com/?page=owned-equipment">View the original Owned Equipment page</a></p>
-            <a href="contact.html" class="button button-gold">CONTACT US</a>
+            <p>Equipment to support<br>our project operations.</p>
         </div>
     </div>
-</section>
+
+    <section class="equipment-intro" aria-labelledby="equipment-intro-title">
+        <div class="equipment-container">
+            <div class="equipment-intro-grid">
+                <div>
+                    <div class="equipment-kicker">THE COMPANY INVENTORY</div>
+                    <h2 id="equipment-intro-title">Supporting the work.</h2>
+                </div>
+                <p>Lawrence Brunoli, Inc. maintains a range of construction equipment to support its project operations. Browse the company-provided inventory by category below.</p>
+            </div>
+            <nav class="equipment-category-nav" aria-label="Equipment categories">
+                <span class="equipment-browse-label">BROWSE THE INVENTORY</span>
+                <ul class="equipment-category-links">
+                    <li><a href="#excavators">Excavators</a></li>
+                    <li><a href="#bulldozers-skid-steers">Bulldozers &amp; Skid Steers</a></li>
+                    <li><a href="#loaders">Loaders</a></li>
+                    <li><a href="#compactors">Compactors</a></li>
+                    <li><a href="#telehandlers">Telehandlers</a></li>
+                    <li><a href="#miscellaneous-equipment">Miscellaneous Equipment</a></li>
+                    <li><a href="#trucks">Trucks</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- Authentic photos can be added independently to each numbered equipment entry.
+         Replace .equipment-photo-placeholder inside its .equipment-photo with an
+         <img class="equipment-photo-image" src="AUTHENTIC-PHOTO" alt="Actual NAME"
+         width="1200" height="900" loading="lazy">. Keep the matching card name.
+         No machine quantities are inferred from the number of inventory entries. -->
+    <section class="equipment-category" id="excavators" aria-labelledby="excavators-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">01</span>
+                <h2 id="excavators-title">EXCAVATORS</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-01" aria-labelledby="equipment-01-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Volvo 312B Excavator">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Volvo 312B Excavator</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Volvo</div>
+                        <h3 id="equipment-01-name">Volvo 312B Excavator</h3>
+                        <p class="equipment-attachment">Hammer attachment</p>
+                        <a class="equipment-verification-link" href="#equipment-verification">Brand to verify <span aria-hidden="true">†</span></a>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-02" aria-labelledby="equipment-02-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar 321 Excavator">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Caterpillar 321 Excavator</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Caterpillar</div>
+                        <h3 id="equipment-02-name">Caterpillar 321 Excavator</h3>
+                        <p class="equipment-attachment">Hammer attachment</p>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-03" aria-labelledby="equipment-03-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 35D Mini Excavator">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">John Deere 35D Mini Excavator</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">John Deere</div>
+                        <h3 id="equipment-03-name">John Deere 35D Mini Excavator</h3>
+                        <p class="equipment-attachment">Hammer attachment</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-category" id="bulldozers-skid-steers" aria-labelledby="bulldozers-skid-steers-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">02</span>
+                <h2 id="bulldozers-skid-steers-title">BULLDOZERS &amp; SKID STEERS</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-04" aria-labelledby="equipment-04-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar D5H Bulldozer">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Caterpillar D5H Bulldozer</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Caterpillar</div>
+                        <h3 id="equipment-04-name">Caterpillar D5H Bulldozer</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-05" aria-labelledby="equipment-05-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar D56 Bulldozer">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Caterpillar D56 Bulldozer</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Caterpillar</div>
+                        <h3 id="equipment-05-name">Caterpillar D56 Bulldozer</h3>
+                        <a class="equipment-verification-link" href="#equipment-verification">Model to verify <span aria-hidden="true">†</span></a>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-06" aria-labelledby="equipment-06-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar D3 Bulldozer">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Caterpillar D3 Bulldozer</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Caterpillar</div>
+                        <h3 id="equipment-06-name">Caterpillar D3 Bulldozer</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-07" aria-labelledby="equipment-07-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 550B Bulldozer">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">John Deere 550B Bulldozer</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">John Deere</div>
+                        <h3 id="equipment-07-name">John Deere 550B Bulldozer</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-08" aria-labelledby="equipment-08-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Skat Trak Skid Steer">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Skat Trak Skid Steer</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Skat Trak</div>
+                        <h3 id="equipment-08-name">Skat Trak Skid Steer</h3>
+                        <p class="equipment-attachment">Hammer and sweeper attachments</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-category" id="loaders" aria-labelledby="loaders-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">03</span>
+                <h2 id="loaders-title">LOADERS</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-09" aria-labelledby="equipment-09-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 624 Loader">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">John Deere 624 Loader</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">John Deere</div>
+                        <h3 id="equipment-09-name">John Deere 624 Loader</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-10" aria-labelledby="equipment-10-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 310D Excavator/Loader">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">John Deere 310D Excavator/Loader</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">John Deere</div>
+                        <h3 id="equipment-10-name">John Deere 310D Excavator/Loader</h3>
+                        <p class="equipment-attachment">Hammer attachment</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-category" id="compactors" aria-labelledby="compactors-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">04</span>
+                <h2 id="compactors-title">COMPACTORS</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-11" aria-labelledby="equipment-11-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Hyster Roller">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Hyster Roller</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Hyster</div>
+                        <h3 id="equipment-11-name">Hyster Roller</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-12" aria-labelledby="equipment-12-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Wacker Roller">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Wacker Roller</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Wacker</div>
+                        <h3 id="equipment-12-name">Wacker Roller</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-13" aria-labelledby="equipment-13-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Volvo SD77DX Vibratory Roller/Compactor">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Volvo SD77DX Vibratory Roller/Compactor</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Volvo</div>
+                        <h3 id="equipment-13-name">Volvo SD77DX Vibratory Roller/Compactor</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-14" aria-labelledby="equipment-14-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Plate Compactors">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Plate Compactors</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-14-name">Plate Compactors</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-category" id="telehandlers" aria-labelledby="telehandlers-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">05</span>
+                <h2 id="telehandlers-title">TELEHANDLERS</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-15" aria-labelledby="equipment-15-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar TH56 Telehandler">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Caterpillar TH56 Telehandler</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Caterpillar</div>
+                        <h3 id="equipment-15-name">Caterpillar TH56 Telehandler</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-16" aria-labelledby="equipment-16-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar TH83 Telehandler">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Caterpillar TH83 Telehandler</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Caterpillar</div>
+                        <h3 id="equipment-16-name">Caterpillar TH83 Telehandler</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-17" aria-labelledby="equipment-17-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for JCB 530 Telehandler">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">JCB 530 Telehandler</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">JCB</div>
+                        <h3 id="equipment-17-name">JCB 530 Telehandler</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-18" aria-labelledby="equipment-18-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for JCB 525 Telehandler">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">JCB 525 Telehandler</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">JCB</div>
+                        <h3 id="equipment-18-name">JCB 525 Telehandler</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-category" id="miscellaneous-equipment" aria-labelledby="miscellaneous-equipment-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">06</span>
+                <h2 id="miscellaneous-equipment-title">MISCELLANEOUS EQUIPMENT</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-19" aria-labelledby="equipment-19-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Hydraulic Saws">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Hydraulic Saws</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-19-name">Hydraulic Saws</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-20" aria-labelledby="equipment-20-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Scissor Lifts">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Scissor Lifts</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-20-name">Scissor Lifts</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-21" aria-labelledby="equipment-21-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Demo Saws &amp; Road Saw">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Demo Saws &amp; Road Saw</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-21-name">Demo Saws &amp; Road Saw</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-22" aria-labelledby="equipment-22-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Surveying Equipment">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Surveying Equipment</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-22-name">Surveying Equipment</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-23" aria-labelledby="equipment-23-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Fall Protection/Extraction Equipment">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Fall Protection/Extraction Equipment</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-23-name">Fall Protection/Extraction Equipment</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-24" aria-labelledby="equipment-24-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Road Plates">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Road Plates</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-24-name">Road Plates</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-25" aria-labelledby="equipment-25-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Jersey Barriers">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Jersey Barriers</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <h3 id="equipment-25-name">Jersey Barriers</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-category" id="trucks" aria-labelledby="trucks-title">
+        <div class="equipment-container">
+            <div class="equipment-category-heading">
+                <span class="equipment-category-number" aria-hidden="true">07</span>
+                <h2 id="trucks-title">TRUCKS</h2>
+            </div>
+            <div class="equipment-grid">
+                <article class="equipment-card" id="equipment-26" aria-labelledby="equipment-26-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for 2012 Ford F550">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">2012 Ford F550</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Ford</div>
+                        <h3 id="equipment-26-name">2012 Ford F550</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-27" aria-labelledby="equipment-27-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Ford F150">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">Ford F150</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Ford</div>
+                        <h3 id="equipment-27-name">Ford F150</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-28" aria-labelledby="equipment-28-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for GMC Canyon">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">GMC Canyon</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">GMC</div>
+                        <h3 id="equipment-28-name">GMC Canyon</h3>
+                        <p class="equipment-quantity"><span>Quantity</span><strong>2 vehicles</strong></p>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-29" aria-labelledby="equipment-29-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for 2013 Toyota Tacoma">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">2013 Toyota Tacoma</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">Toyota</div>
+                        <h3 id="equipment-29-name">2013 Toyota Tacoma</h3>
+                    </div>
+                </article>
+                <article class="equipment-card" id="equipment-30" aria-labelledby="equipment-30-name">
+                    <div class="equipment-photo">
+                        <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for GMC Sierra">
+                            <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
+                            <span class="equipment-photo-name">GMC Sierra</span>
+                            <span class="equipment-photo-status">Authentic photo to follow</span>
+                        </div>
+                    </div>
+                    <div class="equipment-card-body">
+                        <div class="equipment-manufacturer">GMC</div>
+                        <h3 id="equipment-30-name">GMC Sierra</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="equipment-notes" id="equipment-verification" aria-labelledby="equipment-notes-title">
+        <div class="equipment-container equipment-notes-inner">
+            <div>
+                <div class="equipment-kicker">INVENTORY NOTES</div>
+                <h2 id="equipment-notes-title">Details to confirm.</h2>
+            </div>
+            <dl class="equipment-verification-list">
+                <div><dt>Volvo 312B Excavator</dt><dd>The supplied brand/model pairing requires verification. The model number 312B is preserved.</dd></div>
+                <div><dt>Caterpillar D56 Bulldozer</dt><dd>The model designation D56 is retained exactly as supplied and requires verification.</dd></div>
+            </dl>
+        </div>
+    </section>
+
+    <section class="equipment-closing" aria-labelledby="equipment-closing-title">
+        <div class="equipment-container equipment-closing-inner">
+            <div>
+                <div class="equipment-kicker">START A CONVERSATION</div>
+                <h2 id="equipment-closing-title">Let's talk about<br>your project.</h2>
+            </div>
+            <a class="equipment-contact-action" href="contact.html">CONTACT US</a>
+        </div>
+    </section>
 </main>
 <footer class="site-footer">
 
