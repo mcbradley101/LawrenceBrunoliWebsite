@@ -52,6 +52,7 @@
 
     <section class="services-detail" id="general-contractor" aria-labelledby="general-contractor-title">
         <div class="services-container services-detail-grid">
+            <div class="services-content">
             <div class="services-detail-heading">
                 <div class="services-number" aria-hidden="true">01</div>
                 <h2 id="general-contractor-title">GENERAL CONTRACTOR</h2>
@@ -70,11 +71,44 @@
                 </ul>
                 <p>Established relationships with skilled, experienced subcontractors support consistent performance. Lawrence Brunoli, Inc. maintains relationships with subcontractors whose past work has met the company's expectations, recognizing that their work reflects on the company.</p>
             </div>
+            </div>
+            <figure class="service-diagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="service-diagram-svg" viewBox="0 0 360 412" width="360" height="412" role="img" focusable="false" aria-labelledby="general-contractor-diagram-title general-contractor-diagram-desc">
+                    <title id="general-contractor-diagram-title">General Contractor relationships</title>
+                    <desc id="general-contractor-diagram-desc">Owner connects separately to Architect and Lawrence Brunoli Inc., General Contractor. Lawrence Brunoli Inc. connects to All Trades. Connector lines are conceptual and do not establish contract terms or reporting authority.</desc>
+                    <g class="service-diagram-connectors" aria-hidden="true">
+                        <path data-from="general-contractor-node-owner" data-to="general-contractor-node-architect" d="M 180 84 V 108 H 90 V 132"/>
+                        <path data-from="general-contractor-node-owner" data-to="general-contractor-node-lbi" d="M 180 84 V 108 H 270 V 132"/>
+                        <path data-from="general-contractor-node-lbi" data-to="general-contractor-node-trades" d="M 270 276 V 324"/>
+                    </g>
+                    <g class="service-diagram-node" id="general-contractor-node-owner">
+                        <rect x="96" y="20" width="168" height="64" rx="6"/>
+                        <text x="180" y="60">Owner</text>
+                    </g>
+                    <g class="service-diagram-node" id="general-contractor-node-architect">
+                        <rect x="12" y="132" width="156" height="144" rx="6"/>
+                        <text x="90" y="212">Architect</text>
+                    </g>
+                    <g class="service-diagram-node service-diagram-company" id="general-contractor-node-lbi">
+                        <rect x="192" y="132" width="156" height="144" rx="6"/>
+                        <text x="270" y="173">Lawrence</text>
+                        <text x="270" y="199">Brunoli Inc.</text>
+                        <text class="service-diagram-role" x="270" y="225">General</text>
+                        <text class="service-diagram-role" x="270" y="251">Contractor</text>
+                    </g>
+                    <g class="service-diagram-node" id="general-contractor-node-trades">
+                        <rect x="192" y="324" width="156" height="64" rx="6"/>
+                        <text x="270" y="364">All Trades</text>
+                    </g>
+                </svg>
+                <figcaption>Conceptual relationships · Lawrence Brunoli Inc. serves as General Contractor.</figcaption>
+            </figure>
         </div>
     </section>
 
-    <section class="services-detail services-detail-dark" id="construction-management" aria-labelledby="construction-management-title">
+    <section class="services-detail services-detail-dark services-detail-reversed" id="construction-management" aria-labelledby="construction-management-title">
         <div class="services-container services-detail-grid">
+            <div class="services-content">
             <div class="services-detail-heading">
                 <div class="services-number" aria-hidden="true">02</div>
                 <h2 id="construction-management-title">CONSTRUCTION MANAGEMENT</h2>
@@ -93,11 +127,45 @@
                     <li>Recording and processing project reports and site documentation.</li>
                 </ul>
             </div>
+            </div>
+            <figure class="service-diagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="service-diagram-svg" viewBox="0 0 360 412" width="360" height="412" role="img" focusable="false" aria-labelledby="construction-management-diagram-title construction-management-diagram-desc">
+                    <title id="construction-management-diagram-title">Construction Management relationships</title>
+                    <desc id="construction-management-diagram-desc">Owner connects separately to Architect &amp; Engineer and Lawrence Brunoli Inc., Construction Manager. The Construction Manager connects to All Trades to illustrate coordination. Connector lines are conceptual and do not establish contract terms or reporting authority.</desc>
+                    <g class="service-diagram-connectors" aria-hidden="true">
+                        <path data-from="construction-management-node-owner" data-to="construction-management-node-architect-engineer" d="M 180 84 V 108 H 90 V 132"/>
+                        <path data-from="construction-management-node-owner" data-to="construction-management-node-lbi" d="M 180 84 V 108 H 270 V 132"/>
+                        <path data-from="construction-management-node-lbi" data-to="construction-management-node-trades" d="M 270 276 V 324"/>
+                    </g>
+                    <g class="service-diagram-node" id="construction-management-node-owner">
+                        <rect x="96" y="20" width="168" height="64" rx="6"/>
+                        <text x="180" y="60">Owner</text>
+                    </g>
+                    <g class="service-diagram-node" id="construction-management-node-architect-engineer">
+                        <rect x="12" y="132" width="156" height="144" rx="6"/>
+                        <text x="90" y="199">Architect</text>
+                        <text x="90" y="225">&amp; Engineer</text>
+                    </g>
+                    <g class="service-diagram-node service-diagram-company" id="construction-management-node-lbi">
+                        <rect x="192" y="132" width="156" height="144" rx="6"/>
+                        <text x="270" y="173">Lawrence</text>
+                        <text x="270" y="199">Brunoli Inc.</text>
+                        <text class="service-diagram-role" x="270" y="225">Construction</text>
+                        <text class="service-diagram-role" x="270" y="251">Manager</text>
+                    </g>
+                    <g class="service-diagram-node" id="construction-management-node-trades">
+                        <rect x="192" y="324" width="156" height="64" rx="6"/>
+                        <text x="270" y="364">All Trades</text>
+                    </g>
+                </svg>
+                <figcaption>Conceptual relationships · Lawrence Brunoli Inc. serves as Construction Manager.</figcaption>
+            </figure>
         </div>
     </section>
 
     <section class="services-detail" id="design-build" aria-labelledby="design-build-title">
         <div class="services-container services-detail-grid">
+            <div class="services-content">
             <div class="services-detail-heading">
                 <div class="services-number" aria-hidden="true">03</div>
                 <h2 id="design-build-title">DESIGN-BUILD</h2>
@@ -115,11 +183,44 @@
                 </ul>
                 <p>Lawrence Brunoli, Inc. works with an established core of experienced architects and engineers to provide quality designs and professional service.</p>
             </div>
+            </div>
+            <figure class="service-diagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="service-diagram-svg" viewBox="0 0 360 424" width="360" height="424" role="img" focusable="false" aria-labelledby="design-build-diagram-title design-build-diagram-desc">
+                    <title id="design-build-diagram-title">Design-Build relationships</title>
+                    <desc id="design-build-diagram-desc">Owner connects to Lawrence Brunoli Inc. in the Design-Build role. Lawrence Brunoli Inc. connects to two separate branches: Architect &amp; Engineer and All Trades. Connector lines are conceptual and do not establish contract terms or reporting authority.</desc>
+                    <g class="service-diagram-connectors" aria-hidden="true">
+                        <path data-from="design-build-node-owner" data-to="design-build-node-lbi" d="M 180 84 V 132"/>
+                        <path data-from="design-build-node-lbi" data-to="design-build-node-architect-engineer" d="M 180 264 V 294 H 90 V 324"/>
+                        <path data-from="design-build-node-lbi" data-to="design-build-node-trades" d="M 180 264 V 294 H 270 V 324"/>
+                    </g>
+                    <g class="service-diagram-node" id="design-build-node-owner">
+                        <rect x="96" y="20" width="168" height="64" rx="6"/>
+                        <text x="180" y="60">Owner</text>
+                    </g>
+                    <g class="service-diagram-node service-diagram-company" id="design-build-node-lbi">
+                        <rect x="96" y="132" width="168" height="132" rx="6"/>
+                        <text x="180" y="180">Lawrence</text>
+                        <text x="180" y="206">Brunoli Inc.</text>
+                        <text class="service-diagram-role" x="180" y="232">Design-Build</text>
+                    </g>
+                    <g class="service-diagram-node" id="design-build-node-architect-engineer">
+                        <rect x="12" y="324" width="156" height="76" rx="6"/>
+                        <text x="90" y="357">Architect</text>
+                        <text x="90" y="383">&amp; Engineer</text>
+                    </g>
+                    <g class="service-diagram-node" id="design-build-node-trades">
+                        <rect x="192" y="324" width="156" height="76" rx="6"/>
+                        <text x="270" y="370">All Trades</text>
+                    </g>
+                </svg>
+                <figcaption>Conceptual relationships · Lawrence Brunoli Inc. coordinates design and construction.</figcaption>
+            </figure>
         </div>
     </section>
 
-    <section class="services-detail services-detail-dark" id="construction-consulting" aria-labelledby="construction-consulting-title">
+    <section class="services-detail services-detail-dark services-detail-reversed" id="construction-consulting" aria-labelledby="construction-consulting-title">
         <div class="services-container services-detail-grid">
+            <div class="services-content">
             <div class="services-detail-heading">
                 <div class="services-number" aria-hidden="true">04</div>
                 <h2 id="construction-consulting-title">CONSTRUCTION CONSULTING</h2>
@@ -138,11 +239,51 @@
                     <li>Recommending ways to avoid or correct the identified issues.</li>
                 </ul>
             </div>
+            </div>
+            <figure class="service-diagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="service-diagram-svg" viewBox="0 0 360 620" width="360" height="620" role="img" focusable="false" aria-labelledby="construction-consulting-diagram-title construction-consulting-diagram-desc">
+                    <title id="construction-consulting-diagram-title">Construction Consulting relationships</title>
+                    <desc id="construction-consulting-diagram-desc">A vertical advisory sequence shows Owner, Lawrence Brunoli Inc. as Construction Consultant, Architect &amp; Engineer, General Contractor, and All Trades. Lawrence Brunoli Inc. and General Contractor are distinct roles. Connector lines are conceptual and do not establish contract terms or reporting authority.</desc>
+                    <g class="service-diagram-connectors" aria-hidden="true">
+                        <path data-from="construction-consulting-node-owner" data-to="construction-consulting-node-lbi" d="M 180 84 V 124"/>
+                        <path data-from="construction-consulting-node-lbi" data-to="construction-consulting-node-architect-engineer" d="M 180 256 V 296"/>
+                        <path data-from="construction-consulting-node-architect-engineer" data-to="construction-consulting-node-general-contractor" d="M 180 376 V 416"/>
+                        <path data-from="construction-consulting-node-general-contractor" data-to="construction-consulting-node-trades" d="M 180 496 V 536"/>
+                    </g>
+                    <g class="service-diagram-node" id="construction-consulting-node-owner">
+                        <rect x="96" y="20" width="168" height="64" rx="6"/>
+                        <text x="180" y="60">Owner</text>
+                    </g>
+                    <g class="service-diagram-node service-diagram-company" id="construction-consulting-node-lbi">
+                        <rect x="72" y="124" width="216" height="132" rx="6"/>
+                        <text x="180" y="159">Lawrence</text>
+                        <text x="180" y="185">Brunoli Inc.</text>
+                        <text class="service-diagram-role" x="180" y="211">Construction</text>
+                        <text class="service-diagram-role" x="180" y="237">Consultant</text>
+                    </g>
+                    <g class="service-diagram-node" id="construction-consulting-node-architect-engineer">
+                        <rect x="72" y="296" width="216" height="80" rx="6"/>
+                        <text x="180" y="331">Architect</text>
+                        <text x="180" y="357">&amp; Engineer</text>
+                    </g>
+                    <g class="service-diagram-node" id="construction-consulting-node-general-contractor">
+                        <rect x="72" y="416" width="216" height="80" rx="6"/>
+                        <text x="180" y="451">General</text>
+                        <text x="180" y="477">Contractor</text>
+                    </g>
+                    <g class="service-diagram-node" id="construction-consulting-node-trades">
+                        <rect x="72" y="536" width="216" height="64" rx="6"/>
+                        <text x="180" y="576">All Trades</text>
+                    </g>
+                </svg>
+                <figcaption>Conceptual advisory sequence · Lawrence Brunoli Inc. serves as Construction Consultant.</figcaption>
+            </figure>
         </div>
     </section>
 
     <section class="services-detail" id="owner-representation" aria-labelledby="owner-representation-title">
         <div class="services-container services-detail-grid">
+            <div class="services-content">
             <div class="services-detail-heading">
                 <div class="services-number" aria-hidden="true">05</div>
                 <h2 id="owner-representation-title">OWNER REPRESENTATION</h2>
@@ -151,6 +292,45 @@
             <div class="services-detail-copy">
                 <p class="services-lead">As an Owner’s Representative, Lawrence Brunoli, Inc. will act as a knowledgeable and experienced intermediary between the client, the architect and the building contractor.</p>
             </div>
+            </div>
+            <figure class="service-diagram">
+                <svg xmlns="http://www.w3.org/2000/svg" class="service-diagram-svg" viewBox="0 0 360 544" width="360" height="544" role="img" focusable="false" aria-labelledby="owner-representation-diagram-title owner-representation-diagram-desc">
+                    <title id="owner-representation-diagram-title">Owner Representation relationships</title>
+                    <desc id="owner-representation-diagram-desc">Proposed conceptual model: Owner connects to Lawrence Brunoli Inc., Owner&#x27;s Representative. The representative connects to Architect &amp; Engineer and General Contractor as separate branches. Only General Contractor connects to All Trades. Lawrence Brunoli Inc. acts on the owner&#x27;s behalf. Connector lines are conceptual and do not establish contract terms or reporting authority.</desc>
+                    <g class="service-diagram-connectors" aria-hidden="true">
+                        <path data-from="owner-representation-node-owner" data-to="owner-representation-node-lbi" d="M 180 84 V 132"/>
+                        <path data-from="owner-representation-node-lbi" data-to="owner-representation-node-architect-engineer" d="M 180 264 V 294 H 90 V 324"/>
+                        <path data-from="owner-representation-node-lbi" data-to="owner-representation-node-general-contractor" d="M 180 264 V 294 H 270 V 324"/>
+                        <path data-from="owner-representation-node-general-contractor" data-to="owner-representation-node-trades" d="M 270 408 V 456"/>
+                    </g>
+                    <g class="service-diagram-node" id="owner-representation-node-owner">
+                        <rect x="96" y="20" width="168" height="64" rx="6"/>
+                        <text x="180" y="60">Owner</text>
+                    </g>
+                    <g class="service-diagram-node service-diagram-company" id="owner-representation-node-lbi">
+                        <rect x="96" y="132" width="168" height="132" rx="6"/>
+                        <text x="180" y="167">Lawrence</text>
+                        <text x="180" y="193">Brunoli Inc.</text>
+                        <text class="service-diagram-role" x="180" y="219">Owner&#x27;s</text>
+                        <text class="service-diagram-role" x="180" y="245">Representative</text>
+                    </g>
+                    <g class="service-diagram-node" id="owner-representation-node-architect-engineer">
+                        <rect x="12" y="324" width="156" height="84" rx="6"/>
+                        <text x="90" y="361">Architect</text>
+                        <text x="90" y="387">&amp; Engineer</text>
+                    </g>
+                    <g class="service-diagram-node" id="owner-representation-node-general-contractor">
+                        <rect x="192" y="324" width="156" height="84" rx="6"/>
+                        <text x="270" y="361">General</text>
+                        <text x="270" y="387">Contractor</text>
+                    </g>
+                    <g class="service-diagram-node" id="owner-representation-node-trades">
+                        <rect x="192" y="456" width="156" height="64" rx="6"/>
+                        <text x="270" y="496">All Trades</text>
+                    </g>
+                </svg>
+                <figcaption>Proposed conceptual model · Lawrence Brunoli Inc. acts on the owner&#x27;s behalf as Owner&#x27;s Representative.</figcaption>
+            </figure>
         </div>
     </section>
 
