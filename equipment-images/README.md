@@ -42,7 +42,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | John Deere 550B Bulldozer | `john-deere-550b.jpg` |
 | ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
-| ☐ | John Deere 310D Excavator/Loader | `john-deere-310d-excavator-loader.jpg` |
+| ☑ | John Deere 310D Excavator/Loader | `john-deere-310d.jpg` |
 | ☐ | Hyster Roller | `hyster-roller.jpg` |
 | ☐ | Wacker Roller | `wacker-roller.jpg` |
 | ☐ | Volvo SD77DX Vibratory Roller/Compactor | `volvo-sd77dx-vibratory-roller-compactor.jpg` |
@@ -212,3 +212,7 @@ Card #05 corrected from D56 to **D5G** per explicit company instruction. Uses `c
 ### John Deere 550B upload
 
 Card #07 uses `john-deere-550b.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 110,976 bytes. JOHN DEERE and 550B markings visible. Existing representative caption retained; company ownership is not established. Source/reuse rights are unverified. Existing display-request behavior preserved, no new gate. No other equipment card changed in this update.
+
+### John Deere 310D upload
+
+Card #10 uses `john-deere-310d.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 126,655 bytes. JOHN DEERE and 310D markings visible. Existing representative caption and hammer attachment description retained; photo shows a bucket, not the hammer. Company ownership and reuse rights are unverified. Existing display-request behavior preserved; no other equipment card changed.
