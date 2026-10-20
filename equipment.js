@@ -1,11 +1,13 @@
-// Only local, approved uploads at the paths assigned in equipment.html are requested.
+// Only local uploads explicitly enabled in equipment.html are requested.
+// Display authorization does not establish copyright or reuse clearance.
 // Loading happens off-page so a missing or corrupt file never renders a broken image.
 (() => {
     const slots = document.querySelectorAll('.equipment-photo[data-image-src]');
 
     async function loadPhoto(slot) {
         if (slot.dataset.photoState) return;
-        if (slot.dataset.imageRights !== 'verified' || slot.dataset.photoHold === 'true') {
+        const displayEnabled = slot.dataset.imageRights === 'verified' || slot.dataset.imageDisplay === 'requested';
+        if (!displayEnabled || slot.dataset.photoHold === 'true') {
             slot.dataset.photoState = 'held';
             return;
         }

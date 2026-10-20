@@ -1,5 +1,5 @@
 {
-  "status": "all_installed_photos_held_pending_independent_rights_verification",
+  "status": "nineteen_uploaded_photos_display_restored_rights_unverified",
   "selected_photographs": 19,
   "network_observations": [
     {
@@ -72,7 +72,7 @@
       "required_attribution": null,
       "image_match_status": "CAT and 321D LCR markings visible; representative variant, not company machine; inventory name and hammer attachment description unchanged; bucket pictured",
       "local_image_path": "equipment-images/caterpillar-321-excavator.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
       "supplied_candidate": {
@@ -114,7 +114,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -123,7 +123,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "John Deere 35D Mini Excavator",
@@ -138,7 +139,7 @@
       "required_attribution": null,
       "image_match_status": "DEERE branding and 35D model marking visible; bucket shown, hammer not pictured; company ownership not established",
       "local_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
       "supplied_candidate": {
@@ -180,7 +181,7 @@
         "data-image-license": "CC0 1.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -189,7 +190,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Caterpillar D5H Bulldozer",
@@ -204,7 +206,7 @@
       "required_attribution": null,
       "image_match_status": "CATERPILLAR/CAT branding and D5H LGP marking visible; representative LGP variant, company configuration and ownership not established",
       "local_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
       "supplied_candidate": {
@@ -246,7 +248,7 @@
         "data-image-license": "CC BY 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by/2.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -255,7 +257,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Caterpillar D56 Bulldozer",
@@ -300,7 +303,7 @@
       "required_attribution": null,
       "image_match_status": "Worn D3B marking consistent with supplied identification; representative D3B, not company machine; inventory remains Caterpillar D3 Bulldozer",
       "local_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
       "supplied_candidate": {
@@ -346,7 +349,7 @@
         "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -355,7 +358,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "John Deere 550B Bulldozer",
@@ -400,7 +404,7 @@
       "required_attribution": null,
       "image_match_status": "SCAT TRAK and 1300D markings visible; representative photograph, not company machine; inventory spelling and attachment descriptions unchanged",
       "local_image_path": "equipment-images/skat-trak-skid-steer.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/skat-trak-skid-steer.jpg",
       "supplied_candidate": {
@@ -442,7 +446,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
         "data-image-license": "Public domain in the United States (supplied status; unverified)"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -451,7 +455,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "John Deere 624 Loader",
@@ -466,7 +471,7 @@
       "required_attribution": null,
       "image_match_status": "DEERE branding and 624J marking visible; representative 624J variant, inventory remains John Deere 624 Loader; company exact variant and ownership not established",
       "local_image_path": "equipment-images/john-deere-624-loader.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/john-deere-624-loader.jpg",
       "supplied_candidate": {
@@ -509,7 +514,7 @@
         "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -518,7 +523,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "John Deere 310D Excavator/Loader",
@@ -767,7 +773,7 @@
       "required_attribution": null,
       "image_match_status": "530/70 markings visible, consistent with supplied JCB 530-70 identification; representative variant, not company machine; inventory remains JCB 530 Telehandler",
       "local_image_path": "equipment-images/jcb-530-telehandler.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/jcb-530-telehandler.jpg",
       "supplied_candidate": {
@@ -809,7 +815,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -818,7 +824,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "JCB 525 Telehandler",
@@ -833,7 +840,7 @@
       "required_attribution": null,
       "image_match_status": "JCB and 525-60 markings visible; representative variant, not company machine; inventory remains JCB 525 Telehandler",
       "local_image_path": "equipment-images/jcb-525-telehandler.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/jcb-525-telehandler.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg",
@@ -861,7 +868,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg",
         "data-image-license": "License unverified; supplied source not independently verified"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -870,7 +877,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Hydraulic Saws",
@@ -885,7 +893,7 @@
       "required_attribution": null,
       "image_match_status": "Chainsaw with hydraulic hose connections and separate hydraulic power unit visible, consistent with supplied description; representative, not company equipment",
       "local_image_path": "equipment-images/hydraulic-saws.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/hydraulic-saws.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Betonkettensaege.jpg",
@@ -914,7 +922,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Betonkettensaege.jpg",
         "data-image-license": "License unverified; attribution and reuse rights require review before publication"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -923,7 +931,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Scissor Lifts",
@@ -938,7 +947,7 @@
       "required_attribution": null,
       "image_match_status": "Hy-Brid Lifts and PS-1930 labels visible; representative scissor lift with elevated worker, not company equipment; inventory remains Scissor Lifts",
       "local_image_path": "equipment-images/scissor-lifts.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/scissor-lifts.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
@@ -967,7 +976,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
         "data-image-license": "License unverified; attribution and reuse rights require review before publication"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -976,7 +985,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Demo Saws & Road Saw",
@@ -991,7 +1001,7 @@
       "required_attribution": null,
       "image_match_status": "Worker operating walk-behind road saw visible, consistent with supplied description; representative, not company equipment; inventory remains Demo Saws & Road Saw",
       "local_image_path": "equipment-images/demo-saws-road-saw.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/demo-saws-road-saw.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Concrete_saw-Asphalt_street_saw-01ASD.jpg",
@@ -1020,7 +1030,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Concrete_saw-Asphalt_street_saw-01ASD.jpg",
         "data-image-license": "License unverified; attribution and reuse rights require review before publication"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1029,7 +1039,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Surveying Equipment",
@@ -1044,7 +1055,7 @@
       "required_attribution": null,
       "image_match_status": "Nikon branding and surveying instrument on tripod visible, consistent with supplied total station description; exact model not independently verified; representative, not company equipment",
       "local_image_path": "equipment-images/surveying-equipment.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/surveying-equipment.jpg",
       "original_filename_as_supplied": "DTM-A20LG-01.jpg",
@@ -1074,7 +1085,7 @@
         "data-image-credit-author": "Photographer unverified; copyright holder unverified",
         "data-image-license": "Image source and license unverified; supplied original filename: DTM-A20LG-01.jpg. Review required before publication"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1083,7 +1094,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Fall Protection/Extraction Equipment",
@@ -1098,7 +1110,7 @@
       "required_attribution": null,
       "image_match_status": "Person wearing fall-protection harness while another person inspects it; representative, not company equipment or employees; no extraction capability inferred from photograph",
       "local_image_path": "equipment-images/fall-protection-extraction-equipment.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/fall-protection-extraction-equipment.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Construction_worker_harness_(9253634989).jpg",
@@ -1131,7 +1143,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Construction_worker_harness_(9253634989).jpg",
         "data-image-license": "License unverified; attribution and reuse rights require review before publication"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1140,7 +1152,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Road Plates",
@@ -1155,7 +1168,7 @@
       "required_attribution": null,
       "image_match_status": "Steel road plates and lifting equipment visible, consistent with supplied description; representative, not company equipment",
       "local_image_path": "equipment-images/road-plates.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/road-plates.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Lasthebemagnet_an_%C3%9Cberfahrplatte.jpg",
@@ -1188,7 +1201,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1197,7 +1210,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Jersey Barriers",
@@ -1212,7 +1226,7 @@
       "required_attribution": null,
       "image_match_status": "Stacked concrete Jersey barriers visible, consistent with supplied description; representative, not company equipment",
       "local_image_path": "equipment-images/jersey-barriers.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/jersey-barriers.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Stacked_Jersey_Barriers_%26_Pigeon_(Washington,_DC)_(2891410941).jpg",
@@ -1249,7 +1263,7 @@
         "data-image-license": "CC BY 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by/2.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1258,7 +1272,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "2012 Ford F550",
@@ -1273,7 +1288,7 @@
       "required_attribution": null,
       "image_match_status": "Ford and F-550 markings and utility service body visible; 2012 model year supplied by user, not independently established visually; Shaw branding visible; representative photograph, not the company truck",
       "local_image_path": "equipment-images/2012-ford-f550.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/2012-ford-f550.jpg",
       "supplied_candidate": {
@@ -1316,7 +1331,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1325,7 +1340,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "Ford F150",
@@ -1340,7 +1356,7 @@
       "required_attribution": null,
       "image_match_status": "Ford badge and F-150 fender marking visible; representative truck, not company vehicle; no year or variant inferred for inventory",
       "local_image_path": "equipment-images/ford-f150.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/ford-f150.jpg",
       "original_filename_as_supplied": "Ford_F-150_Riva.jpg",
@@ -1371,7 +1387,7 @@
         "data-image-credit-author": "Photographer unverified; copyright holder unverified",
         "data-image-license": "Original source and license unverified; supplied filename: Ford_F-150_Riva.jpg. Commercial reuse permission requires review before merge or publication"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1380,7 +1396,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "GMC Canyon",
@@ -1395,13 +1412,13 @@
       "required_attribution": null,
       "image_match_status": "GMC badge and Canyon pickup appearance consistent with requested card; no model year or company ownership inferred",
       "local_image_path": "equipment-images/gmc-canyon.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/gmc-canyon.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/gmc-canyon.jpg"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1423,7 +1440,8 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No embedded source, photographer or license metadata found",
         "license_verification": "Source, author and reuse permission not supplied or verified; preserve existing hold until confirmed"
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "2013 Toyota Tacoma",
@@ -1438,7 +1456,7 @@
       "required_attribution": null,
       "image_match_status": "Toyota Tacoma and V6 SR5 badges visible; 2013 model year supplied, not independently established; representative photograph, not the company truck",
       "local_image_path": "equipment-images/2013-toyota-tacoma.jpg",
-      "placeholder_retained": true,
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
       "supplied_candidate": {
@@ -1481,7 +1499,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "held_rights_unverified",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1490,7 +1508,8 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
-      }
+      },
+      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
     },
     {
       "equipment_name": "GMC Sierra",
@@ -1534,8 +1553,8 @@
   "publication_review": {
     "installed_photographs": 19,
     "independently_verified": 0,
-    "held_from_public_display": 19,
-    "publicly_displayed_photographs": 0,
-    "notes": "All uploaded files preserved unchanged. No claims derived from filename or embedded Artist fields count as independent license verification. Missing photo slots also require explicit approval."
+    "held_from_public_display": 0,
+    "publicly_displayed_photographs": 19,
+    "notes": "User explicitly requested restoration of every completed photo. All JPEGs preserved unchanged. Display enabled separately from rights status; source and license verification remain outstanding. Eleven missing photo slots retain holds/placeholders."
   }
 }

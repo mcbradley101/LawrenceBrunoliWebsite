@@ -1,3 +1,5 @@
+> **Current display status:** all 19 uploaded photographs have been restored following the explicit request to restore completed equipment pictures. Rights verification remains outstanding; display authorization is not license clearance. Existing `data-image-display="requested"` flags enable these specific files without falsely marking rights verified. Other slots retain their holds. The historical hold instructions below describe the earlier policy and do not represent current display status. No JPEG was changed or overwritten.
+
 # Publication status and approval process
 
 **Verified: 0. Held uploaded photos: 19. Publicly displayed photos: 0.** Original source access is blocked by the environment proxy (CONNECT 403). All photo files are preserved unchanged. Historical upload reviews below do not establish clearance. Detailed claims and former credit metadata remain in `photo-register.json`.
