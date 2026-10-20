@@ -1,6 +1,6 @@
 {
-  "status": "nine_user_uploads_installed_rights_unverified",
-  "selected_photographs": 9,
+  "status": "ten_user_uploads_installed_rights_unverified",
+  "selected_photographs": 10,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -556,17 +556,34 @@
       "category": "TELEHANDLERS",
       "inventory_id": "equipment-18",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_model_visually_verified_rights_unverified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "JCB and 525-60 markings visible; representative variant, not company machine; inventory remains JCB 525 Telehandler",
+      "local_image_path": "equipment-images/jcb-525-telehandler.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/jcb-525-telehandler.jpg"
+      "assigned_image_path": "equipment-images/jcb-525-telehandler.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg",
+      "photographer_verification": "Unknown; unverified",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; unverified",
+      "source_verification": "User-supplied Commons URL; not independently confirmed to depict this uploaded file. No blocked websites retried.",
+      "uploaded_file_review": {
+        "original_archive": "jcb-525-telehandler.zip",
+        "dimensions": [
+          1920,
+          1440
+        ],
+        "bytes": 1411832,
+        "sha256": "6d2c1e830da9fd5a97b537f40f4fac4aa6c533d6762eeda8d629db129d9a0fce",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No photograph authorship or license metadata found; Google Inc. 2016 copyright text is inside the embedded sRGB color profile and does not establish photograph rights",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+      }
     },
     {
       "equipment_name": "Hydraulic Saws",

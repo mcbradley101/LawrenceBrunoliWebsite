@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Nine uploaded photographs are installed; the other 21 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Ten uploaded photographs are installed; the other 20 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -37,7 +37,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☐ | Caterpillar TH56 Telehandler | `caterpillar-th56-telehandler.jpg` |
 | ☐ | Caterpillar TH83 Telehandler | `caterpillar-th83-telehandler.jpg` |
 | ☑ | JCB 530 Telehandler | `jcb-530-telehandler.jpg` |
-| ☐ | JCB 525 Telehandler | `jcb-525-telehandler.jpg` |
+| ☑ | JCB 525 Telehandler | `jcb-525-telehandler.jpg` |
 | ☐ | Hydraulic Saws | `hydraulic-saws.jpg` |
 | ☐ | Scissor Lifts | `scissor-lifts.jpg` |
 | ☐ | Demo Saws & Road Saw | `demo-saws-road-saw.jpg` |
@@ -125,3 +125,9 @@ Supplied source: https://commons.wikimedia.org/wiki/File:Caterpillar_D3B_Crawler
 Installed from `jcb-530-telehandler.zip`, unchanged: 1920 × 1280 JPEG, 937,351 bytes. Visible 530/70 markings are consistent with the supplied JCB 530-70 identification. Caption identifies a representative 530-70, not the company’s machine. Inventory remains **JCB 530 Telehandler**.
 
 Supplied source: https://commons.wikimedia.org/wiki/File:JCB_530-70.jpg . Supplied photographer **Bene Riobó** and **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/) remain **independently unverified**. No embedded photographer/source/license metadata was found; blocked websites were not retried. Credits label these claims as unverified. See `photo-register.json` for checksum and review. Confirm source, attribution and reuse terms before publication; if the supplied license is confirmed, comply with attribution and applicable share-alike requirements.
+
+### JCB 525 uploaded photograph
+
+Installed from `jcb-525-telehandler.zip`, unchanged: 1920 × 1440 JPEG, 1,411,832 bytes. JCB and 525-60 markings are visible. Caption identifies a representative 525-60, not the company’s machine. Inventory remains **JCB 525 Telehandler**.
+
+User-supplied Wikimedia Commons source: https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg . Association of this source with the uploaded file is **not independently verified**. Photographer, copyright holder and license are **unknown and unverified**; no names or permissions are inferred. No photograph authorship/license metadata was found. Google Inc. 2016 copyright text appears inside the sRGB color profile and does not establish photograph ownership. No blocked websites retried. Credits explicitly flag unverified information. See `photo-register.json` for checksum and review. Confirm provenance, attribution and reuse terms before publication.
