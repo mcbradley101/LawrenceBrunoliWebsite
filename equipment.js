@@ -5,7 +5,7 @@
 
     async function loadPhoto(slot) {
         if (slot.dataset.photoState) return;
-        if (slot.dataset.photoHold === 'true') {
+        if (slot.dataset.imageRights !== 'verified' || slot.dataset.photoHold === 'true') {
             slot.dataset.photoState = 'held';
             return;
         }
@@ -47,11 +47,9 @@
                     credit.append(caption);
                 }
                 if (data.imageCreditAuthor) {
-                    const details = document.createElement('details');
-                    const summary = document.createElement('summary');
-                    summary.textContent = 'Photo credit';
-                    const attribution = document.createElement('p');
-                    attribution.append(`Photo: ${data.imageCreditAuthor}. `);
+                                        const attribution = document.createElement('p');
+                    attribution.append(`Photo: ${data.imageCreditAuthor}`);
+                    if (data.imageSourceUrl || data.imageLicense) attribution.append(' · ');
                     function addCreditLink(label, url) {
                         const anchor = document.createElement('a');
                         anchor.textContent = label;
@@ -67,8 +65,7 @@
                     if (data.imageLicenseUrl) addCreditLink(data.imageLicense, data.imageLicenseUrl);
                     else if (data.imageLicense) attribution.append(data.imageLicense);
                     if (data.imageModifications) attribution.append(` · Changes: ${data.imageModifications}`);
-                    details.append(summary, attribution);
-                    credit.append(details);
+                    credit.append(attribution);
                 }
                 slot.after(credit);
             }

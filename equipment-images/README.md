@@ -1,6 +1,17 @@
+# Publication status and approval process
+
+**Verified: 0. Held uploaded photos: 18. Publicly displayed photos: 0.** Original source access is blocked by the environment proxy (CONNECT 403). All photo files are preserved unchanged. Historical upload reviews below do not establish clearance. Detailed claims and former credit metadata remain in `photo-register.json`.
+
+Before displaying any photograph:
+
+1. Verify the exact source image, photographer/rightsholder, license/version and commercial reuse terms using the original source or documented permission. Record dated evidence and all attribution requirements in the register. File names and embedded Artist fields alone are insufficient.
+2. Add the verified author, source URL, exact license and license URL as `data-image-credit-author`, `data-image-source-url`, `data-image-license` and `data-image-license-url` on the corresponding slot. Preserve any required modification notices with `data-image-modifications`. Do not copy unverified claims into verified credits.
+3. Update the internal review to approved with supporting evidence, set `data-image-rights="verified"`, and remove `data-photo-hold="true"` only when rights and model matching are resolved. The Volvo SD77/SD77DX variant also needs separate model approval. The loader defaults to holding every other slot.
+4. Test the exact image, concise representative caption, credit/source/license links and required notices on desktop/mobile before merging. Captions and inline credits share one consistent style. If approval is withdrawn, restore the hold.
+
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Eighteen uploaded photographs are installed; the other 12 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. 18 uploaded photographs are retained locally, but all are held from public display pending independent rights verification. All 30 cards currently show placeholders. Checked boxes below mean a file exists, not that publication is approved. Adding a file alone never authorizes publication. Follow the rights approval steps below.
 
 ## Simplest way to add a photo in GitHub
 
@@ -8,7 +19,7 @@ Every inventory entry has one assigned JPEG filename below. Eighteen uploaded ph
 2. Export it as a real **JPEG** (`.jpg`), preferably about 1200–1600 pixels wide. Do not merely rename a PNG, WebP, or HEIC file to `.jpg`. Use a view that shows the whole machine; the page fits photographs without cropping them.
 3. Rename it to the exact lowercase filename in the checklist, including hyphens and `.jpg`.
 4. In GitHub, open the `equipment-images` folder on your chosen review branch. Select **Add file → Upload files**, upload the photo, and save it to that branch. Use your normal pull-request review process.
-5. Refresh the equipment page once the uploaded file is available in the website version you are viewing. The matching photo appears automatically. A GitHub upload does not itself update an unpublished local checkout or a separate deployment. This is load-on-visit behavior, not a live file watcher; refresh after adding or replacing files.
+5. Refresh the equipment page once the uploaded file is available in the website version you are viewing. The matching photo appears only after its source and reuse rights have been verified and its card explicitly approved. A GitHub upload does not itself update an unpublished local checkout or a separate deployment. This is load-on-visit behavior, not a live file watcher; refresh after adding or replacing files.
 
 Missing, zero-byte, unreadable, or corrupt images leave the existing attractive placeholder. No broken image element or clickable missing-file link is inserted. Photos load as cards approach the viewport; if JavaScript is disabled, placeholders remain. Successful photos can be clicked to view the original JPEG in a new tab.
 
