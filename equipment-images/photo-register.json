@@ -1,6 +1,6 @@
 {
-  "status": "ten_user_uploads_installed_rights_unverified",
-  "selected_photographs": 10,
+  "status": "eleven_user_uploads_installed_rights_unverified",
+  "selected_photographs": 11,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -590,17 +590,35 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-19",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Chainsaw with hydraulic hose connections and separate hydraulic power unit visible, consistent with supplied description; representative, not company equipment",
+      "local_image_path": "equipment-images/hydraulic-saws.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/hydraulic-saws.jpg"
+      "assigned_image_path": "equipment-images/hydraulic-saws.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Betonkettensaege.jpg",
+      "photographer_verification": "Unknown; unverified",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; requires attribution and licensing verification from Wikimedia Commons before publication",
+      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "hydraulic-saws.zip",
+        "dimensions": [
+          1920,
+          1427
+        ],
+        "bytes": 726044,
+        "sha256": "76379f9bde4600f7acf4434ce2a3a68f50040072c7854c6d4f99c4d9097d5964",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No embedded source, photographer or license metadata present",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      }
     },
     {
       "equipment_name": "Scissor Lifts",
