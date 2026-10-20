@@ -1,6 +1,6 @@
 # Publication status and approval process
 
-**Verified: 0. Held uploaded photos: 18. Publicly displayed photos: 0.** Original source access is blocked by the environment proxy (CONNECT 403). All photo files are preserved unchanged. Historical upload reviews below do not establish clearance. Detailed claims and former credit metadata remain in `photo-register.json`.
+**Verified: 0. Held uploaded photos: 19. Publicly displayed photos: 0.** Original source access is blocked by the environment proxy (CONNECT 403). All photo files are preserved unchanged. Historical upload reviews below do not establish clearance. Detailed claims and former credit metadata remain in `photo-register.json`.
 
 Before displaying any photograph:
 
@@ -11,7 +11,7 @@ Before displaying any photograph:
 
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. 18 uploaded photographs are retained locally, but all are held from public display pending independent rights verification. All 30 cards currently show placeholders. Checked boxes below mean a file exists, not that publication is approved. Adding a file alone never authorizes publication. Follow the rights approval steps below.
+Every inventory entry has one assigned JPEG filename below. 19 uploaded photographs are retained locally, but all are held from public display pending independent rights verification. All 30 cards currently show placeholders. Checked boxes below mean a file exists, not that publication is approved. Adding a file alone never authorizes publication. Follow the rights approval steps below.
 
 ## Simplest way to add a photo in GitHub
 
@@ -58,7 +58,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Jersey Barriers | `jersey-barriers.jpg` |
 | ☑ | 2012 Ford F550 | `2012-ford-f550.jpg` |
 | ☑ | Ford F150 | `ford-f150.jpg` |
-| ☐ | GMC Canyon | `gmc-canyon.jpg` |
+| ☑ | GMC Canyon | `gmc-canyon.jpg` |
 | ☑ | 2013 Toyota Tacoma | `2013-toyota-tacoma.jpg` |
 | ☐ | GMC Sierra | `gmc-sierra.jpg` |
 
@@ -190,3 +190,7 @@ Supplied source: https://commons.wikimedia.org/wiki/File:Stacked_Jersey_Barriers
 Installed for review from `ford-f150.zip` (member `ford-f150.jpg`), unchanged: 960 × 554 JPEG, 207,818 bytes. Supplied original filename: **Ford_F-150_Riva.jpg**; this is not independently established provenance. Ford badge and F-150 marking visible. Caption identifies representative equipment, not the company’s actual truck. Inventory remains **Ford F150**.
 
 Original source, photographer, copyright holder and license are **unknown/unverified**, and commercial reuse permission has **not been established**. No credit, source URL or license is inferred from another Ford photograph. No source/authorship/license metadata was found; the embedded ICC profile does not establish photograph rights. No web-search integration is available; Commons access was previously blocked and was not retried per the earlier instruction. **Do not merge or publish this photograph until its exact source and commercial reuse rights are verified.** Visible credits flag the unresolved information. See `photo-register.json` for checksum and review.
+
+### GMC Canyon uploaded photograph
+
+Added unchanged from `gmc-canyon.zip`: `gmc-canyon.jpg`, 960 × 554 JPEG, 172,761 bytes. Already assigned to the existing GMC Canyon card (#28); title, description, two-vehicle quantity and layout are unchanged. Source, photographer and reuse rights are unverified; no rights metadata is embedded. The existing publication hold remains in effect and the card shows a clean placeholder until rights are confirmed. See photo-register.json for checksum and review.
