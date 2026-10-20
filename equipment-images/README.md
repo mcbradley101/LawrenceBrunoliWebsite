@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Seventeen uploaded photographs are installed; the other 13 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Eighteen uploaded photographs are installed; the other 12 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -46,7 +46,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Road Plates | `road-plates.jpg` |
 | ☑ | Jersey Barriers | `jersey-barriers.jpg` |
 | ☑ | 2012 Ford F550 | `2012-ford-f550.jpg` |
-| ☐ | Ford F150 | `ford-f150.jpg` |
+| ☑ | Ford F150 | `ford-f150.jpg` |
 | ☐ | GMC Canyon | `gmc-canyon.jpg` |
 | ☑ | 2013 Toyota Tacoma | `2013-toyota-tacoma.jpg` |
 | ☐ | GMC Sierra | `gmc-sierra.jpg` |
@@ -173,3 +173,9 @@ Supplied source: https://commons.wikimedia.org/wiki/File:Lasthebemagnet_an_%C3%9
 Installed from `jersey-barriers.zip`, unchanged: 1280 × 1244 JPEG, 407,499 bytes. Shows stacked concrete barriers. Caption identifies representative equipment, not company equipment. Inventory remains **Jersey Barriers**.
 
 Supplied source: https://commons.wikimedia.org/wiki/File:Stacked_Jersey_Barriers_%26_Pigeon_(Washington,_DC)_(2891410941).jpg . Supplied photographer **takomabibelot** and **CC BY 2.0** (https://creativecommons.org/licenses/by/2.0/) remain **independently unverified**; copyright holder is not inferred. Visible credit includes supplied attribution, source and license links while flagging uncertainty. EXIF includes only an OLYMPUS DIGITAL CAMERA description and image positioning, no source/authorship/license statement. Commons access was previously blocked and not retried per user instruction. Verify exact source, author, license and source-specific attribution requirements before merge/publication. If confirmed, comply with attribution, source/license links and applicable change notices; this uploaded JPEG was not modified. See `photo-register.json` for checksum and review.
+
+### Ford F150 photograph — merge/publication blocked pending rights verification
+
+Installed for review from `ford-f150.zip` (member `ford-f150.jpg`), unchanged: 960 × 554 JPEG, 207,818 bytes. Supplied original filename: **Ford_F-150_Riva.jpg**; this is not independently established provenance. Ford badge and F-150 marking visible. Caption identifies representative equipment, not the company’s actual truck. Inventory remains **Ford F150**.
+
+Original source, photographer, copyright holder and license are **unknown/unverified**, and commercial reuse permission has **not been established**. No credit, source URL or license is inferred from another Ford photograph. No source/authorship/license metadata was found; the embedded ICC profile does not establish photograph rights. No web-search integration is available; Commons access was previously blocked and was not retried per the earlier instruction. **Do not merge or publish this photograph until its exact source and commercial reuse rights are verified.** Visible credits flag the unresolved information. See `photo-register.json` for checksum and review.

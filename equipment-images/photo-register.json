@@ -1,6 +1,6 @@
 {
-  "status": "seventeen_user_uploads_installed_rights_unverified",
-  "selected_photographs": 17,
+  "status": "eighteen_user_uploads_installed_rights_unverified",
+  "selected_photographs": 18,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -899,17 +899,38 @@
       "category": "TRUCKS",
       "inventory_id": "equipment-27",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Ford badge and F-150 fender marking visible; representative truck, not company vehicle; no year or variant inferred for inventory",
+      "local_image_path": "equipment-images/ford-f150.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/ford-f150.jpg"
+      "assigned_image_path": "equipment-images/ford-f150.jpg",
+      "original_filename_as_supplied": "Ford_F-150_Riva.jpg",
+      "photographer_verification": "Unknown; unverified; no attribution borrowed from other photographs",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; commercial reuse permission not established",
+      "source_verification": "Original source not established from filename or metadata; no web search integration available and Commons access previously blocked. No blocked sites retried.",
+      "publication_review_required": true,
+      "automatic_merge_blocked": true,
+      "uploaded_file_review": {
+        "original_archive": "ford-f150.zip",
+        "archive_member": "ford-f150.jpg",
+        "original_filename_as_supplied": "Ford_F-150_Riva.jpg",
+        "dimensions": [
+          960,
+          554
+        ],
+        "bytes": 207818,
+        "sha256": "8400f7058f0b9c0ff959cccbaeea315a9fd25cf616e9f121c02c96d7bf70576c",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "ICC color profile present; no embedded source, photographer or license metadata found",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual truck"
+      }
     },
     {
       "equipment_name": "GMC Canyon",
