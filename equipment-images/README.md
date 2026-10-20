@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Fifteen uploaded photographs are installed; the other 15 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Sixteen uploaded photographs are installed; the other 14 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -43,7 +43,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Demo Saws & Road Saw | `demo-saws-road-saw.jpg` |
 | ☑ | Surveying Equipment | `surveying-equipment.jpg` |
 | ☑ | Fall Protection/Extraction Equipment | `fall-protection-extraction-equipment.jpg` |
-| ☐ | Road Plates | `road-plates.jpg` |
+| ☑ | Road Plates | `road-plates.jpg` |
 | ☐ | Jersey Barriers | `jersey-barriers.jpg` |
 | ☑ | 2012 Ford F550 | `2012-ford-f550.jpg` |
 | ☐ | Ford F150 | `ford-f150.jpg` |
@@ -161,3 +161,9 @@ Photographer, copyright holder, original image source and license are **unknown 
 Installed from `fall-protection-extraction-equipment.zip`, unchanged: 1920 × 1280 JPEG, 451,263 bytes. Shows a harness inspection; caption identifies representative equipment and people, not company equipment or employees. Inventory remains **Fall Protection/Extraction Equipment**; no extraction capability is inferred from the photograph.
 
 User-supplied Wikimedia Commons source: https://commons.wikimedia.org/wiki/File:Construction_worker_harness_(9253634989).jpg . Association with the uploaded file is **not independently verified**. Embedded EXIF Artist names **Pietra Check** and ImageDescription mentions residential sites using fall arrest systems in Phoenix, AZ during a week in August 2012. These are file metadata, not independent verification of photographer identity, copyright ownership or license. Copyright holder and license remain **unknown/unverified**. Commons access was previously blocked and was not retried per user instruction. Visible credits identify the metadata basis and flag missing verification. **Verify photographer, copyright holder, license and reuse conditions from the exact Commons file page before publication.** See `photo-register.json` for checksum and review.
+
+### Road Plates photograph — rights review required
+
+Installed from `road-plates.zip`, unchanged: 1545 × 1413 JPEG, 778,993 bytes. Shows steel road plates with lifting equipment. Caption identifies representative equipment, not company equipment. Inventory remains **Road Plates**.
+
+Supplied source: https://commons.wikimedia.org/wiki/File:Lasthebemagnet_an_%C3%9Cberfahrplatte.jpg . Supplied photographer **Schrauber5** and license **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/) remain **independently unverified**; copyright holder is not inferred. Visible credit includes supplied attribution, source and license links while flagging uncertainty. No embedded source/authorship/license metadata was found. Commons access was previously blocked and was not retried per user instruction. Confirm exact source, authorship, attribution and reuse terms before publication; if the supplied license is confirmed, comply with its attribution and applicable share-alike requirements. See `photo-register.json` for checksum and review.
