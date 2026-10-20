@@ -1,6 +1,6 @@
 {
-  "status": "six_user_uploads_installed_rights_unverified",
-  "selected_photographs": 6,
+  "status": "seven_user_uploads_installed_rights_unverified",
+  "selected_photographs": 7,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -51,15 +51,15 @@
       "category": "EXCAVATORS",
       "inventory_id": "equipment-02",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_model_visually_verified_rights_unverified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "CAT and 321D LCR markings visible; representative variant, not company machine; inventory name and hammer attachment description unchanged; bucket pictured",
+      "local_image_path": "equipment-images/caterpillar-321-excavator.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
       "supplied_candidate": {
@@ -71,13 +71,26 @@
         "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/4.0/",
         "identified_model_as_supplied": "Caterpillar 321D LCR",
         "proposed_match_classification": "representative_variant_candidate",
-        "proposed_caption": "Representative Caterpillar 321D LCR; the inventory does not specify the company machine\u2019s 321 variant.",
+        "proposed_caption": "Representative Caterpillar 321D LCR; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Caterpillar 321 without a confirmed variant.",
         "verification_status": "not_verified_network_blocked",
-        "download_status": "not_downloaded",
+        "download_status": "user_uploaded_jpeg_installed_without_modification",
         "source_page_request": "Not retried after Commons host denial",
         "modifications_performed": [],
         "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
         "manual_upload_hold": false
+      },
+      "uploaded_file_review": {
+        "original_archive": "caterpillar-321-excavator.zip",
+        "dimensions": [
+          1920,
+          1446
+        ],
+        "bytes": 1083863,
+        "sha256": "70499094175f3639b967091ff42c386a06ca2c18a06cb5ed68db759775e87af3",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No embedded photographer, source or license statement present",
+        "license_verification": "Supplied Grendelkhan attribution, Commons source URL and CC BY-SA 4.0 claim remain independently unverified. No blocked websites retried.",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
       }
     },
     {
