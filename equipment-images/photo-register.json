@@ -1,6 +1,6 @@
 {
-  "status": "twelve_user_uploads_installed_rights_unverified",
-  "selected_photographs": 12,
+  "status": "fourteen_user_uploads_installed_rights_unverified",
+  "selected_photographs": 14,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -660,34 +660,72 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-21",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Worker operating walk-behind road saw visible, consistent with supplied description; representative, not company equipment; inventory remains Demo Saws & Road Saw",
+      "local_image_path": "equipment-images/demo-saws-road-saw.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/demo-saws-road-saw.jpg"
+      "assigned_image_path": "equipment-images/demo-saws-road-saw.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Concrete_saw-Asphalt_street_saw-01ASD.jpg",
+      "photographer_verification": "Unknown; unverified",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; requires photographer, copyright holder and license verification from Wikimedia Commons before publication",
+      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "demo-saws-road-saw.zip",
+        "dimensions": [
+          1920,
+          1440
+        ],
+        "bytes": 811031,
+        "sha256": "640652dd5a2389e74a4443262b33c541ea716b3d090aea0a1b6339c344555105",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No source, photographer or license metadata present",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      }
     },
     {
       "equipment_name": "Surveying Equipment",
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-22",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Nikon branding and surveying instrument on tripod visible, consistent with supplied total station description; exact model not independently verified; representative, not company equipment",
+      "local_image_path": "equipment-images/surveying-equipment.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/surveying-equipment.jpg"
+      "assigned_image_path": "equipment-images/surveying-equipment.jpg",
+      "original_filename_as_supplied": "DTM-A20LG-01.jpg",
+      "photographer_verification": "Unknown; unverified",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; unverified, review before publication",
+      "source_verification": "Unknown; no source URL supplied or inferred from original filename",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "surveying-equipment.zip",
+        "archive_member": "surveying-equipment.jpg",
+        "original_filename_as_supplied": "DTM-A20LG-01.jpg",
+        "dimensions": [
+          500,
+          667
+        ],
+        "bytes": 87354,
+        "sha256": "2119d0f3aa998c7ad4e54fdbaac561f285911bc8ac1b5c0b23ca3ea484a7c590",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No source, photographer or license metadata present",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      }
     },
     {
       "equipment_name": "Fall Protection/Extraction Equipment",
