@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Thirteen uploaded photographs are installed; the other 17 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Fourteen uploaded photographs are installed; the other 16 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -41,7 +41,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Hydraulic Saws | `hydraulic-saws.jpg` |
 | ☑ | Scissor Lifts | `scissor-lifts.jpg` |
 | ☑ | Demo Saws & Road Saw | `demo-saws-road-saw.jpg` |
-| ☐ | Surveying Equipment | `surveying-equipment.jpg` |
+| ☑ | Surveying Equipment | `surveying-equipment.jpg` |
 | ☐ | Fall Protection/Extraction Equipment | `fall-protection-extraction-equipment.jpg` |
 | ☐ | Road Plates | `road-plates.jpg` |
 | ☐ | Jersey Barriers | `jersey-barriers.jpg` |
@@ -149,3 +149,9 @@ User-supplied Wikimedia Commons source: https://commons.wikimedia.org/wiki/File:
 Installed from `demo-saws-road-saw.zip`, unchanged: 1920 × 1440 JPEG, 811,031 bytes. Shows a worker operating a walk-behind road saw, consistent with the supplied description. Caption identifies representative equipment, not the company’s actual saw. Inventory remains **Demo Saws & Road Saw**.
 
 User-supplied Wikimedia Commons source: https://commons.wikimedia.org/wiki/File:Dornbirn-Concrete_saw-Asphalt_street_saw-01ASD.jpg . Association with the uploaded file is **not independently verified**. Photographer, copyright holder and license are **unknown and unverified**; no names or permissions are inferred. No source/authorship/license metadata was found. Commons access was previously blocked and was not retried per the user’s instruction. Visible credits flag missing verification. **Verify photographer, copyright holder, license and reuse conditions from the exact Commons file page before publication.** See `photo-register.json` for checksum and review.
+
+### Surveying Equipment uploaded photograph — rights review required
+
+Installed from `surveying-equipment.zip` (member `surveying-equipment.jpg`), unchanged: 500 × 667 portrait JPEG, 87,354 bytes. User-supplied original filename: **DTM-A20LG-01.jpg**; this name is recorded as supplied, not independently verified provenance. Nikon branding and a surveying instrument on a tripod are visible. Caption identifies a representative Nikon total station, not the company’s actual equipment. Inventory remains **Surveying Equipment**. Existing contain sizing preserves the whole portrait within the card.
+
+Photographer, copyright holder, original image source and license are **unknown and unverified**. No source URL is inferred from the filename. No embedded source/authorship/license metadata was found. Visible credits flag these missing details for review before publication. See `photo-register.json` for checksum and review.
