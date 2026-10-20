@@ -1,6 +1,6 @@
 {
-  "status": "eleven_user_uploads_installed_rights_unverified",
-  "selected_photographs": 11,
+  "status": "twelve_user_uploads_installed_rights_unverified",
+  "selected_photographs": 12,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -625,17 +625,35 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-20",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_model_visually_verified_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Hy-Brid Lifts and PS-1930 labels visible; representative scissor lift with elevated worker, not company equipment; inventory remains Scissor Lifts",
+      "local_image_path": "equipment-images/scissor-lifts.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/scissor-lifts.jpg"
+      "assigned_image_path": "equipment-images/scissor-lifts.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
+      "photographer_verification": "Unknown; unverified",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; requires attribution and licensing verification from Wikimedia Commons before publication",
+      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "scissor-lifts.zip",
+        "dimensions": [
+          1500,
+          1000
+        ],
+        "bytes": 455050,
+        "sha256": "585434e981e962efcefae2db3b0165e4f6f26b4c6b8fbf3e2448b41070c19acc",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No photograph source, authorship or license metadata found; Google Inc. 2016 text is inside the sRGB color profile and does not establish photograph rights",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      }
     },
     {
       "equipment_name": "Demo Saws & Road Saw",
