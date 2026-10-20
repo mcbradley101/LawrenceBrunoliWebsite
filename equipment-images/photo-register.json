@@ -1,6 +1,6 @@
 {
-  "status": "five_user_uploads_installed_licenses_unverified",
-  "selected_photographs": 5,
+  "status": "six_user_uploads_installed_rights_unverified",
+  "selected_photographs": 6,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -247,15 +247,15 @@
       "category": "BULLDOZERS & SKID STEERS",
       "inventory_id": "equipment-08",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_model_visually_verified_rights_unverified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "SCAT TRAK and 1300D markings visible; representative photograph, not company machine; inventory spelling and attachment descriptions unchanged",
+      "local_image_path": "equipment-images/skat-trak-skid-steer.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/skat-trak-skid-steer.jpg",
       "supplied_candidate": {
@@ -267,13 +267,27 @@
         "license_url_as_supplied": null,
         "identified_model_as_supplied": "Scat Trak 1300D",
         "proposed_match_classification": "representative_model_candidate",
-        "proposed_caption": "Representative Scat Trak 1300D; the inventory lists Skat Trak without a confirmed model.",
+        "proposed_caption": "Representative Scat Trak 1300D; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Skat Trak without a confirmed model.",
         "verification_status": "not_verified_network_blocked",
-        "download_status": "not_downloaded",
+        "download_status": "user_uploaded_jpeg_installed_without_modification",
         "source_page_request": "Not retried after Commons host denial",
         "modifications_performed": [],
         "share_alike_note": null,
         "manual_upload_hold": false
+      },
+      "uploaded_file_review": {
+        "original_archive": "skat-trak-skid-steer.zip",
+        "dimensions": [
+          1920,
+          1440
+        ],
+        "bytes": 552257,
+        "sha256": "ef9975b665550959834a408b6f21c00ea6e7bf300f2a5eb35f2b0070672a958c",
+        "modifications_performed": [],
+        "embedded_source_comment": "File source: http://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
+        "embedded_rights_metadata": "No embedded photographer or rights statement; source comment alone does not verify provenance or permission",
+        "license_verification": "Supplied U.S. Army photograph by SFC Orbe attribution and U.S. public-domain claim remain independently unverified. No blocked websites retried.",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
       }
     },
     {

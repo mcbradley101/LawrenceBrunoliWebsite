@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Five uploaded photographs are installed; the other 25 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Six uploaded photographs are installed; the other 24 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -27,7 +27,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☐ | Caterpillar D56 Bulldozer | `caterpillar-d56-bulldozer.jpg` |
 | ☐ | Caterpillar D3 Bulldozer | `caterpillar-d3-bulldozer.jpg` |
 | ☐ | John Deere 550B Bulldozer | `john-deere-550b-bulldozer.jpg` |
-| ☐ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
+| ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
 | ☐ | John Deere 310D Excavator/Loader | `john-deere-310d-excavator-loader.jpg` |
 | ☐ | Hyster Roller | `hyster-roller.jpg` |
@@ -101,3 +101,9 @@ Supplied source: https://commons.wikimedia.org/wiki/File:2012_Ford_F-550_Shaw_Se
 Installed from `2013-toyota-tacoma (1).zip`, unchanged: 1920 × 1013 JPEG, 567,927 bytes. Toyota Tacoma and V6 SR5 badges are visible; the 2013 model year is supplied, not independently verified. The caption explicitly identifies this as a representative photograph, not Lawrence Brunoli’s actual truck. Inventory name remains **2013 Toyota Tacoma**.
 
 Supplied source: https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg . SsmIntrigue and CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) are supplied claims, **not independently verified**. No embedded authorship/license metadata was present; blocked websites were not retried. On-page credits label these claims as unverified. See `photo-register.json` for the checksum. Confirm source, attribution and reuse terms before publication; if the supplied license is confirmed, comply with attribution and applicable share-alike requirements.
+
+### Skat Trak uploaded photograph
+
+Installed from `skat-trak-skid-steer.zip`, unchanged: 1920 × 1440 JPEG, 552,257 bytes. SCAT TRAK and 1300D markings are visible. Caption identifies a representative Scat Trak 1300D, not the company’s machine. Inventory spelling **Skat Trak Skid Steer** and attachment descriptions remain unchanged.
+
+Embedded JPEG comment: `File source: http://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG`. This matches the supplied source URL but does not independently prove provenance, authorship or reuse permission. Supplied attribution **U.S. Army photograph by SFC Orbe** and **public domain in the United States** status remain **unverified**, including whether this particular photograph qualifies as a U.S. federal government work. No embedded photographer/rights statement was found; blocked websites were not retried. Credits label these claims as unverified. See `photo-register.json` for checksum and source review. Confirm authorship and applicable reuse rights before publication.
