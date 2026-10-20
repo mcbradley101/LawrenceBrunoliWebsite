@@ -1,6 +1,6 @@
 {
-  "status": "fourteen_user_uploads_installed_rights_unverified",
-  "selected_photographs": 14,
+  "status": "fifteen_user_uploads_installed_rights_unverified",
+  "selected_photographs": 15,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -732,17 +732,39 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-23",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Person wearing fall-protection harness while another person inspects it; representative, not company equipment or employees; no extraction capability inferred from photograph",
+      "local_image_path": "equipment-images/fall-protection-extraction-equipment.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/fall-protection-extraction-equipment.jpg"
+      "assigned_image_path": "equipment-images/fall-protection-extraction-equipment.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Construction_worker_harness_(9253634989).jpg",
+      "photographer_verification": "EXIF Artist names Pietra Check; not independently confirmed as photographer from Commons",
+      "copyright_holder_verification": "Unknown; unverified",
+      "license_verification": "Unknown; requires photographer, copyright holder and license verification from Wikimedia Commons before publication",
+      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "fall-protection-extraction-equipment.zip",
+        "dimensions": [
+          1920,
+          1280
+        ],
+        "bytes": 451263,
+        "sha256": "2e5c5b04b6c5e50a175f841555272ffe2a6cb2f18f26a61723ce57d900bd1cdb",
+        "modifications_performed": [],
+        "embedded_metadata": {
+          "Artist": "Pietra Check",
+          "ImageDescription": "Photos taken on several residential construction sites which use fall arrest systems in Phoenix, AZ over a week in August 2012"
+        },
+        "embedded_rights_metadata": "Artist and description are file metadata, not independent confirmation of photographer, copyright holder or license. No license statement found.",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment or employees"
+      }
     },
     {
       "equipment_name": "Road Plates",
