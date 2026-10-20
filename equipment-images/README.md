@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Four uploaded photographs are installed; the other 26 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Five uploaded photographs are installed; the other 25 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -48,7 +48,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | 2012 Ford F550 | `2012-ford-f550.jpg` |
 | ☐ | Ford F150 | `ford-f150.jpg` |
 | ☐ | GMC Canyon | `gmc-canyon.jpg` |
-| ☐ | 2013 Toyota Tacoma | `2013-toyota-tacoma.jpg` |
+| ☑ | 2013 Toyota Tacoma | `2013-toyota-tacoma.jpg` |
 | ☐ | GMC Sierra | `gmc-sierra.jpg` |
 
 ## Photo permissions and accurate labeling
@@ -95,3 +95,9 @@ Supplied source: https://commons.wikimedia.org/wiki/File:John_Deere_624.jpg . Gr
 Installed from `2012-ford-f550.zip`, unchanged: 1920 × 1135 JPEG, 491,069 bytes. Ford/F-550 markings, a utility service body and Shaw branding are visible. The 2012 model year is user-supplied and not independently verified. The caption explicitly identifies this as a representative photograph, not Lawrence Brunoli’s actual truck. The inventory remains **2012 Ford F550**.
 
 Supplied source: https://commons.wikimedia.org/wiki/File:2012_Ford_F-550_Shaw_Service_Truck,_Front_Left,_03-22-2022.jpg . Elise240SX and CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) are supplied claims, **not independently verified**. No embedded authorship/license metadata was present; blocked websites were not retried. The on-page credit labels these claims as unverified. See `photo-register.json` for the checksum. Confirm source, attribution and reuse terms before publication; if the supplied license is confirmed, comply with its attribution and applicable share-alike requirements.
+
+### 2013 Toyota Tacoma uploaded photograph
+
+Installed from `2013-toyota-tacoma (1).zip`, unchanged: 1920 × 1013 JPEG, 567,927 bytes. Toyota Tacoma and V6 SR5 badges are visible; the 2013 model year is supplied, not independently verified. The caption explicitly identifies this as a representative photograph, not Lawrence Brunoli’s actual truck. Inventory name remains **2013 Toyota Tacoma**.
+
+Supplied source: https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg . SsmIntrigue and CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) are supplied claims, **not independently verified**. No embedded authorship/license metadata was present; blocked websites were not retried. On-page credits label these claims as unverified. See `photo-register.json` for the checksum. Confirm source, attribution and reuse terms before publication; if the supplied license is confirmed, comply with attribution and applicable share-alike requirements.
