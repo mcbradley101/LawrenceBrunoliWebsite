@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Ten uploaded photographs are installed; the other 20 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Eleven uploaded photographs are installed; the other 19 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -38,7 +38,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☐ | Caterpillar TH83 Telehandler | `caterpillar-th83-telehandler.jpg` |
 | ☑ | JCB 530 Telehandler | `jcb-530-telehandler.jpg` |
 | ☑ | JCB 525 Telehandler | `jcb-525-telehandler.jpg` |
-| ☐ | Hydraulic Saws | `hydraulic-saws.jpg` |
+| ☑ | Hydraulic Saws | `hydraulic-saws.jpg` |
 | ☐ | Scissor Lifts | `scissor-lifts.jpg` |
 | ☐ | Demo Saws & Road Saw | `demo-saws-road-saw.jpg` |
 | ☐ | Surveying Equipment | `surveying-equipment.jpg` |
@@ -131,3 +131,9 @@ Supplied source: https://commons.wikimedia.org/wiki/File:JCB_530-70.jpg . Suppli
 Installed from `jcb-525-telehandler.zip`, unchanged: 1920 × 1440 JPEG, 1,411,832 bytes. JCB and 525-60 markings are visible. Caption identifies a representative 525-60, not the company’s machine. Inventory remains **JCB 525 Telehandler**.
 
 User-supplied Wikimedia Commons source: https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg . Association of this source with the uploaded file is **not independently verified**. Photographer, copyright holder and license are **unknown and unverified**; no names or permissions are inferred. No photograph authorship/license metadata was found. Google Inc. 2016 copyright text appears inside the sRGB color profile and does not establish photograph ownership. No blocked websites retried. Credits explicitly flag unverified information. See `photo-register.json` for checksum and review. Confirm provenance, attribution and reuse terms before publication.
+
+### Hydraulic Saws uploaded photograph — rights review required
+
+Installed from `hydraulic-saws.zip`, unchanged: 1920 × 1427 JPEG, 726,044 bytes. Shows a chainsaw with hydraulic connections and separate hydraulic power unit, consistent with the supplied description. Caption identifies a representative photograph, not the company’s actual equipment. Inventory remains **Hydraulic Saws**.
+
+User-supplied Wikimedia Commons source: https://commons.wikimedia.org/wiki/File:Betonkettensaege.jpg . Association with the uploaded file is **not independently verified**. Photographer, copyright holder and license are **unknown and unverified**; no names or permissions are inferred. No embedded source/authorship/license metadata was found. Commons access was previously blocked and was not retried per the user’s instruction. Visible credits flag missing verification. **Verify attribution, applicable license and reuse conditions from the exact Commons file page before publication.** See `photo-register.json` for checksum and review.
