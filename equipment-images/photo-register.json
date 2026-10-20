@@ -1454,11 +1454,11 @@
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "Toyota Tacoma and V6 SR5 badges visible; 2013 model year supplied, not independently established; representative photograph, not the company truck",
-      "local_image_path": "equipment-images/2013-toyota-tacoma.jpg",
+      "image_match_status": "Toyota badge and Tacoma marking visible; model year supplied, not independently verified; no trim inferred",
+      "local_image_path": "equipment-images/toyota-tacoma-2013.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
+      "assigned_image_path": "equipment-images/toyota-tacoma-2013.jpg",
       "supplied_candidate": {
         "equipment_name": "2013 Toyota Tacoma",
         "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
@@ -1477,18 +1477,16 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "2013-toyota-tacoma (1).zip",
+        "original_archive": "toyota-tacoma-2013.zip",
+        "archive_member": "toyota-tacoma-2013.jpg",
         "dimensions": [
-          1920,
-          1013
+          960,
+          554
         ],
-        "bytes": 567927,
-        "sha256": "7889409132f8eeef6b59b8269834ace89987870b72365f49d52f5ff51b3fcee2",
+        "bytes": 122038,
+        "sha256": "995e2dd562dd9411111ef760a05c74dfa796a9a9e5175ff1fb0829f410da81b0",
         "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded authorship or license metadata present",
-        "license_verification": "Unverified; supplied Commons source, SsmIntrigue attribution and CC BY-SA 4.0 claim not independently accessible. No blocked websites retried.",
-        "ownership_verification": "User explicitly identifies photograph as representative and not Lawrence Brunoli\u2019s actual truck",
-        "model_year_verification": "2013 supplied by user and source claim; not independently verified"
+        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; previous photo attribution does not apply to this replacement"
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/2013-toyota-tacoma.jpg",
@@ -1499,7 +1497,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "replacement_display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1509,7 +1507,81 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "User explicitly requested replacement while preserving working display fix; rights remain unverified",
+      "previous_photo_records": [
+        {
+          "equipment_name": "2013 Toyota Tacoma",
+          "category": "TRUCKS",
+          "inventory_id": "equipment-29",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_license_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "Toyota Tacoma and V6 SR5 badges visible; 2013 model year supplied, not independently established; representative photograph, not the company truck",
+          "local_image_path": "equipment-images/2013-toyota-tacoma.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
+          "supplied_candidate": {
+            "equipment_name": "2013 Toyota Tacoma",
+            "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg",
+            "author_as_supplied": "SsmIntrigue",
+            "license_as_supplied": "CC BY-SA 4.0",
+            "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "identified_model_as_supplied": "2013 Toyota Tacoma V6 SR5 Double Cab Long Bed",
+            "proposed_match_classification": "identified_model_year_configuration_unconfirmed",
+            "proposed_caption": "Representative 2013 Toyota Tacoma V6 SR5; not Lawrence Brunoli, Inc.\u2019s actual truck.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "2013-toyota-tacoma (1).zip",
+            "dimensions": [
+              1920,
+              1013
+            ],
+            "bytes": 567927,
+            "sha256": "7889409132f8eeef6b59b8269834ace89987870b72365f49d52f5ff51b3fcee2",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded authorship or license metadata present",
+            "license_verification": "Unverified; supplied Commons source, SsmIntrigue attribution and CC BY-SA 4.0 claim not independently accessible. No blocked websites retried.",
+            "ownership_verification": "User explicitly identifies photograph as representative and not Lawrence Brunoli\u2019s actual truck",
+            "model_year_verification": "2013 supplied by user and source claim; not independently verified"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/2013-toyota-tacoma.jpg",
+            "data-image-alt": "2013 Toyota Tacoma V6 SR5 Double Cab Long Bed \u2014 representative equipment photograph",
+            "data-image-caption": "Representative 2013 Toyota Tacoma V6 SR5; not Lawrence Brunoli, Inc.\u2019s actual truck.",
+            "data-image-credit-author": "SsmIntrigue (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg",
+            "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights.",
+          "previous_photo_records": []
+        }
+      ],
+      "photographer_verification": "Unknown for replacement; previous attribution not transferred",
+      "source_verification": "Replacement source not supplied; earlier Commons URL describes previous photo only",
+      "license_verification": "Unknown for replacement; earlier license claim not transferred"
     },
     {
       "equipment_name": "GMC Sierra",
