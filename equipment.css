@@ -71,3 +71,14 @@
     .equipment-page .equipment-photo-placeholder { padding: 24px; gap: 12px; }
     .equipment-page .equipment-category-heading { flex-direction: column; gap: 16px; }
 }
+/* Inserted only after an approved local photograph has loaded successfully. */
+.equipment-page .equipment-photo-link { display: block; width: 100%; height: 100%; }
+
+/* Photo metadata appears only after a local image loads, never beside a missing file. */
+.equipment-page .equipment-intro .equipment-photography-note { color: var(--equipment-muted); font-size: 13px; line-height: 1.8; margin-top: 28px; }
+.equipment-page .equipment-photo-credit { padding: 16px 24px; border-bottom: 1px solid var(--equipment-rule); color: var(--equipment-muted); font-size: 12px; line-height: 1.8; }
+.equipment-page .equipment-photo-credit p { margin: 0; }
+.equipment-page .equipment-photo-credit details { margin-top: 10px; }
+.equipment-page .equipment-photo-credit summary { color: var(--green); cursor: pointer; padding-block: 5px; }
+.equipment-page .equipment-photo-credit details p { margin-top: 10px; }
+.equipment-page .equipment-photo-credit a { color: var(--green); text-underline-offset: 3px; }

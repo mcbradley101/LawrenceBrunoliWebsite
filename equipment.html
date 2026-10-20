@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="equipment.css">
     <script src="site.js" defer></script>
+    <script src="equipment.js" defer></script>
 </head>
 <body class="equipment-page">
 <a class="skip-link" href="#main-content">Skip to content</a>
@@ -49,6 +50,7 @@
                 </div>
                 <p>Lawrence Brunoli, Inc. maintains a range of construction equipment to support its project operations. Browse the company-provided inventory by category below.</p>
             </div>
+            <p class="equipment-photography-note">Equipment photographs are representative examples and may differ from equipment owned by Lawrence Brunoli, Inc.</p>
             <nav class="equipment-category-nav" aria-label="Equipment categories">
                 <span class="equipment-browse-label">BROWSE THE INVENTORY</span>
                 <ul class="equipment-category-links">
@@ -63,11 +65,9 @@
             </nav>
         </div>
     </section>
-    <!-- Authentic photos can be added independently to each numbered equipment entry.
-         Replace .equipment-photo-placeholder inside its .equipment-photo with an
-         <img class="equipment-photo-image" src="AUTHENTIC-PHOTO" alt="Actual NAME"
-         width="1200" height="900" loading="lazy">. Keep the matching card name.
-         No machine quantities are inferred from the number of inventory entries. -->
+    <!-- Upload approved JPEGs to the paths in data-image-src (see equipment-images/README.md).
+         equipment.js replaces a placeholder only after its local image loads and decodes.
+         Missing or unreadable photos keep the existing placeholder. Refresh after uploads. -->
     <section class="equipment-category" id="excavators" aria-labelledby="excavators-title">
         <div class="equipment-container">
             <div class="equipment-category-heading">
@@ -76,7 +76,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-01" aria-labelledby="equipment-01-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/volvo-312b-excavator.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Volvo 312B Excavator">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Volvo 312B Excavator</span>
@@ -91,7 +91,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-02" aria-labelledby="equipment-02-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/caterpillar-321-excavator.jpg" data-image-alt="Caterpillar 321D LCR — representative equipment photograph" data-image-caption="Representative Caterpillar 321D LCR; the inventory does not specify the company machine’s 321 variant." data-image-credit-author="Grendelkhan" data-image-source-url="https://commons.wikimedia.org/wiki/File:Caterpillar_321D_LCR_on_dirt_lot_in_Campbell.jpg" data-image-license="CC BY-SA 4.0" data-image-license-url="https://creativecommons.org/licenses/by-sa/4.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar 321 Excavator">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Caterpillar 321 Excavator</span>
@@ -105,7 +105,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-03" aria-labelledby="equipment-03-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/john-deere-35d-mini-excavator.jpg" data-image-alt="John Deere 35D — representative equipment photograph" data-image-caption="Representative John Deere 35D; the photographed unit is not identified as company-owned." data-image-credit-author="WindBorneListener (supplied attribution; unverified)" data-image-source-url="https://commons.wikimedia.org/wiki/File:John_Deere_35D_Compact_Excavator.jpg" data-image-license="CC0 1.0 (supplied license; unverified)" data-image-license-url="https://creativecommons.org/publicdomain/zero/1.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 35D Mini Excavator">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">John Deere 35D Mini Excavator</span>
@@ -129,7 +129,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-04" aria-labelledby="equipment-04-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/caterpillar-d5h-bulldozer.jpg" data-image-alt="Caterpillar D5H LGP — representative equipment photograph" data-image-caption="Representative Caterpillar D5H LGP; the LGP configuration is not confirmed for the company machine." data-image-credit-author="Joost J. Bakker (supplied attribution; unverified)" data-image-source-url="https://commons.wikimedia.org/wiki/File:Caterpillar_Cat_D5H_LGP.jpg" data-image-license="CC BY 2.0 (supplied license; unverified)" data-image-license-url="https://creativecommons.org/licenses/by/2.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar D5H Bulldozer">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Caterpillar D5H Bulldozer</span>
@@ -142,7 +142,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-05" aria-labelledby="equipment-05-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/caterpillar-d56-bulldozer.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar D56 Bulldozer">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Caterpillar D56 Bulldozer</span>
@@ -156,7 +156,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-06" aria-labelledby="equipment-06-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/caterpillar-d3-bulldozer.jpg" data-image-alt="Caterpillar D3B — representative equipment photograph" data-image-caption="Representative Caterpillar D3B; the company inventory lists D3 without the B designation." data-image-credit-author="Bob Adams" data-image-source-url="https://commons.wikimedia.org/wiki/File:Caterpillar_D3B_Crawler_Tractor_(15790160976).jpg" data-image-license="CC BY-SA 2.0" data-image-license-url="https://creativecommons.org/licenses/by-sa/2.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar D3 Bulldozer">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Caterpillar D3 Bulldozer</span>
@@ -169,7 +169,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-07" aria-labelledby="equipment-07-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/john-deere-550b-bulldozer.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 550B Bulldozer">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">John Deere 550B Bulldozer</span>
@@ -182,7 +182,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-08" aria-labelledby="equipment-08-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/skat-trak-skid-steer.jpg" data-image-alt="Scat Trak 1300D — representative equipment photograph" data-image-caption="Representative Scat Trak 1300D; the inventory lists Skat Trak without a confirmed model." data-image-credit-author="U.S. Army photograph by SFC Orbe" data-image-source-url="https://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG" data-image-license="Public domain in the United States">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Skat Trak Skid Steer">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Skat Trak Skid Steer</span>
@@ -206,7 +206,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-09" aria-labelledby="equipment-09-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/john-deere-624-loader.jpg" data-image-alt="John Deere 624J front-end loader — representative equipment photograph" data-image-caption="Representative John Deere 624J; the exact model variant and ownership of the company machine are not confirmed by this photograph." data-image-credit-author="Greg Goebel (supplied attribution; unverified)" data-image-source-url="https://commons.wikimedia.org/wiki/File:John_Deere_624.jpg" data-image-license="CC BY-SA 2.0 (supplied license; unverified)" data-image-license-url="https://creativecommons.org/licenses/by-sa/2.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 624 Loader">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">John Deere 624 Loader</span>
@@ -219,7 +219,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-10" aria-labelledby="equipment-10-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/john-deere-310d-excavator-loader.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for John Deere 310D Excavator/Loader">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">John Deere 310D Excavator/Loader</span>
@@ -243,7 +243,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-11" aria-labelledby="equipment-11-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/hyster-roller.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Hyster Roller">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Hyster Roller</span>
@@ -256,7 +256,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-12" aria-labelledby="equipment-12-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/wacker-roller.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Wacker Roller">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Wacker Roller</span>
@@ -269,7 +269,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-13" aria-labelledby="equipment-13-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/volvo-sd77dx-vibratory-roller-compactor.jpg" data-image-alt="Volvo SD77 — representative equipment photograph" data-image-caption="Representative Volvo SD77; the company lists SD77DX and the variant differences need confirmation before use." data-image-credit-author="Chris Woodrich" data-image-source-url="https://commons.wikimedia.org/wiki/File:Volvo_SD77_soil_compactor,_Harrow_Fair,_Harrow,_Ontario,_2025-08-31.jpg" data-image-license="CC BY-SA 4.0" data-image-license-url="https://creativecommons.org/licenses/by-sa/4.0/" data-photo-hold="true">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Volvo SD77DX Vibratory Roller/Compactor">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Volvo SD77DX Vibratory Roller/Compactor</span>
@@ -282,7 +282,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-14" aria-labelledby="equipment-14-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/plate-compactors.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Plate Compactors">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Plate Compactors</span>
@@ -304,7 +304,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-15" aria-labelledby="equipment-15-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/caterpillar-th56-telehandler.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar TH56 Telehandler">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Caterpillar TH56 Telehandler</span>
@@ -317,7 +317,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-16" aria-labelledby="equipment-16-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/caterpillar-th83-telehandler.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Caterpillar TH83 Telehandler">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Caterpillar TH83 Telehandler</span>
@@ -330,7 +330,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-17" aria-labelledby="equipment-17-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/jcb-530-telehandler.jpg" data-image-alt="JCB 530-70 — representative equipment photograph" data-image-caption="Representative JCB 530-70; the 530-70 variant is not confirmed for the company machine." data-image-credit-author="Bene Riobó" data-image-source-url="https://commons.wikimedia.org/wiki/File:JCB_530-70.jpg" data-image-license="CC BY-SA 4.0" data-image-license-url="https://creativecommons.org/licenses/by-sa/4.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for JCB 530 Telehandler">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">JCB 530 Telehandler</span>
@@ -343,7 +343,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-18" aria-labelledby="equipment-18-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/jcb-525-telehandler.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for JCB 525 Telehandler">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">JCB 525 Telehandler</span>
@@ -366,7 +366,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-19" aria-labelledby="equipment-19-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/hydraulic-saws.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Hydraulic Saws">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Hydraulic Saws</span>
@@ -378,7 +378,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-20" aria-labelledby="equipment-20-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/scissor-lifts.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Scissor Lifts">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Scissor Lifts</span>
@@ -390,7 +390,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-21" aria-labelledby="equipment-21-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/demo-saws-road-saw.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Demo Saws &amp; Road Saw">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Demo Saws &amp; Road Saw</span>
@@ -402,7 +402,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-22" aria-labelledby="equipment-22-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/surveying-equipment.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Surveying Equipment">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Surveying Equipment</span>
@@ -414,7 +414,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-23" aria-labelledby="equipment-23-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/fall-protection-extraction-equipment.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Fall Protection/Extraction Equipment">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Fall Protection/Extraction Equipment</span>
@@ -426,7 +426,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-24" aria-labelledby="equipment-24-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/road-plates.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Road Plates">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Road Plates</span>
@@ -438,7 +438,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-25" aria-labelledby="equipment-25-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/jersey-barriers.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Jersey Barriers">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Jersey Barriers</span>
@@ -460,7 +460,7 @@
             </div>
             <div class="equipment-grid">
                 <article class="equipment-card" id="equipment-26" aria-labelledby="equipment-26-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/2012-ford-f550.jpg" data-image-alt="2012 Ford F-550 utility service truck — representative equipment photograph" data-image-caption="Representative 2012 Ford F-550 utility service truck; not Lawrence Brunoli, Inc.’s actual truck." data-image-credit-author="Elise240SX (supplied attribution; unverified)" data-image-source-url="https://commons.wikimedia.org/wiki/File:2012_Ford_F-550_Shaw_Service_Truck,_Front_Left,_03-22-2022.jpg" data-image-license="CC BY-SA 4.0 (supplied license; unverified)" data-image-license-url="https://creativecommons.org/licenses/by-sa/4.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for 2012 Ford F550">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">2012 Ford F550</span>
@@ -473,7 +473,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-27" aria-labelledby="equipment-27-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/ford-f150.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for Ford F150">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">Ford F150</span>
@@ -486,7 +486,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-28" aria-labelledby="equipment-28-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/gmc-canyon.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for GMC Canyon">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">GMC Canyon</span>
@@ -500,7 +500,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-29" aria-labelledby="equipment-29-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/2013-toyota-tacoma.jpg" data-image-alt="2013 Toyota Tacoma V6 SR5 Double Cab Long Bed — representative equipment photograph" data-image-caption="Representative 2013 Toyota Tacoma; trim and body configuration are not confirmed for the company truck." data-image-credit-author="SsmIntrigue" data-image-source-url="https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg" data-image-license="CC BY-SA 4.0" data-image-license-url="https://creativecommons.org/licenses/by-sa/4.0/">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for 2013 Toyota Tacoma">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">2013 Toyota Tacoma</span>
@@ -513,7 +513,7 @@
                     </div>
                 </article>
                 <article class="equipment-card" id="equipment-30" aria-labelledby="equipment-30-name">
-                    <div class="equipment-photo">
+                    <div class="equipment-photo" data-image-src="equipment-images/gmc-sierra.jpg">
                         <div class="equipment-photo-placeholder" role="img" aria-label="Photo placeholder for GMC Sierra">
                             <span class="equipment-photo-label">EQUIPMENT PHOTO</span>
                             <span class="equipment-photo-name">GMC Sierra</span>
