@@ -1,6 +1,6 @@
 {
-  "status": "nineteen_uploaded_photos_display_restored_rights_unverified",
-  "selected_photographs": 19,
+  "status": "twenty_active_photos_display_requested_rights_unverified",
+  "selected_photographs": 20,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -1588,21 +1588,21 @@
       "category": "TRUCKS",
       "inventory_id": "equipment-30",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_unverified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "GMC pickup consistent with supplied Sierra identification; year and trim not inferred",
+      "local_image_path": "equipment-images/gmc-sierra.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/gmc-sierra.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/gmc-sierra.jpg"
       },
-      "publication_status": "awaiting_photo_and_rights_review",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1611,6 +1611,18 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
+      },
+      "display_authorization": "Explicit request to display new GMC Sierra image and preserve working photo fix; no new gate introduced",
+      "uploaded_file_review": {
+        "original_archive": "gmc-sierra.zip",
+        "dimensions": [
+          960,
+          554
+        ],
+        "bytes": 119160,
+        "sha256": "144d3f108816be6b1122c88d2954f627ba01a3890a01b642bd562bcd1fec0e00",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; source and reuse rights unverified"
       }
     }
   ],
@@ -1623,10 +1635,10 @@
     "credentials_or_model_changes": false
   },
   "publication_review": {
-    "installed_photographs": 19,
+    "installed_photographs": 20,
     "independently_verified": 0,
     "held_from_public_display": 0,
-    "publicly_displayed_photographs": 19,
-    "notes": "User explicitly requested restoration of every completed photo. All JPEGs preserved unchanged. Display enabled separately from rights status; source and license verification remain outstanding. Eleven missing photo slots retain holds/placeholders."
+    "publicly_displayed_photographs": 20,
+    "notes": "Twenty active card photos plus preserved inactive Tacoma asset. Display requested separately from rights verification; ten missing-photo placeholders remain."
   }
 }
