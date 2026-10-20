@@ -1,6 +1,6 @@
 {
-  "status": "sixteen_user_uploads_installed_rights_unverified",
-  "selected_photographs": 16,
+  "status": "seventeen_user_uploads_installed_rights_unverified",
+  "selected_photographs": 17,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -809,17 +809,42 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-25",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Stacked concrete Jersey barriers visible, consistent with supplied description; representative, not company equipment",
+      "local_image_path": "equipment-images/jersey-barriers.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/jersey-barriers.jpg"
+      "assigned_image_path": "equipment-images/jersey-barriers.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Stacked_Jersey_Barriers_%26_Pigeon_(Washington,_DC)_(2891410941).jpg",
+      "photographer_as_supplied": "takomabibelot",
+      "license_as_supplied": "CC BY 2.0",
+      "license_url_as_supplied": "https://creativecommons.org/licenses/by/2.0/",
+      "photographer_verification": "Supplied attribution, independently unverified",
+      "copyright_holder_verification": "Unverified; not inferred from supplied photographer",
+      "license_verification": "Supplied CC BY 2.0 claim, independently unverified; exact source attribution requirements need confirmation before merge/publication",
+      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "jersey-barriers.zip",
+        "dimensions": [
+          1280,
+          1244
+        ],
+        "bytes": 407499,
+        "sha256": "4cc380c4e486c87feba0e3c936a3064c842e523bd7a788e51bbb5ad7c56e7293",
+        "modifications_performed": [],
+        "embedded_metadata": {
+          "ImageDescription": "OLYMPUS DIGITAL CAMERA         ",
+          "YCbCrPositioning": 1
+        },
+        "embedded_rights_metadata": "No embedded source, photographer or license metadata present",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      }
     },
     {
       "equipment_name": "2012 Ford F550",
