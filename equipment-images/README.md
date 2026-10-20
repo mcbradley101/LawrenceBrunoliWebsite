@@ -62,7 +62,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Ford F150 | `ford-f150.jpg` |
 | ☑ | GMC Canyon | `gmc-canyon.jpg` |
 | ☑ | 2013 Toyota Tacoma | `toyota-tacoma-2013.jpg` |
-| ☐ | GMC Sierra | `gmc-sierra.jpg` |
+| ☑ | GMC Sierra | `gmc-sierra.jpg` |
 
 ## Photo permissions and accurate labeling
 
@@ -200,3 +200,7 @@ Added unchanged from `gmc-canyon.zip`: `gmc-canyon.jpg`, 960 × 554 JPEG, 172,76
 ### Toyota Tacoma replacement
 
 Card #29 now uses `toyota-tacoma-2013.jpg`, supplied in `toyota-tacoma-2013.zip`, unchanged 960 × 554 JPEG, 122,038 bytes. Previous `2013-toyota-tacoma.jpg` is preserved as an inactive asset; earlier attribution/license claims refer only to that previous photograph. Replacement source, photographer and license remain unknown/unverified. The explicit display request is preserved separately from rights verification. No other equipment card changed.
+
+### GMC Sierra upload
+
+Card #30 now displays `gmc-sierra.jpg` from `gmc-sierra.zip`, unchanged 960 × 554 JPEG, 119,160 bytes. Existing title, description, layout and representative caption preserved. Uses the existing explicit display-request flag; no new verification gate. Source and rights remain internally unverified. Twenty active photo cards and ten missing-photo placeholders remain.
