@@ -17,7 +17,7 @@ Every inventory entry has one assigned JPEG filename below. 19 uploaded photogra
 
 ## Simplest way to add a photo in GitHub
 
-1. Choose a company-owned photo, or a photo whose commercial website reuse is explicitly permitted. Confirm that it matches the correct equipment. Confirm the identities of **Volvo 312B** and **Caterpillar D56** before adding their photos.
+1. Choose a company-owned photo, or a photo whose commercial website reuse is explicitly permitted. Confirm that it matches the correct equipment. Confirm the identity of **Volvo 312B** before adding its photo. The company has corrected the former D56 entry to D5G.
 2. Export it as a real **JPEG** (`.jpg`), preferably about 1200–1600 pixels wide. Do not merely rename a PNG, WebP, or HEIC file to `.jpg`. Use a view that shows the whole machine; the page fits photographs without cropping them.
 3. Rename it to the exact lowercase filename in the checklist, including hyphens and `.jpg`.
 4. In GitHub, open the `equipment-images` folder on your chosen review branch. Select **Add file → Upload files**, upload the photo, and save it to that branch. Use your normal pull-request review process.
@@ -37,9 +37,9 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Caterpillar 321 Excavator | `caterpillar-321-excavator.jpg` |
 | ☑ | John Deere 35D Mini Excavator | `john-deere-35d-mini-excavator.jpg` |
 | ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-bulldozer.jpg` |
-| ☐ | Caterpillar D56 Bulldozer | `caterpillar-d56-bulldozer.jpg` |
+| ☑ | Caterpillar D5G Bulldozer | `caterpillar-d5g.jpg` |
 | ☑ | Caterpillar D3 Bulldozer | `caterpillar-d3-bulldozer.jpg` |
-| ☐ | John Deere 550B Bulldozer | `john-deere-550b-bulldozer.jpg` |
+| ☑ | John Deere 550B Bulldozer | `john-deere-550b.jpg` |
 | ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
 | ☐ | John Deere 310D Excavator/Loader | `john-deere-310d-excavator-loader.jpg` |
@@ -204,3 +204,11 @@ Card #29 now uses `toyota-tacoma-2013.jpg`, supplied in `toyota-tacoma-2013.zip`
 ### GMC Sierra upload
 
 Card #30 now displays `gmc-sierra.jpg` from `gmc-sierra.zip`, unchanged 960 × 554 JPEG, 119,160 bytes. Existing title, description, layout and representative caption preserved. Uses the existing explicit display-request flag; no new verification gate. Source and rights remain internally unverified. Twenty active photo cards and ten missing-photo placeholders remain.
+
+### Caterpillar D5G correction and photo
+
+Card #05 corrected from D56 to **D5G** per explicit company instruction. Uses `caterpillar-d5g.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 107,357 bytes. Uses existing display-request behavior; no new photo gate. The obsolete model-verification link is removed and the related note reflects the company correction. Source and rights remain internally unverified. Other equipment cards and styling unchanged.
+
+### John Deere 550B upload
+
+Card #07 uses `john-deere-550b.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 110,976 bytes. JOHN DEERE and 550B markings visible. Existing representative caption retained; company ownership is not established. Source/reuse rights are unverified. Existing display-request behavior preserved, no new gate. No other equipment card changed in this update.
