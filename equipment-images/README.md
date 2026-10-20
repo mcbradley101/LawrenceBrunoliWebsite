@@ -1,6 +1,6 @@
 # Equipment photo upload checklist
 
-Every inventory entry has one assigned JPEG filename below. Seven uploaded photographs are installed; the other 23 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
+Every inventory entry has one assigned JPEG filename below. Eight uploaded photographs are installed; the other 22 entries retain placeholders. Uploading an approved photo with its assigned name is enough: no card markup, stylesheet, or page redesign needs to be edited.
 
 ## Simplest way to add a photo in GitHub
 
@@ -25,7 +25,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | John Deere 35D Mini Excavator | `john-deere-35d-mini-excavator.jpg` |
 | ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-bulldozer.jpg` |
 | ☐ | Caterpillar D56 Bulldozer | `caterpillar-d56-bulldozer.jpg` |
-| ☐ | Caterpillar D3 Bulldozer | `caterpillar-d3-bulldozer.jpg` |
+| ☑ | Caterpillar D3 Bulldozer | `caterpillar-d3-bulldozer.jpg` |
 | ☐ | John Deere 550B Bulldozer | `john-deere-550b-bulldozer.jpg` |
 | ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
@@ -113,3 +113,9 @@ Embedded JPEG comment: `File source: http://commons.wikimedia.org/wiki/File:Scat
 Installed from `caterpillar-321-excavator.zip`, unchanged: 1920 × 1446 JPEG, 1,083,863 bytes. CAT and 321D LCR markings are visible. Caption identifies a representative 321D LCR, not the company’s machine. Inventory name **Caterpillar 321 Excavator** and hammer attachment description remain unchanged; the photograph shows a bucket.
 
 Supplied source: https://commons.wikimedia.org/wiki/File:Caterpillar_321D_LCR_on_dirt_lot_in_Campbell.jpg . Supplied photographer **Grendelkhan** and **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/) remain **independently unverified**. No embedded photographer/source/license metadata was found; blocked websites were not retried. Credits label these claims as unverified. See `photo-register.json` for checksum and review. Confirm source, attribution and reuse terms before publication; if the supplied license is confirmed, comply with attribution and applicable share-alike requirements.
+
+### Caterpillar D3 uploaded photograph
+
+Installed from `caterpillar-d3-bulldozer.zip`, unchanged: 1920 × 1192 JPEG, 856,668 bytes. Worn D3B marking is consistent with the supplied identification. Caption identifies a representative D3B, not the company’s machine. Inventory remains **Caterpillar D3 Bulldozer**.
+
+Supplied source: https://commons.wikimedia.org/wiki/File:Caterpillar_D3B_Crawler_Tractor_(15790160976).jpg . Supplied photographer **Bob Adams** and **CC BY-SA 2.0** (https://creativecommons.org/licenses/by-sa/2.0/) remain **independently unverified**. EXIF Artist says `Picasa`, not Bob Adams; this does not establish authorship. No embedded source/license statement was found; blocked websites were not retried. Credits label these claims as unverified. See `photo-register.json` for checksum and metadata review. Confirm source, attribution and reuse terms before publication; if the supplied license is confirmed, comply with attribution and applicable share-alike requirements.
