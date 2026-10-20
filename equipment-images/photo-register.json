@@ -1,5 +1,5 @@
 {
-  "status": "eighteen_user_uploads_installed_rights_unverified",
+  "status": "all_installed_photos_held_pending_independent_rights_verification",
   "selected_photographs": 18,
   "network_observations": [
     {
@@ -44,7 +44,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": "Brand/model pairing is unverified. Do not substitute Caterpillar or choose an image until the owner confirms the machine identification against a reliable source.",
-      "assigned_image_path": "equipment-images/volvo-312b-excavator.jpg"
+      "assigned_image_path": "equipment-images/volvo-312b-excavator.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/volvo-312b-excavator.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Caterpillar 321 Excavator",
@@ -59,7 +72,7 @@
       "required_attribution": null,
       "image_match_status": "CAT and 321D LCR markings visible; representative variant, not company machine; inventory name and hammer attachment description unchanged; bucket pictured",
       "local_image_path": "equipment-images/caterpillar-321-excavator.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
       "supplied_candidate": {
@@ -91,6 +104,25 @@
         "embedded_rights_metadata": "No embedded photographer, source or license statement present",
         "license_verification": "Supplied Grendelkhan attribution, Commons source URL and CC BY-SA 4.0 claim remain independently unverified. No blocked websites retried.",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/caterpillar-321-excavator.jpg",
+        "data-image-alt": "Caterpillar 321D LCR \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Caterpillar 321D LCR; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Caterpillar 321 without a confirmed variant.",
+        "data-image-credit-author": "Grendelkhan (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Caterpillar_321D_LCR_on_dirt_lot_in_Campbell.jpg",
+        "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -106,7 +138,7 @@
       "required_attribution": null,
       "image_match_status": "DEERE branding and 35D model marking visible; bucket shown, hammer not pictured; company ownership not established",
       "local_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
       "supplied_candidate": {
@@ -138,6 +170,25 @@
         "embedded_rights_metadata": "No EXIF authorship or license metadata present",
         "license_verification": "Unverified; supplied Commons source and CC0 claim not independently accessible. No blocked websites retried.",
         "ownership_verification": "Not established by photograph"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/john-deere-35d-mini-excavator.jpg",
+        "data-image-alt": "John Deere 35D \u2014 representative equipment photograph",
+        "data-image-caption": "Representative John Deere 35D; the photographed unit is not identified as company-owned.",
+        "data-image-credit-author": "WindBorneListener (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:John_Deere_35D_Compact_Excavator.jpg",
+        "data-image-license": "CC0 1.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -153,7 +204,7 @@
       "required_attribution": null,
       "image_match_status": "CATERPILLAR/CAT branding and D5H LGP marking visible; representative LGP variant, company configuration and ownership not established",
       "local_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
       "supplied_candidate": {
@@ -185,6 +236,25 @@
         "embedded_rights_metadata": "No embedded authorship or license metadata present",
         "license_verification": "Unverified; supplied Commons source, photographer and CC BY 2.0 claim not independently accessible. No blocked websites retried.",
         "ownership_verification": "Not established by photograph"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+        "data-image-alt": "Caterpillar D5H LGP \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Caterpillar D5H LGP; the LGP configuration is not confirmed for the company machine.",
+        "data-image-credit-author": "Joost J. Bakker (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Caterpillar_Cat_D5H_LGP.jpg",
+        "data-image-license": "CC BY 2.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -202,7 +272,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": "Model designation is unverified. Do not infer a replacement model or assign a photograph without confirmation.",
-      "assigned_image_path": "equipment-images/caterpillar-d56-bulldozer.jpg"
+      "assigned_image_path": "equipment-images/caterpillar-d56-bulldozer.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/caterpillar-d56-bulldozer.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Caterpillar D3 Bulldozer",
@@ -217,7 +300,7 @@
       "required_attribution": null,
       "image_match_status": "Worn D3B marking consistent with supplied identification; representative D3B, not company machine; inventory remains Caterpillar D3 Bulldozer",
       "local_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
       "supplied_candidate": {
@@ -253,6 +336,25 @@
         "embedded_rights_metadata": "EXIF Artist is Picasa; this does not verify Bob Adams authorship. No embedded source or license statement found.",
         "license_verification": "Supplied Bob Adams attribution, Commons source URL and CC BY-SA 2.0 claim remain independently unverified. No blocked websites retried.",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/caterpillar-d3-bulldozer.jpg",
+        "data-image-alt": "Caterpillar D3B \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Caterpillar D3B; not Lawrence Brunoli, Inc.\u2019s actual machine. The company inventory lists D3 without the B designation.",
+        "data-image-credit-author": "Bob Adams (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Caterpillar_D3B_Crawler_Tractor_(15790160976).jpg",
+        "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -270,7 +372,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/john-deere-550b-bulldozer.jpg"
+      "assigned_image_path": "equipment-images/john-deere-550b-bulldozer.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/john-deere-550b-bulldozer.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Skat Trak Skid Steer",
@@ -285,7 +400,7 @@
       "required_attribution": null,
       "image_match_status": "SCAT TRAK and 1300D markings visible; representative photograph, not company machine; inventory spelling and attachment descriptions unchanged",
       "local_image_path": "equipment-images/skat-trak-skid-steer.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/skat-trak-skid-steer.jpg",
       "supplied_candidate": {
@@ -318,6 +433,24 @@
         "embedded_rights_metadata": "No embedded photographer or rights statement; source comment alone does not verify provenance or permission",
         "license_verification": "Supplied U.S. Army photograph by SFC Orbe attribution and U.S. public-domain claim remain independently unverified. No blocked websites retried.",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/skat-trak-skid-steer.jpg",
+        "data-image-alt": "Scat Trak 1300D \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Scat Trak 1300D; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Skat Trak without a confirmed model.",
+        "data-image-credit-author": "U.S. Army photograph by SFC Orbe (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
+        "data-image-license": "Public domain in the United States (supplied status; unverified)"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -333,7 +466,7 @@
       "required_attribution": null,
       "image_match_status": "DEERE branding and 624J marking visible; representative 624J variant, inventory remains John Deere 624 Loader; company exact variant and ownership not established",
       "local_image_path": "equipment-images/john-deere-624-loader.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/john-deere-624-loader.jpg",
       "supplied_candidate": {
@@ -366,6 +499,25 @@
         "embedded_rights_metadata": "No embedded authorship or license metadata present",
         "license_verification": "Unverified; supplied Commons source, Greg Goebel attribution and CC BY-SA 2.0 claim not independently accessible. No blocked websites retried.",
         "ownership_verification": "Not established by photograph"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/john-deere-624-loader.jpg",
+        "data-image-alt": "John Deere 624J front-end loader \u2014 representative equipment photograph",
+        "data-image-caption": "Representative John Deere 624J; the exact model variant and ownership of the company machine are not confirmed by this photograph.",
+        "data-image-credit-author": "Greg Goebel (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:John_Deere_624.jpg",
+        "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -383,7 +535,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/john-deere-310d-excavator-loader.jpg"
+      "assigned_image_path": "equipment-images/john-deere-310d-excavator-loader.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/john-deere-310d-excavator-loader.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Hyster Roller",
@@ -400,7 +565,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/hyster-roller.jpg"
+      "assigned_image_path": "equipment-images/hyster-roller.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/hyster-roller.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Wacker Roller",
@@ -417,7 +595,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/wacker-roller.jpg"
+      "assigned_image_path": "equipment-images/wacker-roller.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/wacker-roller.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Volvo SD77DX Vibratory Roller/Compactor",
@@ -451,6 +642,26 @@
         "modifications_performed": [],
         "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
         "manual_upload_hold": true
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/volvo-sd77dx-vibratory-roller-compactor.jpg",
+        "data-image-alt": "Volvo SD77 \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Volvo SD77; the company lists SD77DX and the variant differences need confirmation before use.",
+        "data-image-credit-author": "Chris Woodrich",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Volvo_SD77_soil_compactor,_Harrow_Fair,_Harrow,_Ontario,_2025-08-31.jpg",
+        "data-image-license": "CC BY-SA 4.0",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "data-photo-hold": "true"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -468,7 +679,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/plate-compactors.jpg"
+      "assigned_image_path": "equipment-images/plate-compactors.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/plate-compactors.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Caterpillar TH56 Telehandler",
@@ -485,7 +709,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-th56-telehandler.jpg"
+      "assigned_image_path": "equipment-images/caterpillar-th56-telehandler.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/caterpillar-th56-telehandler.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "Caterpillar TH83 Telehandler",
@@ -502,7 +739,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-th83-telehandler.jpg"
+      "assigned_image_path": "equipment-images/caterpillar-th83-telehandler.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/caterpillar-th83-telehandler.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "JCB 530 Telehandler",
@@ -517,7 +767,7 @@
       "required_attribution": null,
       "image_match_status": "530/70 markings visible, consistent with supplied JCB 530-70 identification; representative variant, not company machine; inventory remains JCB 530 Telehandler",
       "local_image_path": "equipment-images/jcb-530-telehandler.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/jcb-530-telehandler.jpg",
       "supplied_candidate": {
@@ -549,6 +799,25 @@
         "embedded_rights_metadata": "No embedded photographer, source or license statement present",
         "license_verification": "Supplied Bene Riob\u00f3 attribution, Commons source URL and CC BY-SA 4.0 claim remain independently unverified. No blocked websites retried.",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/jcb-530-telehandler.jpg",
+        "data-image-alt": "JCB 530-70 \u2014 representative equipment photograph",
+        "data-image-caption": "Representative JCB 530-70; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists JCB 530 without a confirmed variant.",
+        "data-image-credit-author": "Bene Riob\u00f3 (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:JCB_530-70.jpg",
+        "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -564,7 +833,7 @@
       "required_attribution": null,
       "image_match_status": "JCB and 525-60 markings visible; representative variant, not company machine; inventory remains JCB 525 Telehandler",
       "local_image_path": "equipment-images/jcb-525-telehandler.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/jcb-525-telehandler.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg",
@@ -583,6 +852,24 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No photograph authorship or license metadata found; Google Inc. 2016 copyright text is inside the embedded sRGB color profile and does not establish photograph rights",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/jcb-525-telehandler.jpg",
+        "data-image-alt": "JCB 525-60 \u2014 representative equipment photograph",
+        "data-image-caption": "Representative JCB 525-60; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists JCB 525 without a confirmed variant.",
+        "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:JCB_525-60_at_Carlisle_station.jpg",
+        "data-image-license": "License unverified; supplied source not independently verified"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -598,7 +885,7 @@
       "required_attribution": null,
       "image_match_status": "Chainsaw with hydraulic hose connections and separate hydraulic power unit visible, consistent with supplied description; representative, not company equipment",
       "local_image_path": "equipment-images/hydraulic-saws.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/hydraulic-saws.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Betonkettensaege.jpg",
@@ -618,6 +905,24 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No embedded source, photographer or license metadata present",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/hydraulic-saws.jpg",
+        "data-image-alt": "Hydraulic concrete chainsaw and hydraulic power unit \u2014 representative equipment photograph",
+        "data-image-caption": "Representative hydraulic concrete chainsaw and hydraulic power unit; not Lawrence Brunoli, Inc.\u2019s actual equipment.",
+        "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Betonkettensaege.jpg",
+        "data-image-license": "License unverified; attribution and reuse rights require review before publication"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -633,7 +938,7 @@
       "required_attribution": null,
       "image_match_status": "Hy-Brid Lifts and PS-1930 labels visible; representative scissor lift with elevated worker, not company equipment; inventory remains Scissor Lifts",
       "local_image_path": "equipment-images/scissor-lifts.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/scissor-lifts.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
@@ -653,6 +958,24 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No photograph source, authorship or license metadata found; Google Inc. 2016 text is inside the sRGB color profile and does not establish photograph rights",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/scissor-lifts.jpg",
+        "data-image-alt": "Hy-Brid Lifts PS-1930 scissor lift with an elevated worker \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Hy-Brid Lifts PS-1930 scissor lift; not Lawrence Brunoli, Inc.\u2019s actual equipment.",
+        "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
+        "data-image-license": "License unverified; attribution and reuse rights require review before publication"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -668,7 +991,7 @@
       "required_attribution": null,
       "image_match_status": "Worker operating walk-behind road saw visible, consistent with supplied description; representative, not company equipment; inventory remains Demo Saws & Road Saw",
       "local_image_path": "equipment-images/demo-saws-road-saw.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/demo-saws-road-saw.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Concrete_saw-Asphalt_street_saw-01ASD.jpg",
@@ -688,6 +1011,24 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No source, photographer or license metadata present",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/demo-saws-road-saw.jpg",
+        "data-image-alt": "Worker operating a concrete/asphalt road saw \u2014 representative equipment photograph",
+        "data-image-caption": "Representative concrete/asphalt road saw in use; not Lawrence Brunoli, Inc.\u2019s actual equipment.",
+        "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Concrete_saw-Asphalt_street_saw-01ASD.jpg",
+        "data-image-license": "License unverified; attribution and reuse rights require review before publication"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -703,7 +1044,7 @@
       "required_attribution": null,
       "image_match_status": "Nikon branding and surveying instrument on tripod visible, consistent with supplied total station description; exact model not independently verified; representative, not company equipment",
       "local_image_path": "equipment-images/surveying-equipment.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/surveying-equipment.jpg",
       "original_filename_as_supplied": "DTM-A20LG-01.jpg",
@@ -725,6 +1066,23 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No source, photographer or license metadata present",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/surveying-equipment.jpg",
+        "data-image-alt": "Nikon surveying total station mounted on a tripod \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Nikon surveying total station on a tripod; not Lawrence Brunoli, Inc.\u2019s actual equipment.",
+        "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+        "data-image-license": "Image source and license unverified; supplied original filename: DTM-A20LG-01.jpg. Review required before publication"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -740,7 +1098,7 @@
       "required_attribution": null,
       "image_match_status": "Person wearing fall-protection harness while another person inspects it; representative, not company equipment or employees; no extraction capability inferred from photograph",
       "local_image_path": "equipment-images/fall-protection-extraction-equipment.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/fall-protection-extraction-equipment.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Construction_worker_harness_(9253634989).jpg",
@@ -764,6 +1122,24 @@
         },
         "embedded_rights_metadata": "Artist and description are file metadata, not independent confirmation of photographer, copyright holder or license. No license statement found.",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment or employees"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/fall-protection-extraction-equipment.jpg",
+        "data-image-alt": "Worker wearing a safety harness while another person inspects it \u2014 representative equipment photograph",
+        "data-image-caption": "Representative fall-protection harness inspection; not Lawrence Brunoli, Inc.\u2019s actual equipment or employees.",
+        "data-image-credit-author": "Pietra Check (embedded Artist field; attribution unverified); copyright holder unverified",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Construction_worker_harness_(9253634989).jpg",
+        "data-image-license": "License unverified; attribution and reuse rights require review before publication"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -779,7 +1155,7 @@
       "required_attribution": null,
       "image_match_status": "Steel road plates and lifting equipment visible, consistent with supplied description; representative, not company equipment",
       "local_image_path": "equipment-images/road-plates.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/road-plates.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Lasthebemagnet_an_%C3%9Cberfahrplatte.jpg",
@@ -802,6 +1178,25 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "No embedded source, photographer or license metadata present",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/road-plates.jpg",
+        "data-image-alt": "Steel road plates with lifting equipment \u2014 representative equipment photograph",
+        "data-image-caption": "Representative steel road plates with lifting equipment; not Lawrence Brunoli, Inc.\u2019s actual equipment.",
+        "data-image-credit-author": "Schrauber5 (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Lasthebemagnet_an_%C3%9Cberfahrplatte.jpg",
+        "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -817,7 +1212,7 @@
       "required_attribution": null,
       "image_match_status": "Stacked concrete Jersey barriers visible, consistent with supplied description; representative, not company equipment",
       "local_image_path": "equipment-images/jersey-barriers.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/jersey-barriers.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Stacked_Jersey_Barriers_%26_Pigeon_(Washington,_DC)_(2891410941).jpg",
@@ -844,6 +1239,25 @@
         },
         "embedded_rights_metadata": "No embedded source, photographer or license metadata present",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/jersey-barriers.jpg",
+        "data-image-alt": "Stacked concrete Jersey barriers \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Jersey barriers; this photograph does not depict Lawrence Brunoli, Inc.\u2019s actual equipment.",
+        "data-image-credit-author": "takomabibelot (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Stacked_Jersey_Barriers_%26_Pigeon_(Washington,_DC)_(2891410941).jpg",
+        "data-image-license": "CC BY 2.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -859,7 +1273,7 @@
       "required_attribution": null,
       "image_match_status": "Ford and F-550 markings and utility service body visible; 2012 model year supplied by user, not independently established visually; Shaw branding visible; representative photograph, not the company truck",
       "local_image_path": "equipment-images/2012-ford-f550.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/2012-ford-f550.jpg",
       "supplied_candidate": {
@@ -892,6 +1306,25 @@
         "license_verification": "Unverified; supplied Commons source, Elise240SX attribution and CC BY-SA 4.0 claim not independently accessible. No blocked websites retried.",
         "ownership_verification": "User explicitly identifies photograph as representative and not Lawrence Brunoli\u2019s actual truck; Shaw branding visible",
         "model_year_verification": "2012 supplied by user and source claim; not independently verified"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/2012-ford-f550.jpg",
+        "data-image-alt": "2012 Ford F-550 utility service truck \u2014 representative equipment photograph",
+        "data-image-caption": "Representative 2012 Ford F-550 utility service truck; not Lawrence Brunoli, Inc.\u2019s actual truck.",
+        "data-image-credit-author": "Elise240SX (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:2012_Ford_F-550_Shaw_Service_Truck,_Front_Left,_03-22-2022.jpg",
+        "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -907,7 +1340,7 @@
       "required_attribution": null,
       "image_match_status": "Ford badge and F-150 fender marking visible; representative truck, not company vehicle; no year or variant inferred for inventory",
       "local_image_path": "equipment-images/ford-f150.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/ford-f150.jpg",
       "original_filename_as_supplied": "Ford_F-150_Riva.jpg",
@@ -930,6 +1363,23 @@
         "modifications_performed": [],
         "embedded_rights_metadata": "ICC color profile present; no embedded source, photographer or license metadata found",
         "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual truck"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/ford-f150.jpg",
+        "data-image-alt": "Ford F-150 pickup truck \u2014 representative equipment photograph",
+        "data-image-caption": "Representative Ford F-150; this photograph does not depict Lawrence Brunoli, Inc.\u2019s actual truck.",
+        "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+        "data-image-license": "Original source and license unverified; supplied filename: Ford_F-150_Riva.jpg. Commercial reuse permission requires review before merge or publication"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -947,7 +1397,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/gmc-canyon.jpg"
+      "assigned_image_path": "equipment-images/gmc-canyon.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/gmc-canyon.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     },
     {
       "equipment_name": "2013 Toyota Tacoma",
@@ -962,7 +1425,7 @@
       "required_attribution": null,
       "image_match_status": "Toyota Tacoma and V6 SR5 badges visible; 2013 model year supplied, not independently established; representative photograph, not the company truck",
       "local_image_path": "equipment-images/2013-toyota-tacoma.jpg",
-      "placeholder_retained": false,
+      "placeholder_retained": true,
       "model_verification_concern": null,
       "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
       "supplied_candidate": {
@@ -995,6 +1458,25 @@
         "license_verification": "Unverified; supplied Commons source, SsmIntrigue attribution and CC BY-SA 4.0 claim not independently accessible. No blocked websites retried.",
         "ownership_verification": "User explicitly identifies photograph as representative and not Lawrence Brunoli\u2019s actual truck",
         "model_year_verification": "2013 supplied by user and source claim; not independently verified"
+      },
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/2013-toyota-tacoma.jpg",
+        "data-image-alt": "2013 Toyota Tacoma V6 SR5 Double Cab Long Bed \u2014 representative equipment photograph",
+        "data-image-caption": "Representative 2013 Toyota Tacoma V6 SR5; not Lawrence Brunoli, Inc.\u2019s actual truck.",
+        "data-image-credit-author": "SsmIntrigue (supplied attribution; unverified)",
+        "data-image-source-url": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg",
+        "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+        "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "publication_status": "held_rights_unverified",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
       }
     },
     {
@@ -1012,7 +1494,20 @@
       "local_image_path": null,
       "placeholder_retained": true,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/gmc-sierra.jpg"
+      "assigned_image_path": "equipment-images/gmc-sierra.jpg",
+      "prepared_photo_metadata_before_cleanup": {
+        "data-image-src": "equipment-images/gmc-sierra.jpg"
+      },
+      "publication_status": "awaiting_photo_and_rights_review",
+      "rights_review": {
+        "status": "unverified",
+        "approved_for_public_display": false,
+        "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+        "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+        "verified_source_url": null,
+        "verified_author": null,
+        "verified_license": null
+      }
     }
   ],
   "first_batch_review": {
@@ -1022,5 +1517,12 @@
     "original_file_pages_unavailable": true,
     "additional_research_status": "not_attempted_after_Commons_host_denial",
     "credentials_or_model_changes": false
+  },
+  "publication_review": {
+    "installed_photographs": 18,
+    "independently_verified": 0,
+    "held_from_public_display": 18,
+    "publicly_displayed_photographs": 0,
+    "notes": "All uploaded files preserved unchanged. No claims derived from filename or embedded Artist fields count as independent license verification. Missing photo slots also require explicit approval."
   }
 }
