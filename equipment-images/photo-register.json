@@ -1,6 +1,6 @@
 {
-  "status": "fifteen_user_uploads_installed_rights_unverified",
-  "selected_photographs": 15,
+  "status": "sixteen_user_uploads_installed_rights_unverified",
+  "selected_photographs": 16,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -771,17 +771,38 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-24",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_review_required",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "Steel road plates and lifting equipment visible, consistent with supplied description; representative, not company equipment",
+      "local_image_path": "equipment-images/road-plates.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/road-plates.jpg"
+      "assigned_image_path": "equipment-images/road-plates.jpg",
+      "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Lasthebemagnet_an_%C3%9Cberfahrplatte.jpg",
+      "photographer_as_supplied": "Schrauber5",
+      "license_as_supplied": "CC BY-SA 4.0",
+      "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "photographer_verification": "Supplied attribution, independently unverified",
+      "copyright_holder_verification": "Unverified; not inferred from supplied photographer",
+      "license_verification": "Supplied CC BY-SA 4.0 claim, independently unverified; confirm Commons attribution and reuse terms before publication",
+      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "publication_review_required": true,
+      "uploaded_file_review": {
+        "original_archive": "road-plates.zip",
+        "dimensions": [
+          1545,
+          1413
+        ],
+        "bytes": 778993,
+        "sha256": "b96610bb8b8b2701d41bc59c7a5178c1558b9bc3fc41f016b57d4543b1a9ff60",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No embedded source, photographer or license metadata present",
+        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+      }
     },
     {
       "equipment_name": "Jersey Barriers",
