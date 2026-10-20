@@ -43,7 +43,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
 | ☑ | John Deere 310D Excavator/Loader | `john-deere-310d.jpg` |
-| ☐ | Hyster Roller | `hyster-roller.jpg` |
+| ☑ | Hyster Roller | `hyster-roller.jpg` |
 | ☐ | Wacker Roller | `wacker-roller.jpg` |
 | ☐ | Volvo SD77DX Vibratory Roller/Compactor | `volvo-sd77dx-vibratory-roller-compactor.jpg` |
 | ☐ | Plate Compactors | `plate-compactors.jpg` |
@@ -216,3 +216,7 @@ Card #07 uses `john-deere-550b.jpg` from the supplied ZIP, unchanged 960 × 554 
 ### John Deere 310D upload
 
 Card #10 uses `john-deere-310d.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 126,655 bytes. JOHN DEERE and 310D markings visible. Existing representative caption and hammer attachment description retained; photo shows a bucket, not the hammer. Company ownership and reuse rights are unverified. Existing display-request behavior preserved; no other equipment card changed.
+
+### Hyster Roller upload
+
+Card #11 uses `hyster-roller.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 94,740 bytes. HYSTER marking visible. Representative caption retained; company ownership and reuse rights are unverified. Visible Purple Wave Auction watermark retained unchanged; not treated as permission. Existing display behavior preserved. Other equipment cards unchanged in this update.
