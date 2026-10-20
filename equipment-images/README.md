@@ -39,7 +39,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-bulldozer.jpg` |
 | ☑ | Caterpillar D5G Bulldozer | `caterpillar-d5g.jpg` |
 | ☑ | Caterpillar D3 Bulldozer | `caterpillar-d3-bulldozer.jpg` |
-| ☐ | John Deere 550B Bulldozer | `john-deere-550b-bulldozer.jpg` |
+| ☑ | John Deere 550B Bulldozer | `john-deere-550b.jpg` |
 | ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
 | ☐ | John Deere 310D Excavator/Loader | `john-deere-310d-excavator-loader.jpg` |
@@ -208,3 +208,7 @@ Card #30 now displays `gmc-sierra.jpg` from `gmc-sierra.zip`, unchanged 960 × 5
 ### Caterpillar D5G correction and photo
 
 Card #05 corrected from D56 to **D5G** per explicit company instruction. Uses `caterpillar-d5g.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 107,357 bytes. Uses existing display-request behavior; no new photo gate. The obsolete model-verification link is removed and the related note reflects the company correction. Source and rights remain internally unverified. Other equipment cards and styling unchanged.
+
+### John Deere 550B upload
+
+Card #07 uses `john-deere-550b.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 110,976 bytes. JOHN DEERE and 550B markings visible. Existing representative caption retained; company ownership is not established. Source/reuse rights are unverified. Existing display-request behavior preserved, no new gate. No other equipment card changed in this update.
