@@ -33,7 +33,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 
 | Uploaded | Equipment entry | Exact filename inside equipment-images |
 | --- | --- | --- |
-| ☐ | Volvo 312B Excavator | `volvo-312b-excavator.jpg` |
+| ☑ | Volvo 312B Excavator | `volvo-312b.jpg` |
 | ☑ | Caterpillar 321 Excavator | `cat-321-excavator.jpg` |
 | ☑ | John Deere 35D Mini Excavator | `john-deere-35d-mini-excavator.jpg` |
 | ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-original.jpg` |
@@ -248,3 +248,7 @@ Eleven card photos replaced exactly according to `company-photo-mapping.csv`. Fi
 ### AI-generated Toyota Tacoma replacement
 
 Card #29 uses `toyota-tacoma-lbi.png` from the user-supplied ZIP, unchanged 1448 × 1086 PNG. It is explicitly disclosed in caption and alt text as AI-generated and representative, not a verified photograph of the company truck. Generated livery/location are not evidence of actual company facts. Previous Tacoma assets and records are retained; old photograph credits do not apply. No license or ownership claim invented. Existing contain fitting preserves proportions without stretching. All other cards and display behavior unchanged.
+
+### PR #41: Volvo 312B photograph
+
+Card #01 uses `volvo-312b.jpg`, the supplied 350 × 300 JPEG, unchanged. The existing aspect-ratio-preserving contain fitting and explicit display-request flag are retained. Equipment title and descriptions are unchanged. VOLVO branding is visible; exact model, ownership and reuse rights remain independently unverified. All newer company-original photographs and the AI-generated Tacoma image on main are preserved.

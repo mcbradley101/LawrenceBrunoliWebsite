@@ -34,21 +34,21 @@
       "category": "EXCAVATORS",
       "inventory_id": "equipment-01",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "awaiting_approved_upload",
+      "research_status": "uploaded_representative_photo_rights_unverified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "not_verified",
-      "local_image_path": null,
-      "placeholder_retained": true,
+      "image_match_status": "VOLVO branding visible on excavator; exact 312B model and company ownership not independently verified; inventory title preserved by instruction",
+      "local_image_path": "equipment-images/volvo-312b.jpg",
+      "placeholder_retained": false,
       "model_verification_concern": "Brand/model pairing is unverified. Do not substitute Caterpillar or choose an image until the owner confirms the machine identification against a reliable source.",
-      "assigned_image_path": "equipment-images/volvo-312b-excavator.jpg",
+      "assigned_image_path": "equipment-images/volvo-312b.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/volvo-312b-excavator.jpg"
       },
-      "publication_status": "awaiting_photo_and_rights_review",
+      "publication_status": "display_requested_by_user_rights_unverified",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -57,6 +57,18 @@
         "verified_source_url": null,
         "verified_author": null,
         "verified_license": null
+      },
+      "display_authorization": "Explicit request to display this upload on Volvo 312B card; preserve aspect ratio and existing display fix",
+      "uploaded_file_review": {
+        "original_archive": "volvo-312b.zip",
+        "dimensions": [
+          350,
+          300
+        ],
+        "bytes": 48873,
+        "sha256": "0af83d295bac06445aa3ff1a6d00a7984a26f8d6e9c03deb1d5cd00ba89ac634",
+        "modifications_performed": [],
+        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; rights remain unverified"
       }
     },
     {
