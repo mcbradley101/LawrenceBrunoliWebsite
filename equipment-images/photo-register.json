@@ -30,7 +30,7 @@
   ],
   "entries": [
     {
-      "equipment_name": "Volvo 312B Excavator",
+      "equipment_name": "Caterpillar 312B Excavator",
       "category": "EXCAVATORS",
       "inventory_id": "equipment-01",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
@@ -40,10 +40,10 @@
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "Owner confirms pictured machine is Lawrence Brunoli, Inc.\u2019s Volvo 312B Excavator.",
+      "image_match_status": "Owner identifies company machine as Caterpillar 312B Excavator with Volvo hammer attachment; existing supplied image preserved unchanged.",
       "local_image_path": "equipment-images/volvo-312b.jpg",
       "placeholder_retained": false,
-      "model_verification_concern": "Brand/model pairing is unverified. Do not substitute Caterpillar or choose an image until the owner confirms the machine identification against a reliable source.",
+      "model_verification_concern": null,
       "assigned_image_path": "equipment-images/volvo-312b.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/volvo-312b-excavator.jpg"
@@ -73,14 +73,22 @@
       },
       "equipment_ownership": {
         "status": "company_owned_confirmed_by_owner",
-        "confirmation_basis": "Explicit owner confirmation in user request",
-        "description_as_provided": "Lawrence Brunoli, Inc.'s Volvo 312B Excavator, part of our company-owned equipment fleet and available for excavation, earthmoving, and site preparation operations.",
+        "confirmation_basis": "Owner confirms company ownership and corrects manufacturer to Caterpillar; Volvo identifies hammer attachment.",
+        "description_as_provided": "Lawrence Brunoli, Inc.'s Caterpillar 312B Excavator, part of our company-owned equipment fleet and available for excavation, earthmoving, and site preparation operations.",
         "scope": "Confirms ownership of the pictured machine and supplied description; does not establish photograph copyright or reuse license"
       },
-      "photo_caption": "Lawrence Brunoli, Inc.'s Volvo 312B Excavator, part of our company-owned equipment fleet and available for excavation, earthmoving, and site preparation operations.",
-      "photo_alt_text": "Lawrence Brunoli, Inc.'s Volvo 312B Excavator, part of our company-owned equipment fleet and available for excavation, earthmoving, and site preparation operations.",
+      "photo_caption": "Lawrence Brunoli, Inc.'s Caterpillar 312B Excavator, part of our company-owned equipment fleet and available for excavation, earthmoving, and site preparation operations.",
+      "photo_alt_text": "Lawrence Brunoli, Inc.'s Caterpillar 312B Excavator, part of our company-owned equipment fleet and available for excavation, earthmoving, and site preparation operations.",
       "copyright_holder_verification": "Photograph copyright holder remains independently unverified; machine ownership does not establish photograph copyright ownership",
-      "license_verification": "Photograph license/reuse rights remain independently unverified; owner confirmation concerns the equipment only"
+      "license_verification": "Photograph license/reuse rights remain independently unverified; owner confirmation concerns the equipment only",
+      "manufacturer": "Caterpillar",
+      "attachment": "Volvo hammer attachment",
+      "manufacturer_correction": {
+        "previous_name": "Volvo 312B Excavator",
+        "corrected_name": "Caterpillar 312B Excavator",
+        "basis": "Explicit owner correction; Volvo refers to the hammer attachment",
+        "image_filename_preserved": "equipment-images/volvo-312b.jpg"
+      }
     },
     {
       "equipment_name": "Caterpillar 321 Excavator",

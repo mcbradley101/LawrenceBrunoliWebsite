@@ -33,7 +33,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 
 | Uploaded | Equipment entry | Exact filename inside equipment-images |
 | --- | --- | --- |
-| ☑ | Volvo 312B Excavator | `volvo-312b.jpg` |
+| ☑ | Caterpillar 312B Excavator | `volvo-312b.jpg` |
 | ☑ | Caterpillar 321 Excavator | `cat-321-excavator.jpg` |
 | ☑ | John Deere 35D Mini Excavator | `john-deere-35d-mini-excavator.jpg` |
 | ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-original.jpg` |
@@ -252,3 +252,7 @@ Card #29 uses `toyota-tacoma-lbi.png` from the user-supplied ZIP, unchanged 1448
 ### PR #41: Volvo 312B photograph
 
 Card #01 uses `volvo-312b.jpg`, the supplied 350 × 300 JPEG, unchanged. The existing aspect-ratio-preserving contain fitting and explicit display-request flag are retained. Equipment title and descriptions are unchanged. VOLVO branding is visible; exact model, ownership and reuse rights remain independently unverified. All newer company-original photographs and the AI-generated Tacoma image on main are preserved.
+
+### Caterpillar 312B manufacturer correction
+
+Owner corrected the first card to **Caterpillar 312B Excavator**, manufacturer Caterpillar, with **Volvo hammer attachment**. Company-owned equipment description and alt text corrected accordingly. Existing `volvo-312b.jpg` file is intentionally unchanged and not renamed. The obsolete Volvo/D5G public notices and brand-verification link were removed. Historical source/licensing uncertainty remains separate internally and is not a verified rights claim.
