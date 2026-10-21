@@ -61,7 +61,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | 2012 Ford F550 | `2012-ford-f550.jpg` |
 | ☑ | Ford F150 | `ford-f150.jpg` |
 | ☑ | GMC Canyon | `gmc-canyon-original.jpg` |
-| ☑ | 2013 Toyota Tacoma | `toyota-tacoma-2013.jpg` |
+| ☑ | 2013 Toyota Tacoma | `toyota-tacoma-lbi.png` |
 | ☑ | GMC Sierra | `gmc-sierra.jpg` |
 
 ## Photo permissions and accurate labeling
@@ -244,3 +244,7 @@ Card #16 uses `caterpillar-th83.jpg` from the supplied ZIP, unchanged 960 × 554
 ### Original company equipment photo batch
 
 Eleven card photos replaced exactly according to `company-photo-mapping.csv`. Files are unchanged 350 × 300 JPEGs; all keep original aspect ratio with existing contain fitting. User identifies these as original company website photographs. No photographer, copyright ownership or license is inferred. Old stock attribution records are historical and do not apply to these replacements. Source model discrepancies (312 vs 321; D3G vs D3; TH560B vs TH56; 624H vs 624) are recorded internally; inventory titles are unchanged. No excluded card or photo is modified.
+
+### AI-generated Toyota Tacoma replacement
+
+Card #29 uses `toyota-tacoma-lbi.png` from the user-supplied ZIP, unchanged 1448 × 1086 PNG. It is explicitly disclosed in caption and alt text as AI-generated and representative, not a verified photograph of the company truck. Generated livery/location are not evidence of actual company facts. Previous Tacoma assets and records are retained; old photograph credits do not apply. No license or ownership claim invented. Existing contain fitting preserves proportions without stretching. All other cards and display behavior unchanged.
