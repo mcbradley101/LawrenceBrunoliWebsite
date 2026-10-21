@@ -46,7 +46,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Hyster Roller | `hyster-roller.jpg` |
 | ☑ | Wacker Roller | `wacker-roller.jpg` |
 | ☑ | Volvo SD77DX Vibratory Roller/Compactor | `volvo-sd77dx.jpg` |
-| ☐ | Plate Compactors | `plate-compactors.jpg` |
+| ☑ | Plate Compactors | `plate-compactors.jpg` |
 | ☐ | Caterpillar TH56 Telehandler | `caterpillar-th56-telehandler.jpg` |
 | ☐ | Caterpillar TH83 Telehandler | `caterpillar-th83-telehandler.jpg` |
 | ☑ | JCB 530 Telehandler | `jcb-530-telehandler.jpg` |
@@ -228,3 +228,7 @@ Card #12 uses `wacker-roller.jpg` from the supplied ZIP, unchanged 960 × 554 JP
 ### Volvo SD77DX upload
 
 Card #13 uses `volvo-sd77dx.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 40,822 bytes. Small machine photograph and white canvas retained as supplied. Representative caption retained; company ownership, exact variant and source/reuse rights are not independently verified. Historical SD77 candidate attribution does not apply to this upload. Existing display behavior preserved; other equipment cards unchanged.
+
+### Plate Compactors upload
+
+Card #14 uses `plate-compactors.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 153,271 bytes. Existing representative caption retained; company ownership and source/reuse rights remain unverified. Existing display behavior preserved; no other equipment card changed.
