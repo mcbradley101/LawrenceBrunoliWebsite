@@ -34,25 +34,25 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | Uploaded | Equipment entry | Exact filename inside equipment-images |
 | --- | --- | --- |
 | ☑ | Volvo 312B Excavator | `volvo-312b.jpg` |
-| ☑ | Caterpillar 321 Excavator | `caterpillar-321-excavator.jpg` |
+| ☑ | Caterpillar 321 Excavator | `cat-321-excavator.jpg` |
 | ☑ | John Deere 35D Mini Excavator | `john-deere-35d-mini-excavator.jpg` |
-| ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-bulldozer.jpg` |
+| ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-original.jpg` |
 | ☑ | Caterpillar D5G Bulldozer | `caterpillar-d5g.jpg` |
-| ☑ | Caterpillar D3 Bulldozer | `caterpillar-d3-bulldozer.jpg` |
+| ☑ | Caterpillar D3 Bulldozer | `caterpillar-d3-original.jpg` |
 | ☑ | John Deere 550B Bulldozer | `john-deere-550b.jpg` |
 | ☑ | Skat Trak Skid Steer | `skat-trak-skid-steer.jpg` |
 | ☑ | John Deere 624 Loader | `john-deere-624-loader.jpg` |
-| ☑ | John Deere 310D Excavator/Loader | `john-deere-310d.jpg` |
+| ☑ | John Deere 310D Excavator/Loader | `john-deere-310d-loader.jpg` |
 | ☑ | Hyster Roller | `hyster-roller.jpg` |
 | ☑ | Wacker Roller | `wacker-roller.jpg` |
 | ☑ | Volvo SD77DX Vibratory Roller/Compactor | `volvo-sd77dx.jpg` |
 | ☑ | Plate Compactors | `plate-compactors.jpg` |
-| ☑ | Caterpillar TH56 Telehandler | `caterpillar-th56.jpg` |
-| ☑ | Caterpillar TH83 Telehandler | `caterpillar-th83.jpg` |
+| ☑ | Caterpillar TH56 Telehandler | `caterpillar-th56-original.jpg` |
+| ☑ | Caterpillar TH83 Telehandler | `caterpillar-th83-original.jpg` |
 | ☑ | JCB 530 Telehandler | `jcb-530-telehandler.jpg` |
 | ☑ | JCB 525 Telehandler | `jcb-525-telehandler.jpg` |
 | ☑ | Hydraulic Saws | `hydraulic-saws.jpg` |
-| ☑ | Scissor Lifts | `scissor-lifts.jpg` |
+| ☑ | Scissor Lifts | `genie-scissor-lifts.jpg` |
 | ☑ | Demo Saws & Road Saw | `demo-saws-road-saw.jpg` |
 | ☑ | Surveying Equipment | `surveying-equipment.jpg` |
 | ☑ | Fall Protection/Extraction Equipment | `fall-protection-extraction-equipment.jpg` |
@@ -60,8 +60,8 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 | ☑ | Jersey Barriers | `jersey-barriers.jpg` |
 | ☑ | 2012 Ford F550 | `2012-ford-f550.jpg` |
 | ☑ | Ford F150 | `ford-f150.jpg` |
-| ☑ | GMC Canyon | `gmc-canyon.jpg` |
-| ☑ | 2013 Toyota Tacoma | `toyota-tacoma-2013.jpg` |
+| ☑ | GMC Canyon | `gmc-canyon-original.jpg` |
+| ☑ | 2013 Toyota Tacoma | `toyota-tacoma-lbi.png` |
 | ☑ | GMC Sierra | `gmc-sierra.jpg` |
 
 ## Photo permissions and accurate labeling
@@ -241,6 +241,14 @@ Card #15 uses `caterpillar-th56.jpg` from the supplied ZIP, unchanged 960 × 554
 
 Card #16 uses `caterpillar-th83.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 129,053 bytes. CAT and TH83 markings visible. Representative caption retained; company ownership and source/reuse rights unverified. Existing display behavior preserved; no other card changed.
 
-### Volvo 312B upload
+### Original company equipment photo batch
 
-Card #01 uses `volvo-312b.jpg` from the supplied ZIP, unchanged 350 × 300 JPEG, 48,873 bytes. VOLVO branding visible; exact model, company ownership and rights unverified. Inventory title and description preserved. Existing object-fit: contain displays the whole image with its original aspect ratio. Existing display fix preserved; other equipment cards unchanged. Unassigned Caterpillar image remains separate.
+Eleven card photos replaced exactly according to `company-photo-mapping.csv`. Files are unchanged 350 × 300 JPEGs; all keep original aspect ratio with existing contain fitting. User identifies these as original company website photographs. No photographer, copyright ownership or license is inferred. Old stock attribution records are historical and do not apply to these replacements. Source model discrepancies (312 vs 321; D3G vs D3; TH560B vs TH56; 624H vs 624) are recorded internally; inventory titles are unchanged. No excluded card or photo is modified.
+
+### AI-generated Toyota Tacoma replacement
+
+Card #29 uses `toyota-tacoma-lbi.png` from the user-supplied ZIP, unchanged 1448 × 1086 PNG. It is explicitly disclosed in caption and alt text as AI-generated and representative, not a verified photograph of the company truck. Generated livery/location are not evidence of actual company facts. Previous Tacoma assets and records are retained; old photograph credits do not apply. No license or ownership claim invented. Existing contain fitting preserves proportions without stretching. All other cards and display behavior unchanged.
+
+### PR #41: Volvo 312B photograph
+
+Card #01 uses `volvo-312b.jpg`, the supplied 350 × 300 JPEG, unchanged. The existing aspect-ratio-preserving contain fitting and explicit display-request flag are retained. Equipment title and descriptions are unchanged. VOLVO branding is visible; exact model, ownership and reuse rights remain independently unverified. All newer company-original photographs and the AI-generated Tacoma image on main are preserved.

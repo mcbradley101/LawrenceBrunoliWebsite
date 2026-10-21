@@ -1,6 +1,6 @@
 {
-  "status": "thirty_active_photos_display_requested_rights_unverified",
-  "selected_photographs": 30,
+  "status": "twenty_nine_active_photos_display_requested_rights_unverified",
+  "selected_photographs": 29,
   "network_observations": [
     {
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=search&srsearch=Caterpillar%20D5H&srnamespace=6",
@@ -76,17 +76,17 @@
       "category": "EXCAVATORS",
       "inventory_id": "equipment-02",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_model_visually_verified_rights_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "CAT and 321D LCR markings visible; representative variant, not company machine; inventory name and hammer attachment description unchanged; bucket pictured",
-      "local_image_path": "equipment-images/caterpillar-321-excavator.jpg",
+      "image_match_status": "Mapping source filename says Caterpillar 312, while card title says 321; assigned exactly as user CSV instructs, model needs confirmation.",
+      "local_image_path": "equipment-images/cat-321-excavator.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
+      "assigned_image_path": "equipment-images/cat-321-excavator.jpg",
       "supplied_candidate": {
         "equipment_name": "Caterpillar 321 Excavator",
         "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
@@ -105,17 +105,17 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "caterpillar-321-excavator.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/cat-321-excavator.jpg",
+        "original_filename_as_supplied": "CAT Caterpillar 312 Excavator -IMG_6998.jpg",
+        "mapping_card_title": "Cat 321 Excavator",
         "dimensions": [
-          1920,
-          1446
+          350,
+          300
         ],
-        "bytes": 1083863,
-        "sha256": "70499094175f3639b967091ff42c386a06ca2c18a06cb5ed68db759775e87af3",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded photographer, source or license statement present",
-        "license_verification": "Supplied Grendelkhan attribution, Commons source URL and CC BY-SA 4.0 claim remain independently unverified. No blocked websites retried.",
-        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+        "bytes": 137594,
+        "sha256": "95480360642ee701c9d9a94ca099f17ba8a9053d73e2a97c7934ce2bc7a092fd",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/caterpillar-321-excavator.jpg",
@@ -126,7 +126,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -136,20 +136,94 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "Caterpillar 321 Excavator",
+          "category": "EXCAVATORS",
+          "inventory_id": "equipment-02",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_model_visually_verified_rights_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "CAT and 321D LCR markings visible; representative variant, not company machine; inventory name and hammer attachment description unchanged; bucket pictured",
+          "local_image_path": "equipment-images/caterpillar-321-excavator.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
+          "supplied_candidate": {
+            "equipment_name": "Caterpillar 321 Excavator",
+            "assigned_image_path": "equipment-images/caterpillar-321-excavator.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Caterpillar_321D_LCR_on_dirt_lot_in_Campbell.jpg",
+            "author_as_supplied": "Grendelkhan",
+            "license_as_supplied": "CC BY-SA 4.0",
+            "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "identified_model_as_supplied": "Caterpillar 321D LCR",
+            "proposed_match_classification": "representative_variant_candidate",
+            "proposed_caption": "Representative Caterpillar 321D LCR; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Caterpillar 321 without a confirmed variant.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "caterpillar-321-excavator.zip",
+            "dimensions": [
+              1920,
+              1446
+            ],
+            "bytes": 1083863,
+            "sha256": "70499094175f3639b967091ff42c386a06ca2c18a06cb5ed68db759775e87af3",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded photographer, source or license statement present",
+            "license_verification": "Supplied Grendelkhan attribution, Commons source URL and CC BY-SA 4.0 claim remain independently unverified. No blocked websites retried.",
+            "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/caterpillar-321-excavator.jpg",
+            "data-image-alt": "Caterpillar 321D LCR \u2014 representative equipment photograph",
+            "data-image-caption": "Representative Caterpillar 321D LCR; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Caterpillar 321 without a confirmed variant.",
+            "data-image-credit-author": "Grendelkhan (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Caterpillar_321D_LCR_on_dirt_lot_in_Campbell.jpg",
+            "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "John Deere 35D Mini Excavator",
       "category": "EXCAVATORS",
       "inventory_id": "equipment-03",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_model_visually_verified_license_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "DEERE branding and 35D model marking visible; bucket shown, hammer not pictured; company ownership not established",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
       "local_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
@@ -172,17 +246,17 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "john-deere-35d-mini-excavator (1).zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/john-deere-35d-mini-excavator.jpg",
+        "original_filename_as_supplied": "John Deer 35D-IMG_2657.jpg",
+        "mapping_card_title": "JD 35D Mini Excavator",
         "dimensions": [
-          2048,
-          1536
+          350,
+          300
         ],
-        "bytes": 477100,
-        "sha256": "7198cd940a8c8c3873cfaf78704e7e13134c4d00d2678a262ce284d30cf16364",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No EXIF authorship or license metadata present",
-        "license_verification": "Unverified; supplied Commons source and CC0 claim not independently accessible. No blocked websites retried.",
-        "ownership_verification": "Not established by photograph"
+        "bytes": 105610,
+        "sha256": "ffb20563f473ed101be35c1dc2fafffbc4b0e664a5315b21516827483aff2552",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/john-deere-35d-mini-excavator.jpg",
@@ -193,7 +267,7 @@
         "data-image-license": "CC0 1.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -203,24 +277,98 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "John Deere 35D Mini Excavator",
+          "category": "EXCAVATORS",
+          "inventory_id": "equipment-03",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_model_visually_verified_license_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "DEERE branding and 35D model marking visible; bucket shown, hammer not pictured; company ownership not established",
+          "local_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
+          "supplied_candidate": {
+            "equipment_name": "John Deere 35D Mini Excavator",
+            "assigned_image_path": "equipment-images/john-deere-35d-mini-excavator.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:John_Deere_35D_Compact_Excavator.jpg",
+            "author_as_supplied": "WindBorneListener",
+            "license_as_supplied": "CC0 1.0",
+            "license_url_as_supplied": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "identified_model_as_supplied": "John Deere 35D",
+            "proposed_match_classification": "identified_model_candidate",
+            "proposed_caption": "Representative John Deere 35D; the photographed unit is not identified as company-owned.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "HTTP 403 on first batch URL",
+            "modifications_performed": [],
+            "share_alike_note": null,
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "john-deere-35d-mini-excavator (1).zip",
+            "dimensions": [
+              2048,
+              1536
+            ],
+            "bytes": 477100,
+            "sha256": "7198cd940a8c8c3873cfaf78704e7e13134c4d00d2678a262ce284d30cf16364",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No EXIF authorship or license metadata present",
+            "license_verification": "Unverified; supplied Commons source and CC0 claim not independently accessible. No blocked websites retried.",
+            "ownership_verification": "Not established by photograph"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/john-deere-35d-mini-excavator.jpg",
+            "data-image-alt": "John Deere 35D \u2014 representative equipment photograph",
+            "data-image-caption": "Representative John Deere 35D; the photographed unit is not identified as company-owned.",
+            "data-image-credit-author": "WindBorneListener (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:John_Deere_35D_Compact_Excavator.jpg",
+            "data-image-license": "CC0 1.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/publicdomain/zero/1.0/"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "Caterpillar D5H Bulldozer",
       "category": "BULLDOZERS & SKID STEERS",
       "inventory_id": "equipment-04",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_model_visually_verified_license_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "CATERPILLAR/CAT branding and D5H LGP marking visible; representative LGP variant, company configuration and ownership not established",
-      "local_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
+      "local_image_path": "equipment-images/caterpillar-d5h-original.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+      "assigned_image_path": "equipment-images/caterpillar-d5h-original.jpg",
       "supplied_candidate": {
         "equipment_name": "Caterpillar D5H Bulldozer",
         "assigned_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
@@ -239,17 +387,17 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "caterpillar-d5h-bulldozer.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/caterpillar-d5h-original.jpg",
+        "original_filename_as_supplied": "Caterpillar D5H Dozer-IMG_7000.jpg",
+        "mapping_card_title": "Caterpillar D5H Bulldozer",
         "dimensions": [
-          1920,
-          1284
+          350,
+          300
         ],
-        "bytes": 733370,
-        "sha256": "e9088c44550c47cff740c938ff186cc83e5aff8c8ed343b0a7ffbc178479b4ef",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded authorship or license metadata present",
-        "license_verification": "Unverified; supplied Commons source, photographer and CC BY 2.0 claim not independently accessible. No blocked websites retried.",
-        "ownership_verification": "Not established by photograph"
+        "bytes": 160639,
+        "sha256": "4ca02b1419f9e9d1fff32778124effe0d89c95a9e603221459cf5809f033fb4b",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/caterpillar-d5h-bulldozer.jpg",
@@ -260,7 +408,7 @@
         "data-image-license": "CC BY 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by/2.0/"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -270,7 +418,81 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "Caterpillar D5H Bulldozer",
+          "category": "BULLDOZERS & SKID STEERS",
+          "inventory_id": "equipment-04",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_model_visually_verified_license_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "CATERPILLAR/CAT branding and D5H LGP marking visible; representative LGP variant, company configuration and ownership not established",
+          "local_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+          "supplied_candidate": {
+            "equipment_name": "Caterpillar D5H Bulldozer",
+            "assigned_image_path": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Caterpillar_Cat_D5H_LGP.jpg",
+            "author_as_supplied": "Joost J. Bakker",
+            "license_as_supplied": "CC BY 2.0",
+            "license_url_as_supplied": "https://creativecommons.org/licenses/by/2.0/",
+            "identified_model_as_supplied": "Caterpillar D5H LGP",
+            "proposed_match_classification": "representative_variant_candidate",
+            "proposed_caption": "Representative Caterpillar D5H LGP; the LGP configuration is not confirmed for the company machine.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": null,
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "caterpillar-d5h-bulldozer.zip",
+            "dimensions": [
+              1920,
+              1284
+            ],
+            "bytes": 733370,
+            "sha256": "e9088c44550c47cff740c938ff186cc83e5aff8c8ed343b0a7ffbc178479b4ef",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded authorship or license metadata present",
+            "license_verification": "Unverified; supplied Commons source, photographer and CC BY 2.0 claim not independently accessible. No blocked websites retried.",
+            "ownership_verification": "Not established by photograph"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/caterpillar-d5h-bulldozer.jpg",
+            "data-image-alt": "Caterpillar D5H LGP \u2014 representative equipment photograph",
+            "data-image-caption": "Representative Caterpillar D5H LGP; the LGP configuration is not confirmed for the company machine.",
+            "data-image-credit-author": "Joost J. Bakker (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Caterpillar_Cat_D5H_LGP.jpg",
+            "data-image-license": "CC BY 2.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/licenses/by/2.0/"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "Caterpillar D5G Bulldozer",
@@ -324,17 +546,17 @@
       "category": "BULLDOZERS & SKID STEERS",
       "inventory_id": "equipment-06",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_representative_photo_rights_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "Worn D3B marking consistent with supplied identification; representative D3B, not company machine; inventory remains Caterpillar D3 Bulldozer",
-      "local_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
+      "image_match_status": "Source filename and visible marking show D3G; card title D3 retained.",
+      "local_image_path": "equipment-images/caterpillar-d3-original.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
+      "assigned_image_path": "equipment-images/caterpillar-d3-original.jpg",
       "supplied_candidate": {
         "equipment_name": "Caterpillar D3 Bulldozer",
         "assigned_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
@@ -353,21 +575,17 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "caterpillar-d3-bulldozer.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/caterpillar-d3-original.jpg",
+        "original_filename_as_supplied": "Caterpillar D3G Dozer-IMG_7001.jpg",
+        "mapping_card_title": "Caterpillar D3 Bulldozer",
         "dimensions": [
-          1920,
-          1192
+          350,
+          300
         ],
-        "bytes": 856668,
-        "sha256": "d72f06a69d4bed4f340f275b86785a308f98bf7f27be97d47e35b7e989c6a8db",
-        "modifications_performed": [],
-        "embedded_metadata": {
-          "EXIF Artist": "Picasa",
-          "YCbCrPositioning": 1
-        },
-        "embedded_rights_metadata": "EXIF Artist is Picasa; this does not verify Bob Adams authorship. No embedded source or license statement found.",
-        "license_verification": "Supplied Bob Adams attribution, Commons source URL and CC BY-SA 2.0 claim remain independently unverified. No blocked websites retried.",
-        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+        "bytes": 125749,
+        "sha256": "798b2d413ad8877fe86e6d6a9be235e19fc0f0e25e88a2e54d0a2e6a02e58e19",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/caterpillar-d3-bulldozer.jpg",
@@ -378,7 +596,7 @@
         "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -388,7 +606,85 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "Caterpillar D3 Bulldozer",
+          "category": "BULLDOZERS & SKID STEERS",
+          "inventory_id": "equipment-06",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_rights_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "Worn D3B marking consistent with supplied identification; representative D3B, not company machine; inventory remains Caterpillar D3 Bulldozer",
+          "local_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
+          "supplied_candidate": {
+            "equipment_name": "Caterpillar D3 Bulldozer",
+            "assigned_image_path": "equipment-images/caterpillar-d3-bulldozer.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Caterpillar_D3B_Crawler_Tractor_(15790160976).jpg",
+            "author_as_supplied": "Bob Adams",
+            "license_as_supplied": "CC BY-SA 2.0",
+            "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "identified_model_as_supplied": "Caterpillar D3B",
+            "proposed_match_classification": "representative_variant_candidate",
+            "proposed_caption": "Representative Caterpillar D3B; not Lawrence Brunoli, Inc.\u2019s actual machine. The company inventory lists D3 without the B designation.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "caterpillar-d3-bulldozer.zip",
+            "dimensions": [
+              1920,
+              1192
+            ],
+            "bytes": 856668,
+            "sha256": "d72f06a69d4bed4f340f275b86785a308f98bf7f27be97d47e35b7e989c6a8db",
+            "modifications_performed": [],
+            "embedded_metadata": {
+              "EXIF Artist": "Picasa",
+              "YCbCrPositioning": 1
+            },
+            "embedded_rights_metadata": "EXIF Artist is Picasa; this does not verify Bob Adams authorship. No embedded source or license statement found.",
+            "license_verification": "Supplied Bob Adams attribution, Commons source URL and CC BY-SA 2.0 claim remain independently unverified. No blocked websites retried.",
+            "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/caterpillar-d3-bulldozer.jpg",
+            "data-image-alt": "Caterpillar D3B \u2014 representative equipment photograph",
+            "data-image-caption": "Representative Caterpillar D3B; not Lawrence Brunoli, Inc.\u2019s actual machine. The company inventory lists D3 without the B designation.",
+            "data-image-credit-author": "Bob Adams (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Caterpillar_D3B_Crawler_Tractor_(15790160976).jpg",
+            "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "John Deere 550B Bulldozer",
@@ -437,13 +733,13 @@
       "category": "BULLDOZERS & SKID STEERS",
       "inventory_id": "equipment-08",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "uploaded_model_visually_verified_rights_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "SCAT TRAK and 1300D markings visible; representative photograph, not company machine; inventory spelling and attachment descriptions unchanged",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
       "local_image_path": "equipment-images/skat-trak-skid-steer.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
@@ -466,18 +762,17 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "skat-trak-skid-steer.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/skat-trak-skid-steer.jpg",
+        "original_filename_as_supplied": "Skat Trak-IMG_0185.jpg",
+        "mapping_card_title": "Skat Trak Skid Steer",
         "dimensions": [
-          1920,
-          1440
+          350,
+          300
         ],
-        "bytes": 552257,
-        "sha256": "ef9975b665550959834a408b6f21c00ea6e7bf300f2a5eb35f2b0070672a958c",
-        "modifications_performed": [],
-        "embedded_source_comment": "File source: http://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
-        "embedded_rights_metadata": "No embedded photographer or rights statement; source comment alone does not verify provenance or permission",
-        "license_verification": "Supplied U.S. Army photograph by SFC Orbe attribution and U.S. public-domain claim remain independently unverified. No blocked websites retried.",
-        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+        "bytes": 100246,
+        "sha256": "203e447f8e36cc15b67f9ebda5ec58c8e459adef68fed42b438567d1d3bfde1e",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/skat-trak-skid-steer.jpg",
@@ -487,7 +782,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
         "data-image-license": "Public domain in the United States (supplied status; unverified)"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -497,20 +792,94 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "Skat Trak Skid Steer",
+          "category": "BULLDOZERS & SKID STEERS",
+          "inventory_id": "equipment-08",
+          "required_match": "representative equipment type; preserve supplied manufacturer where specified",
+          "research_status": "uploaded_model_visually_verified_rights_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "SCAT TRAK and 1300D markings visible; representative photograph, not company machine; inventory spelling and attachment descriptions unchanged",
+          "local_image_path": "equipment-images/skat-trak-skid-steer.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/skat-trak-skid-steer.jpg",
+          "supplied_candidate": {
+            "equipment_name": "Skat Trak Skid Steer",
+            "assigned_image_path": "equipment-images/skat-trak-skid-steer.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
+            "author_as_supplied": "U.S. Army photograph by SFC Orbe",
+            "license_as_supplied": "Public domain in the United States",
+            "license_url_as_supplied": null,
+            "identified_model_as_supplied": "Scat Trak 1300D",
+            "proposed_match_classification": "representative_model_candidate",
+            "proposed_caption": "Representative Scat Trak 1300D; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Skat Trak without a confirmed model.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": null,
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "skat-trak-skid-steer.zip",
+            "dimensions": [
+              1920,
+              1440
+            ],
+            "bytes": 552257,
+            "sha256": "ef9975b665550959834a408b6f21c00ea6e7bf300f2a5eb35f2b0070672a958c",
+            "modifications_performed": [],
+            "embedded_source_comment": "File source: http://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
+            "embedded_rights_metadata": "No embedded photographer or rights statement; source comment alone does not verify provenance or permission",
+            "license_verification": "Supplied U.S. Army photograph by SFC Orbe attribution and U.S. public-domain claim remain independently unverified. No blocked websites retried.",
+            "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual machine"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/skat-trak-skid-steer.jpg",
+            "data-image-alt": "Scat Trak 1300D \u2014 representative equipment photograph",
+            "data-image-caption": "Representative Scat Trak 1300D; not Lawrence Brunoli, Inc.\u2019s actual machine. The inventory lists Skat Trak without a confirmed model.",
+            "data-image-credit-author": "U.S. Army photograph by SFC Orbe (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Scat_Trak_1300D.JPEG",
+            "data-image-license": "Public domain in the United States (supplied status; unverified)"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "John Deere 624 Loader",
       "category": "LOADERS",
       "inventory_id": "equipment-09",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_model_visually_verified_license_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "DEERE branding and 624J marking visible; representative 624J variant, inventory remains John Deere 624 Loader; company exact variant and ownership not established",
+      "image_match_status": "Source filename says 624H; inventory title 624 retained.",
       "local_image_path": "equipment-images/john-deere-624-loader.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
@@ -534,17 +903,17 @@
         "model_review": "624J confirmed from visible marking; original supplied model text retained as historical source claim"
       },
       "uploaded_file_review": {
-        "original_archive": "john-deere-624-loader.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/john-deere-624-loader.jpg",
+        "original_filename_as_supplied": "John Deer 624H-IMG_0558.jpg",
+        "mapping_card_title": "John Deere 624 Loader",
         "dimensions": [
-          1703,
-          1062
+          350,
+          300
         ],
-        "bytes": 329666,
-        "sha256": "e18699ce662c4a594a67ed8ba0704de5c554e9576524dd165341cca50fe05175",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded authorship or license metadata present",
-        "license_verification": "Unverified; supplied Commons source, Greg Goebel attribution and CC BY-SA 2.0 claim not independently accessible. No blocked websites retried.",
-        "ownership_verification": "Not established by photograph"
+        "bytes": 106611,
+        "sha256": "aaa158b67b72a6d1f70c6dc46f2fac129c715474baf175db024fba1ca4c61e47",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/john-deere-624-loader.jpg",
@@ -555,7 +924,7 @@
         "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -565,28 +934,103 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "John Deere 624 Loader",
+          "category": "LOADERS",
+          "inventory_id": "equipment-09",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_model_visually_verified_license_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "DEERE branding and 624J marking visible; representative 624J variant, inventory remains John Deere 624 Loader; company exact variant and ownership not established",
+          "local_image_path": "equipment-images/john-deere-624-loader.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/john-deere-624-loader.jpg",
+          "supplied_candidate": {
+            "equipment_name": "John Deere 624 Loader",
+            "assigned_image_path": "equipment-images/john-deere-624-loader.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:John_Deere_624.jpg",
+            "author_as_supplied": "Greg Goebel",
+            "license_as_supplied": "CC BY-SA 2.0",
+            "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "identified_model_as_supplied": "John Deere 624 front-end loader",
+            "proposed_match_classification": "representative_variant_candidate",
+            "proposed_caption": "Representative John Deere 624J; the exact model variant and ownership of the company machine are not confirmed by this photograph.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
+            "manual_upload_hold": false,
+            "model_review": "624J confirmed from visible marking; original supplied model text retained as historical source claim"
+          },
+          "uploaded_file_review": {
+            "original_archive": "john-deere-624-loader.zip",
+            "dimensions": [
+              1703,
+              1062
+            ],
+            "bytes": 329666,
+            "sha256": "e18699ce662c4a594a67ed8ba0704de5c554e9576524dd165341cca50fe05175",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded authorship or license metadata present",
+            "license_verification": "Unverified; supplied Commons source, Greg Goebel attribution and CC BY-SA 2.0 claim not independently accessible. No blocked websites retried.",
+            "ownership_verification": "Not established by photograph"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/john-deere-624-loader.jpg",
+            "data-image-alt": "John Deere 624J front-end loader \u2014 representative equipment photograph",
+            "data-image-caption": "Representative John Deere 624J; the exact model variant and ownership of the company machine are not confirmed by this photograph.",
+            "data-image-credit-author": "Greg Goebel (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:John_Deere_624.jpg",
+            "data-image-license": "CC BY-SA 2.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/licenses/by-sa/2.0/"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "John Deere 310D Excavator/Loader",
       "category": "LOADERS",
       "inventory_id": "equipment-10",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_representative_photo_rights_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "JOHN DEERE and 310D markings visible; company ownership not established; bucket shown, hammer not pictured",
-      "local_image_path": "equipment-images/john-deere-310d.jpg",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
+      "local_image_path": "equipment-images/john-deere-310d-loader.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/john-deere-310d.jpg",
+      "assigned_image_path": "equipment-images/john-deere-310d-loader.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/john-deere-310d-excavator-loader.jpg"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -596,18 +1040,69 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit request to display representative photo preserving existing display fix",
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
       "uploaded_file_review": {
-        "original_archive": "john-deere-310d.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/john-deere-310d-loader.jpg",
+        "original_filename_as_supplied": "John Deere 310D Backhoe -IMG_6995.jpg",
+        "mapping_card_title": "John Deere 310D Excavator/Loader",
         "dimensions": [
-          960,
-          554
+          350,
+          300
         ],
-        "bytes": 126655,
-        "sha256": "12c847e2848cd03b32aec0b28860fbd6d05627232f77c665ca9353a8ca12496a",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; no permissions invented"
-      }
+        "bytes": 154474,
+        "sha256": "c80d3b2dd5ceb9e010cfec041043214743cae9555ba2c13a47e988e7f36895da",
+        "modifications_performed": []
+      },
+      "previous_photo_records": [
+        {
+          "equipment_name": "John Deere 310D Excavator/Loader",
+          "category": "LOADERS",
+          "inventory_id": "equipment-10",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_rights_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "JOHN DEERE and 310D markings visible; company ownership not established; bucket shown, hammer not pictured",
+          "local_image_path": "equipment-images/john-deere-310d.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/john-deere-310d.jpg",
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/john-deere-310d-excavator-loader.jpg"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit request to display representative photo preserving existing display fix",
+          "uploaded_file_review": {
+            "original_archive": "john-deere-310d.zip",
+            "dimensions": [
+              960,
+              554
+            ],
+            "bytes": 126655,
+            "sha256": "12c847e2848cd03b32aec0b28860fbd6d05627232f77c665ca9353a8ca12496a",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded source, photographer or license metadata found; no permissions invented"
+          }
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "Hyster Roller",
@@ -808,21 +1303,21 @@
       "category": "TELEHANDLERS",
       "inventory_id": "equipment-15",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_representative_photo_rights_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "CAT and TH560B markings visible; representative variant, not exact inventory model confirmation or verified company machine; title remains TH56",
-      "local_image_path": "equipment-images/caterpillar-th56.jpg",
+      "image_match_status": "Source filename says TH560B; inventory title TH56 retained.",
+      "local_image_path": "equipment-images/caterpillar-th56-original.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-th56.jpg",
+      "assigned_image_path": "equipment-images/caterpillar-th56-original.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/caterpillar-th56-telehandler.jpg"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -832,39 +1327,90 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit request to display representative photo preserving existing display fix",
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
       "uploaded_file_review": {
-        "original_archive": "caterpillar-th56.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/caterpillar-th56-original.jpg",
+        "original_filename_as_supplied": "CAT TH560B-IMG_0559.jpg",
+        "mapping_card_title": "Caterpillar TH56 Telehandler",
         "dimensions": [
-          960,
-          554
+          350,
+          300
         ],
-        "bytes": 123469,
-        "sha256": "82833b9f6b422ed25863521d6eede3b9cc4a16d5ce8709b8892f46eb80ab309f",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; rights remain unverified"
-      }
+        "bytes": 102299,
+        "sha256": "c1354d0d15b0316bd9eadcaaf83c79776cac18ebb7d7a7fba0a5d1b9d93683f4",
+        "modifications_performed": []
+      },
+      "previous_photo_records": [
+        {
+          "equipment_name": "Caterpillar TH56 Telehandler",
+          "category": "TELEHANDLERS",
+          "inventory_id": "equipment-15",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_rights_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "CAT and TH560B markings visible; representative variant, not exact inventory model confirmation or verified company machine; title remains TH56",
+          "local_image_path": "equipment-images/caterpillar-th56.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/caterpillar-th56.jpg",
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/caterpillar-th56-telehandler.jpg"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit request to display representative photo preserving existing display fix",
+          "uploaded_file_review": {
+            "original_archive": "caterpillar-th56.zip",
+            "dimensions": [
+              960,
+              554
+            ],
+            "bytes": 123469,
+            "sha256": "82833b9f6b422ed25863521d6eede3b9cc4a16d5ce8709b8892f46eb80ab309f",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded source, photographer or license metadata found; rights remain unverified"
+          }
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "Caterpillar TH83 Telehandler",
       "category": "TELEHANDLERS",
       "inventory_id": "equipment-16",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_representative_photo_rights_unverified",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "CAT and TH83 markings visible; company ownership not established",
-      "local_image_path": "equipment-images/caterpillar-th83.jpg",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
+      "local_image_path": "equipment-images/caterpillar-th83-original.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/caterpillar-th83.jpg",
+      "assigned_image_path": "equipment-images/caterpillar-th83-original.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/caterpillar-th83-telehandler.jpg"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -874,18 +1420,69 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit request to display representative photo preserving existing display fix",
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
       "uploaded_file_review": {
-        "original_archive": "caterpillar-th83.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/caterpillar-th83-original.jpg",
+        "original_filename_as_supplied": "CAT TH83-IMG_0050.jpg",
+        "mapping_card_title": "Caterpillar TH83 Telehandler",
         "dimensions": [
-          960,
-          554
+          350,
+          300
         ],
-        "bytes": 129053,
-        "sha256": "85f66766d03b17cf488c6ba46bb2c4040e2dc9511dbc98f461a4013e4e4602e5",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; rights remain unverified"
-      }
+        "bytes": 134636,
+        "sha256": "2e3cc311ec1612eb3ccbd2a6c1aeacbf6b3452d2bd46bfa55fc1573e7d4194d0",
+        "modifications_performed": []
+      },
+      "previous_photo_records": [
+        {
+          "equipment_name": "Caterpillar TH83 Telehandler",
+          "category": "TELEHANDLERS",
+          "inventory_id": "equipment-16",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_rights_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "CAT and TH83 markings visible; company ownership not established",
+          "local_image_path": "equipment-images/caterpillar-th83.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/caterpillar-th83.jpg",
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/caterpillar-th83-telehandler.jpg"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit request to display representative photo preserving existing display fix",
+          "uploaded_file_review": {
+            "original_archive": "caterpillar-th83.zip",
+            "dimensions": [
+              960,
+              554
+            ],
+            "bytes": 129053,
+            "sha256": "85f66766d03b17cf488c6ba46bb2c4040e2dc9511dbc98f461a4013e4e4602e5",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded source, photographer or license metadata found; rights remain unverified"
+          }
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "JCB 530 Telehandler",
@@ -1066,34 +1663,35 @@
       "category": "MISCELLANEOUS EQUIPMENT",
       "inventory_id": "equipment-20",
       "required_match": "representative equipment type; preserve supplied manufacturer where specified",
-      "research_status": "uploaded_model_visually_verified_rights_review_required",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "Hy-Brid Lifts and PS-1930 labels visible; representative scissor lift with elevated worker, not company equipment; inventory remains Scissor Lifts",
-      "local_image_path": "equipment-images/scissor-lifts.jpg",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
+      "local_image_path": "equipment-images/genie-scissor-lifts.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/scissor-lifts.jpg",
+      "assigned_image_path": "equipment-images/genie-scissor-lifts.jpg",
       "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
-      "photographer_verification": "Unknown; unverified",
-      "copyright_holder_verification": "Unknown; unverified",
-      "license_verification": "Unknown; requires attribution and licensing verification from Wikimedia Commons before publication",
-      "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
       "publication_review_required": true,
       "uploaded_file_review": {
-        "original_archive": "scissor-lifts.zip",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/genie-scissor-lifts.jpg",
+        "original_filename_as_supplied": "GS 2646 Scissor lift-IMG_4351.jpg",
+        "mapping_card_title": "Scissor Lifts",
         "dimensions": [
-          1500,
-          1000
+          350,
+          300
         ],
-        "bytes": 455050,
-        "sha256": "585434e981e962efcefae2db3b0165e4f6f26b4c6b8fbf3e2448b41070c19acc",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No photograph source, authorship or license metadata found; Google Inc. 2016 text is inside the sRGB color profile and does not establish photograph rights",
-        "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+        "bytes": 134190,
+        "sha256": "f0aa290576a2571d321f12cff67886ec9f429ad18be21867362181841740fe27",
+        "modifications_performed": []
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/scissor-lifts.jpg",
@@ -1103,7 +1701,7 @@
         "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
         "data-image-license": "License unverified; attribution and reuse rights require review before publication"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1113,7 +1711,64 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "Scissor Lifts",
+          "category": "MISCELLANEOUS EQUIPMENT",
+          "inventory_id": "equipment-20",
+          "required_match": "representative equipment type; preserve supplied manufacturer where specified",
+          "research_status": "uploaded_model_visually_verified_rights_review_required",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "Hy-Brid Lifts and PS-1930 labels visible; representative scissor lift with elevated worker, not company equipment; inventory remains Scissor Lifts",
+          "local_image_path": "equipment-images/scissor-lifts.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/scissor-lifts.jpg",
+          "supplied_source_url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
+          "photographer_verification": "Unknown; unverified",
+          "copyright_holder_verification": "Unknown; unverified",
+          "license_verification": "Unknown; requires attribution and licensing verification from Wikimedia Commons before publication",
+          "source_verification": "User-supplied Commons URL, not independently matched to uploaded file; access previously blocked, not retried per user instruction",
+          "publication_review_required": true,
+          "uploaded_file_review": {
+            "original_archive": "scissor-lifts.zip",
+            "dimensions": [
+              1500,
+              1000
+            ],
+            "bytes": 455050,
+            "sha256": "585434e981e962efcefae2db3b0165e4f6f26b4c6b8fbf3e2448b41070c19acc",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No photograph source, authorship or license metadata found; Google Inc. 2016 text is inside the sRGB color profile and does not establish photograph rights",
+            "ownership_verification": "User explicitly identifies as representative, not Lawrence Brunoli\u2019s actual equipment"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/scissor-lifts.jpg",
+            "data-image-alt": "Hy-Brid Lifts PS-1930 scissor lift with an elevated worker \u2014 representative equipment photograph",
+            "data-image-caption": "Representative Hy-Brid Lifts PS-1930 scissor lift; not Lawrence Brunoli, Inc.\u2019s actual equipment.",
+            "data-image-credit-author": "Photographer unverified; copyright holder unverified",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:Hy-Brid_Lifts_PS-1930_scissor_lift_with_worker_working_while_elevated.jpg",
+            "data-image-license": "License unverified; attribution and reuse rights require review before publication"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "company_supplied": true
     },
     {
       "equipment_name": "Demo Saws & Road Saw",
@@ -1531,21 +2186,21 @@
       "category": "TRUCKS",
       "inventory_id": "equipment-28",
       "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
-      "research_status": "uploaded_representative_photo_rights_review_required",
+      "research_status": "company_supplied_original_source_claim_not_independently_verified",
       "selected_photo_source_url": null,
       "original_image_url": null,
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "GMC badge and Canyon pickup appearance consistent with requested card; no model year or company ownership inferred",
-      "local_image_path": "equipment-images/gmc-canyon.jpg",
+      "image_match_status": "Assigned per user-provided photo-mapping.csv; original company website provenance supplied by user.",
+      "local_image_path": "equipment-images/gmc-canyon-original.jpg",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/gmc-canyon.jpg",
+      "assigned_image_path": "equipment-images/gmc-canyon-original.jpg",
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/gmc-canyon.jpg"
       },
-      "publication_status": "display_requested_by_user_rights_unverified",
+      "publication_status": "company_supplied_photo_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1556,19 +2211,70 @@
         "verified_license": null
       },
       "uploaded_file_review": {
-        "original_archive": "gmc-canyon.zip",
-        "archive_member": "gmc-canyon.jpg",
+        "original_archive": "lbi-original-equipment-photos.zip",
+        "archive_member": "equipment-originals/gmc-canyon-original.jpg",
+        "original_filename_as_supplied": "GMC canyon-IMG_0131.jpg",
+        "mapping_card_title": "GMC Canyon (2)",
         "dimensions": [
-          960,
-          554
+          350,
+          300
         ],
-        "bytes": 172761,
-        "sha256": "756d94bec6d057ca63fe977c2485d89bc182bad8b5d71a891dc93f2f444fa9fd",
-        "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded source, photographer or license metadata found",
-        "license_verification": "Source, author and reuse permission not supplied or verified; preserve existing hold until confirmed"
+        "bytes": 118578,
+        "sha256": "96b8fef0b6edf254d06f8eb343839b7f14c1d741cfc4884da63e41a6392a397d",
+        "modifications_performed": []
       },
-      "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+      "display_authorization": "Explicit assignment to replace stock photo using company-supplied original and preserve display fix",
+      "previous_photo_records": [
+        {
+          "equipment_name": "GMC Canyon",
+          "category": "TRUCKS",
+          "inventory_id": "equipment-28",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_rights_review_required",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "GMC badge and Canyon pickup appearance consistent with requested card; no model year or company ownership inferred",
+          "local_image_path": "equipment-images/gmc-canyon.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/gmc-canyon.jpg",
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/gmc-canyon.jpg"
+          },
+          "publication_status": "display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "uploaded_file_review": {
+            "original_archive": "gmc-canyon.zip",
+            "archive_member": "gmc-canyon.jpg",
+            "dimensions": [
+              960,
+              554
+            ],
+            "bytes": 172761,
+            "sha256": "756d94bec6d057ca63fe977c2485d89bc182bad8b5d71a891dc93f2f444fa9fd",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded source, photographer or license metadata found",
+            "license_verification": "Source, author and reuse permission not supplied or verified; preserve existing hold until confirmed"
+          },
+          "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights."
+        }
+      ],
+      "photographer_verification": "Not supplied or independently verified for this company upload",
+      "copyright_holder_verification": "Not independently verified; user supplied as original company website photograph",
+      "license_verification": "No public license or copyright permission asserted; company-supplied status is not independent rights verification",
+      "source_verification": "User-provided original company website photograph via ZIP; exact original URL not supplied",
+      "company_supplied": true
     },
     {
       "equipment_name": "2013 Toyota Tacoma",
@@ -1581,11 +2287,11 @@
       "license_or_permission": null,
       "license_url": null,
       "required_attribution": null,
-      "image_match_status": "Toyota badge and Tacoma marking visible; model year supplied, not independently verified; no trim inferred",
-      "local_image_path": "equipment-images/toyota-tacoma-2013.jpg",
+      "image_match_status": "Generated Toyota Tacoma illustration; not evidence of real company vehicle, livery, location or model year",
+      "local_image_path": "equipment-images/toyota-tacoma-lbi.png",
       "placeholder_retained": false,
       "model_verification_concern": null,
-      "assigned_image_path": "equipment-images/toyota-tacoma-2013.jpg",
+      "assigned_image_path": "equipment-images/toyota-tacoma-lbi.png",
       "supplied_candidate": {
         "equipment_name": "2013 Toyota Tacoma",
         "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
@@ -1604,16 +2310,16 @@
         "manual_upload_hold": false
       },
       "uploaded_file_review": {
-        "original_archive": "toyota-tacoma-2013.zip",
-        "archive_member": "toyota-tacoma-2013.jpg",
+        "original_archive": "lbi-toyota-tacoma-photo.zip",
+        "archive_member": "toyota-tacoma-lbi.png",
         "dimensions": [
-          960,
-          554
+          1448,
+          1086
         ],
-        "bytes": 122038,
-        "sha256": "995e2dd562dd9411111ef760a05c74dfa796a9a9e5175ff1fb0829f410da81b0",
+        "bytes": 3219493,
+        "sha256": "983e8d308e8a01019e79039cb6790a8d7cf7d111502ab094b97d6cd3e79dab88",
         "modifications_performed": [],
-        "embedded_rights_metadata": "No embedded source, photographer or license metadata found; previous photo attribution does not apply to this replacement"
+        "ai_generated_as_supplied": true
       },
       "prepared_photo_metadata_before_cleanup": {
         "data-image-src": "equipment-images/2013-toyota-tacoma.jpg",
@@ -1624,7 +2330,7 @@
         "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
         "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
       },
-      "publication_status": "replacement_display_requested_by_user_rights_unverified",
+      "publication_status": "ai_representative_display_requested",
       "rights_review": {
         "status": "unverified",
         "approved_for_public_display": false,
@@ -1634,7 +2340,7 @@
         "verified_author": null,
         "verified_license": null
       },
-      "display_authorization": "User explicitly requested replacement while preserving working display fix; rights remain unverified",
+      "display_authorization": "Explicit user request to display AI-generated representative image with disclosure and preserve display fix",
       "previous_photo_records": [
         {
           "equipment_name": "2013 Toyota Tacoma",
@@ -1704,11 +2410,81 @@
           },
           "display_authorization": "Explicit urgent request to restore all completed equipment pictures; does not verify original source or reuse rights.",
           "previous_photo_records": []
+        },
+        {
+          "equipment_name": "2013 Toyota Tacoma",
+          "category": "TRUCKS",
+          "inventory_id": "equipment-29",
+          "required_match": "exact listed manufacturer/model and supplied year; confirm unspecified suffixes rather than substituting a different model",
+          "research_status": "uploaded_representative_photo_license_unverified",
+          "selected_photo_source_url": null,
+          "original_image_url": null,
+          "license_or_permission": null,
+          "license_url": null,
+          "required_attribution": null,
+          "image_match_status": "Toyota badge and Tacoma marking visible; model year supplied, not independently verified; no trim inferred",
+          "local_image_path": "equipment-images/toyota-tacoma-2013.jpg",
+          "placeholder_retained": false,
+          "model_verification_concern": null,
+          "assigned_image_path": "equipment-images/toyota-tacoma-2013.jpg",
+          "supplied_candidate": {
+            "equipment_name": "2013 Toyota Tacoma",
+            "assigned_image_path": "equipment-images/2013-toyota-tacoma.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg",
+            "author_as_supplied": "SsmIntrigue",
+            "license_as_supplied": "CC BY-SA 4.0",
+            "license_url_as_supplied": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "identified_model_as_supplied": "2013 Toyota Tacoma V6 SR5 Double Cab Long Bed",
+            "proposed_match_classification": "identified_model_year_configuration_unconfirmed",
+            "proposed_caption": "Representative 2013 Toyota Tacoma V6 SR5; not Lawrence Brunoli, Inc.\u2019s actual truck.",
+            "verification_status": "not_verified_network_blocked",
+            "download_status": "user_uploaded_jpeg_installed_without_modification",
+            "source_page_request": "Not retried after Commons host denial",
+            "modifications_performed": [],
+            "share_alike_note": "If a modified photo is distributed, retain the applicable BY-SA license and required credit/change notices.",
+            "manual_upload_hold": false
+          },
+          "uploaded_file_review": {
+            "original_archive": "toyota-tacoma-2013.zip",
+            "archive_member": "toyota-tacoma-2013.jpg",
+            "dimensions": [
+              960,
+              554
+            ],
+            "bytes": 122038,
+            "sha256": "995e2dd562dd9411111ef760a05c74dfa796a9a9e5175ff1fb0829f410da81b0",
+            "modifications_performed": [],
+            "embedded_rights_metadata": "No embedded source, photographer or license metadata found; previous photo attribution does not apply to this replacement"
+          },
+          "prepared_photo_metadata_before_cleanup": {
+            "data-image-src": "equipment-images/2013-toyota-tacoma.jpg",
+            "data-image-alt": "2013 Toyota Tacoma V6 SR5 Double Cab Long Bed \u2014 representative equipment photograph",
+            "data-image-caption": "Representative 2013 Toyota Tacoma V6 SR5; not Lawrence Brunoli, Inc.\u2019s actual truck.",
+            "data-image-credit-author": "SsmIntrigue (supplied attribution; unverified)",
+            "data-image-source-url": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Tacoma_V6_SR5_Double_Cab_Long_Bed,_Rear_Right,_04-11-2020.jpg",
+            "data-image-license": "CC BY-SA 4.0 (supplied license; unverified)",
+            "data-image-license-url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "publication_status": "replacement_display_requested_by_user_rights_unverified",
+          "rights_review": {
+            "status": "unverified",
+            "approved_for_public_display": false,
+            "source_access": "Original source verification blocked: CONNECT tunnel failed, response 403 at environment proxy; one Commons check, no repeated requests",
+            "required_evidence": "Exact original file page, matching photo, author/rightsholder, license and version or explicit commercial reuse permission, required attribution and modification notices",
+            "verified_source_url": null,
+            "verified_author": null,
+            "verified_license": null
+          },
+          "display_authorization": "User explicitly requested replacement while preserving working display fix; rights remain unverified",
+          "photographer_verification": "Unknown for replacement; previous attribution not transferred",
+          "source_verification": "Replacement source not supplied; earlier Commons URL describes previous photo only",
+          "license_verification": "Unknown for replacement; earlier license claim not transferred"
         }
       ],
-      "photographer_verification": "Unknown for replacement; previous attribution not transferred",
-      "source_verification": "Replacement source not supplied; earlier Commons URL describes previous photo only",
-      "license_verification": "Unknown for replacement; earlier license claim not transferred"
+      "photographer_verification": "Not applicable as a photographic credit; no human photographer asserted",
+      "source_verification": "User-supplied AI-generated PNG; previous photograph source/credits do not apply",
+      "license_verification": "No license, copyright ownership or generation-provider terms supplied or inferred",
+      "image_type": "AI-generated representative image, user-supplied"
     },
     {
       "equipment_name": "GMC Sierra",
@@ -1762,10 +2538,22 @@
     "credentials_or_model_changes": false
   },
   "publication_review": {
-    "installed_photographs": 30,
+    "installed_photographs": 29,
     "independently_verified": 0,
     "held_from_public_display": 0,
-    "publicly_displayed_photographs": 30,
-    "notes": "Thirty active card photos plus inactive prior Tacoma asset; no missing-photo placeholders. Display authorization does not verify rights."
+    "publicly_displayed_photographs": 29,
+    "notes": "Twenty-nine active card photos plus inactive prior Tacoma asset; one missing-photo placeholder remains. Display authorization does not verify rights."
+  },
+  "company_originals_batch": {
+    "count": 11,
+    "mapping": "equipment-images/company-photo-mapping.csv",
+    "source_claim": "Original company website, as supplied by user",
+    "rights_note": "No copyright, photographer identity or license invented",
+    "model_review_notes": {
+      "Cat 321 Excavator": "Mapping source filename says Caterpillar 312, while card title says 321; assigned exactly as user CSV instructs, model needs confirmation.",
+      "Caterpillar D3 Bulldozer": "Source filename and visible marking show D3G; card title D3 retained.",
+      "Caterpillar TH56 Telehandler": "Source filename says TH560B; inventory title TH56 retained.",
+      "John Deere 624 Loader": "Source filename says 624H; inventory title 624 retained."
+    }
   }
 }
