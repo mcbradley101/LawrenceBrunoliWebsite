@@ -1,0 +1,25 @@
+/* Project history only; featured cards and shared site styles stay unchanged. */
+.project-archive { padding: 80px 8% 100px; background: var(--cream); }
+.project-archive-heading { max-width: 850px; margin-bottom: 36px; }
+.project-archive-heading > p { color: #555; font-size: 16px; line-height: 1.8; }
+.project-record-list { display: grid; gap: 16px; }
+.project-record { background: white; border: 1px solid #d4b26d66; border-radius: 7px; overflow: hidden; scroll-margin-top: 280px; }
+.project-record summary { position: relative; padding: 26px 64px 26px 28px; cursor: pointer; list-style: none; }
+.project-record summary::-webkit-details-marker { display: none; }
+.project-record summary::after { content: "+"; position: absolute; top: 26px; right: 28px; color: var(--green); font: 28px Georgia, serif; }
+.project-record[open] summary::after { content: "−"; }
+.project-record summary:hover { background: #f7f6f1; }
+.project-record summary:focus-visible { outline: 3px solid var(--gold); outline-offset: -4px; }
+.project-record h3 { display: inline; color: var(--green); font: 400 clamp(21px, 2.2vw, 28px)/1.35 Georgia, "Times New Roman", serif; }
+.project-record-location { display: block; margin-top: 9px; color: #555; font-size: 14px; line-height: 1.6; }
+.project-record-prompt { display: block; margin-top: 12px; color: #735623; font-size: 12px; letter-spacing: .5px; }
+.project-record-body { padding: 0 28px 28px; color: #444; font-size: 16px; line-height: 1.85; overflow-wrap: anywhere; }
+.project-record-body p, .project-record-body ul { margin: 0 0 20px; }
+.project-record-body ul { padding-left: 22px; }
+.project-record-facts { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 28px; margin-top: 24px; border-top: 1px solid #d4b26d66; }
+.project-record-facts > div { padding: 14px 0; border-bottom: 1px solid #d4b26d44; }
+.project-record-facts dt { color: var(--green); font-weight: 700; font-size: 13px; }
+.project-record-facts dd { margin: 3px 0 0; font-size: 14px; }
+.project-record-body a { color: var(--green); text-underline-offset: 3px; }
+.project-record-body a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+@media (max-width: 600px) { .project-archive { padding: 60px 6%; } .project-record summary { padding: 22px 48px 22px 20px; } .project-record summary::after { right: 18px; top: 20px; } .project-record-body { padding: 0 20px 22px; } .project-record-facts { grid-template-columns: 1fr; } }
