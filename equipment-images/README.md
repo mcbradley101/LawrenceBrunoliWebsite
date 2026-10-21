@@ -33,7 +33,7 @@ Put these files directly in **`equipment-images/`**, not in another nested folde
 
 | Uploaded | Equipment entry | Exact filename inside equipment-images |
 | --- | --- | --- |
-| ☐ | Volvo 312B Excavator | `volvo-312b-excavator.jpg` |
+| ☑ | Volvo 312B Excavator | `volvo-312b.jpg` |
 | ☑ | Caterpillar 321 Excavator | `caterpillar-321-excavator.jpg` |
 | ☑ | John Deere 35D Mini Excavator | `john-deere-35d-mini-excavator.jpg` |
 | ☑ | Caterpillar D5H Bulldozer | `caterpillar-d5h-bulldozer.jpg` |
@@ -240,3 +240,7 @@ Card #15 uses `caterpillar-th56.jpg` from the supplied ZIP, unchanged 960 × 554
 ### Caterpillar TH83 upload
 
 Card #16 uses `caterpillar-th83.jpg` from the supplied ZIP, unchanged 960 × 554 JPEG, 129,053 bytes. CAT and TH83 markings visible. Representative caption retained; company ownership and source/reuse rights unverified. Existing display behavior preserved; no other card changed.
+
+### Volvo 312B upload
+
+Card #01 uses `volvo-312b.jpg` from the supplied ZIP, unchanged 350 × 300 JPEG, 48,873 bytes. VOLVO branding visible; exact model, company ownership and rights unverified. Inventory title and description preserved. Existing object-fit: contain displays the whole image with its original aspect ratio. Existing display fix preserved; other equipment cards unchanged. Unassigned Caterpillar image remains separate.
