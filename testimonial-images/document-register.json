@@ -1,0 +1,62 @@
+{
+  "022": {
+    "testimonial_id": "testimonial-15",
+    "heading": "Norman S. Baier, AIA",
+    "source_archive": "022.zip",
+    "image": "testimonial-images/022.jpg",
+    "sha256": "996c1d8dbf74697f1f9793cc2ae6c70d971276f250feeab7b82a334cc46c1498",
+    "mapping_basis": "Explicit user assignment, preserved independently of numbering",
+    "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
+    "notes": "Historical source; no current employment/status claims."
+  },
+  "023": {
+    "testimonial_id": "testimonial-08",
+    "heading": "Associated Architects \u2014 Farmington, CT",
+    "source_archive": "023.zip",
+    "image": "testimonial-images/023.jpg",
+    "sha256": "16eccfeb7a0c4a1cdc8b8aece79d11836ec83a0106492cb31c114073e2cc62f3",
+    "mapping_basis": "Explicit user assignment, preserved independently of numbering",
+    "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
+    "notes": "Historical source; no current employment/status claims."
+  },
+  "024": {
+    "testimonial_id": "testimonial-02",
+    "heading": "DEPARTMENT OF PUBLIC WORKS \u2014 STATE OF CONNECTICUT",
+    "source_archive": "024.zip",
+    "image": "testimonial-images/024.jpg",
+    "sha256": "4a75acba1bf279ed072a22b1ca58ae790705928a2fa34f160029fad4a8c29c40",
+    "mapping_basis": "Explicit user assignment, preserved independently of numbering",
+    "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
+    "notes": "Historical source; no current employment/status claims."
+  },
+  "025": {
+    "testimonial_id": "testimonial-10",
+    "heading": "Russell Gibson Dolhen \u2014 Middletown, CT",
+    "source_archive": "025.zip",
+    "image": "testimonial-images/025.jpg",
+    "sha256": "5eb4396b2ce2c7a7049bb6f0a22566bda52095ada78fd821be6e779f3df5058d",
+    "mapping_basis": "Explicit user assignment, preserved independently of numbering",
+    "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
+    "notes": "Historical source; no current employment/status claims."
+  },
+  "027": {
+    "testimonial_id": "testimonial-11",
+    "heading": "Noyes-Vogt Architects \u2014 Guilford, CT",
+    "source_archive": "027.zip",
+    "image": "testimonial-images/027.jpg",
+    "sha256": "9a4b4d8bcb0d44d99e0886f141e388fb9127b82605fab5bf00dfead6842cffc8",
+    "mapping_basis": "Explicit user assignment, preserved independently of numbering",
+    "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
+    "notes": "Historical source; no current employment/status claims."
+  },
+  "028": {
+    "testimonial_id": "testimonial-16",
+    "heading": "Department of Administrative Services \u2014 State of Connecticut",
+    "source_archive": "028.zip",
+    "image": "testimonial-images/028.jpg",
+    "sha256": "e83afc4ddc197cb51cd3680bee31b16cbb95a5939059962d82bb9ae78833d446",
+    "mapping_basis": "Explicit user assignment, preserved independently of numbering",
+    "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
+    "notes": "One long scan, kept as one entry. Handwriting, selected scoring marks and some comments partly illegible."
+  }
+}
