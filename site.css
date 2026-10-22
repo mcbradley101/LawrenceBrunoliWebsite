@@ -1043,6 +1043,13 @@ h1,h2,h3,p,a { overflow-wrap: break-word; }
     .js .site-navigation .menu-toggle { display: none; }
     html:not(.js) .nav-testimonials:is(:hover, :focus-within) .testimonials-submenu { display: block; }
 }
+/* Leave room for the logo, wider system-serif metrics and the 4% hover
+   enlargement before switching to the existing mobile navigation. */
+@media (min-width: 1241px) and (max-width: 1919px) {
+    .site-navigation { gap: 16px; padding-inline: 1.5%; }
+    .site-navigation .nav-links { gap: clamp(8px, .6vw, 10px); }
+    .site-navigation .nav-links > li > a { padding-inline: clamp(4px, .4vw, 8px); }
+}
 @media (max-width: 1240px) {
     .site-navigation .nav-testimonials { flex-wrap: wrap; }
     .site-navigation .nav-testimonials > a { padding-right: 62px; }
