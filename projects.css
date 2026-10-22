@@ -109,3 +109,96 @@
  .project-lightbox-controls button { padding: 10px; font-size: 12px; }
 }
 @media (max-width: 380px) { .project-record-facts { grid-template-columns: 1fr; } }
+
+/* Only the 22 reviewed projects: fill the existing photo panel instead of
+   displaying small source files at their intrinsic pixel size. The grid/copy
+   still determines card height. Containment preserves the complete structure. */
+:is(#project-record-01, #project-record-03, #project-record-08,
+    #project-record-10, #project-record-11, #project-record-16,
+    #project-record-18, #project-record-21,
+    #project-record-22, #project-record-25, #project-record-26,
+    #project-record-27, #project-record-28, #project-record-29,
+    #project-record-30, #project-record-31, #project-record-32,
+    #project-record-34, #project-record-35, #project-record-36,
+    #project-record-37, #project-record-38) .project-visual {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+:is(#project-record-01, #project-record-03, #project-record-08,
+    #project-record-10, #project-record-11, #project-record-16,
+    #project-record-18, #project-record-21,
+    #project-record-22, #project-record-25, #project-record-26,
+    #project-record-27, #project-record-28, #project-record-29,
+    #project-record-30, #project-record-31, #project-record-32,
+    #project-record-34, #project-record-35, #project-record-36,
+    #project-record-37, #project-record-38) .project-photo-link {
+    flex: 1;
+}
+:is(#project-record-01, #project-record-03, #project-record-08,
+    #project-record-10, #project-record-11, #project-record-16,
+    #project-record-18, #project-record-21,
+    #project-record-22, #project-record-25, #project-record-26,
+    #project-record-27, #project-record-28, #project-record-29,
+    #project-record-30, #project-record-31, #project-record-32,
+    #project-record-34, #project-record-35, #project-record-36,
+    #project-record-37, #project-record-38) .project-photo {
+    position: absolute;
+    inset: 0 0 auto;
+    width: 100%;
+    height: calc(100% - 32px);
+    max-height: none;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Preserve each original panel's intrinsic minimum while the actual photo
+   fills its available space. This prevents taller photographs or thumbnails
+   from changing card heights or moving the already-approved projects. */
+:is(#project-record-01, #project-record-03, #project-record-08,
+    #project-record-10, #project-record-11, #project-record-16,
+    #project-record-18, #project-record-21,
+    #project-record-22, #project-record-25, #project-record-26,
+    #project-record-27, #project-record-28, #project-record-29,
+    #project-record-30, #project-record-31, #project-record-32,
+    #project-record-34, #project-record-35, #project-record-36,
+    #project-record-37, #project-record-38) .project-photo-link::before {
+    content: "";
+    display: block;
+    width: var(--project-source-width);
+    max-width: 100%;
+    aspect-ratio: var(--project-source-ratio);
+    max-height: 390px;
+}
+#project-record-01 { --project-source-width: 256px; --project-source-ratio: 256 / 192; }
+#project-record-03 { --project-source-width: 256px; --project-source-ratio: 256 / 375; }
+#project-record-08 { --project-source-width: 256px; --project-source-ratio: 256 / 169; }
+#project-record-10 { --project-source-width: 257px; --project-source-ratio: 257 / 171; }
+#project-record-11 { --project-source-width: 256px; --project-source-ratio: 256 / 172; }
+#project-record-16 { --project-source-width: 288px; --project-source-ratio: 288 / 200; }
+#project-record-18 { --project-source-width: 290px; --project-source-ratio: 290 / 203; }
+#project-record-22 { --project-source-width: 288px; --project-source-ratio: 288 / 213; }
+#project-record-21 { --project-source-width: 450px; --project-source-ratio: 450 / 247; }
+#project-record-25 { --project-source-width: 306px; --project-source-ratio: 306 / 219; }
+#project-record-26 { --project-source-width: 323px; --project-source-ratio: 323 / 183; }
+#project-record-27 { --project-source-width: 294px; --project-source-ratio: 294 / 202; }
+#project-record-28 { --project-source-width: 294px; --project-source-ratio: 294 / 195; }
+#project-record-29 { --project-source-width: 288px; --project-source-ratio: 288 / 189; }
+#project-record-30 { --project-source-width: 350px; --project-source-ratio: 350 / 116; }
+#project-record-31 { --project-source-width: 288px; --project-source-ratio: 288 / 204; }
+#project-record-32 { --project-source-width: 171px; --project-source-ratio: 171 / 144; }
+#project-record-34 { --project-source-width: 200px; --project-source-ratio: 200 / 144; }
+#project-record-35 { --project-source-width: 190px; --project-source-ratio: 190 / 137; }
+#project-record-36 { --project-source-width: 288px; --project-source-ratio: 288 / 198; }
+#project-record-37 { --project-source-width: 281px; --project-source-ratio: 281 / 174; }
+#project-record-38 { --project-source-width: 279px; --project-source-ratio: 279 / 185; }
+@media (max-width: 700px) {
+    :is(#project-record-01, #project-record-03, #project-record-08,
+    #project-record-10, #project-record-11, #project-record-16,
+    #project-record-18, #project-record-21,
+    #project-record-22, #project-record-25, #project-record-26,
+    #project-record-27, #project-record-28, #project-record-29,
+    #project-record-30, #project-record-31, #project-record-32,
+    #project-record-34, #project-record-35, #project-record-36,
+    #project-record-37, #project-record-38) .project-photo-link::before { max-height: 340px; }
+}
