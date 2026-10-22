@@ -864,12 +864,11 @@
 .site-navigation { position: relative; inset: auto; padding: 20px 3%; display: flex; align-items: center; justify-content: flex-start; gap: 32px; flex-wrap: nowrap; width: 100%; }
 .site-navigation .logo { flex: 0 0 auto; }
 .site-navigation .logo img { display: block; height: 180px; width: auto; max-width: none; object-fit: contain; }
-/* Fill each column top-to-bottom: Home/Company, Projects/Our People,
-   Testimonials/Services, Owned Equipment/Contact Us. DOM and tab order stay intact. */
+/* Fill five columns top-to-bottom for nine links; DOM and tab order stay intact. */
 .site-navigation .nav-links {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(5, max-content);
     grid-template-rows: repeat(2, auto);
     align-items: stretch;
     list-style: none;
@@ -996,7 +995,7 @@ h1,h2,h3,p,a { overflow-wrap: break-word; }
 .contact-detail { background: white; padding: 28px; border-top: 3px solid var(--gold); }
 .contact-detail h2 { font-size: 28px; }
 .contact-detail a { color: var(--green); }
-@media (max-width: 1240px) {
+@media (max-width: 1600px) {
  .site-navigation { flex-wrap: wrap; gap: 16px 28px; }
  .site-navigation .logo img { height: 140px; }
  .site-navigation .menu-toggle { margin-left: auto; font-size: 18px; }
@@ -1018,3 +1017,6 @@ h1,h2,h3,p,a { overflow-wrap: break-word; }
  .site-navigation { padding: 16px 5%; }
  .site-navigation .logo img { height: 110px; }
 }
+
+/* Preserve the prominent desktop logo when the nine-link menu collapses. */
+@media (min-width: 1241px) and (max-width: 1600px) { .site-navigation .logo img { height: 180px; } }

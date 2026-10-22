@@ -89,3 +89,7 @@
     .testimonials-page .recognition-award-card { padding: 20px; gap: 30px; }
     .testimonials-page .recognition-award-transcription { padding: 20px; }
 }
+
+/* Dedicated Recognition page: repeatable award/certificate spacing. */
+.testimonials-page .recognition-award-card + .recognition-award-card { margin-top: 44px; }
+.testimonials-page .recognition-award-transcription { overflow-wrap: anywhere; }
