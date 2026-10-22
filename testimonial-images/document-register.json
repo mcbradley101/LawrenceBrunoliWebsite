@@ -57,6 +57,12 @@
     "sha256": "e83afc4ddc197cb51cd3680bee31b16cbb95a5939059962d82bb9ae78833d446",
     "mapping_basis": "Explicit user assignment, preserved independently of numbering",
     "transcription_review": "Compared visually with supplied original; bracketed text identifies uncertain or unreadable material",
-    "notes": "One long scan, kept as one entry. Handwriting, selected scoring marks and some comments partly illegible."
+    "notes": "One long scan, kept as one entry. Handwriting, selected scoring marks and some comments partly illegible.",
+    "public_text_review": {
+      "bid_amount": "$1,968,000",
+      "basis": "Explicit user correction",
+      "public_scope": "Selected document details through current contract value; email, funding, application/completion options, all subsequent material and unreadability notes removed from visible DAS entry. Original scan preserved in full.",
+      "label": "Document Details (selected content, not full transcription)"
+    }
   }
 }
