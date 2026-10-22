@@ -1,0 +1,382 @@
+{
+  "project-record-01": {
+    "title": "Clinton Railroad Station – North Platform Improvements and Pedestrian Bridge",
+    "images": [
+      {
+        "path": "project-images/originals/clintonrail1/clintonrail1.jpg",
+        "display_path": "project-images/display/01-clintonrail1.webp",
+        "alt": "Clinton Railroad Station – North Platform Improvements and Pedestrian Bridge — view 1"
+      },
+      {
+        "path": "project-images/originals/clintonrail1/clintonrail2.png",
+        "display_path": "project-images/display/02-clintonrail2.webp",
+        "alt": "Clinton Railroad Station – North Platform Improvements and Pedestrian Bridge — view 2"
+      }
+    ]
+  },
+  "project-record-02": {
+    "title": "Old Saybrook and Franklin Facilities Tank Replacement",
+    "images": [
+      {
+        "path": "project-images/originals/saybrooktank/saybrooktank.png",
+        "display_path": "project-images/display/33-saybrooktank.webp",
+        "alt": "Old Saybrook and Franklin Facilities Tank Replacement"
+      }
+    ]
+  },
+  "project-record-03": {
+    "title": "Stone Masonry Wall Rehabilitation U.S. Rt. 1",
+    "images": [
+      {
+        "path": "project-images/originals/stone-masonry-wall-rehabilitation-u-s-rt-1/Stone Masonry Wall Rehabilitation U.S. Rt. 1.jpg",
+        "display_path": "project-images/display/39-stone-masonry-wall-rehabilitation-u.s.-rt.-1.webp",
+        "alt": "Stone Masonry Wall Rehabilitation U.S. Rt. 1 — view 2"
+      },
+      {
+        "path": "project-images/originals/stone-masonry-wall-rehabilitation-u-s-rt-2/Stone Masonry Wall Rehabilitation U.S. Rt. 2.jpg",
+        "display_path": "project-images/display/38-stone-masonry-wall-rehabilitation-u.s.-rt.-2.webp",
+        "alt": "Stone Masonry Wall Rehabilitation U.S. Rt. 1 — view 1"
+      }
+    ]
+  },
+  "project-record-04": {
+    "title": "Replacement of Tobey Hill Road Bridge over Whiting River",
+    "images": [
+      {
+        "path": "project-images/originals/tobeyhill2/tobeyhill2.png",
+        "display_path": "project-images/display/40-tobeyhill2.webp",
+        "alt": "Replacement of Tobey Hill Road Bridge over Whiting River — view 1"
+      },
+      {
+        "path": "project-images/originals/tobeyhill2/tobeyhill1.png",
+        "display_path": "project-images/display/41-tobeyhill1.webp",
+        "alt": "Replacement of Tobey Hill Road Bridge over Whiting River — view 2"
+      }
+    ]
+  },
+  "project-record-05": {
+    "title": "Central CT State University — Kaiser Hall",
+    "images": [
+      {
+        "path": "project-images/originals/kaiser1/Kaiser1.jpg",
+        "display_path": "project-images/display/17-kaiser1.webp",
+        "alt": "Central CT State University — Kaiser Hall — view 1"
+      },
+      {
+        "path": "project-images/originals/kaiser1/Kaiser2.jpg",
+        "display_path": "project-images/display/18-kaiser2.webp",
+        "alt": "Central CT State University — Kaiser Hall — view 2"
+      }
+    ]
+  },
+  "project-record-06": {
+    "title": "VA Cemetery Appearance Improvements",
+    "images": [
+      {
+        "path": "project-images/originals/cemetery/cemetery.jpg",
+        "display_path": "project-images/display/07-cemetery.webp",
+        "alt": "VA Cemetery Appearance Improvements"
+      }
+    ]
+  },
+  "project-record-07": {
+    "title": "United States Department of Veterans Affairs — VA Mental Health Access Expansion Project",
+    "images": [
+      {
+        "path": "project-images/originals/state-street-rail-station/VAMHAE.jpg",
+        "display_path": "project-images/display/36-vamhae.webp",
+        "alt": "United States Department of Veterans Affairs — VA Mental Health Access Expansion Project"
+      }
+    ]
+  },
+  "project-record-08": {
+    "title": "Northwestern Connecticut Community College — Joyner Hall",
+    "images": [
+      {
+        "path": "project-images/originals/state-street-rail-station/joyner.png",
+        "display_path": "project-images/display/35-joyner.webp",
+        "alt": "Northwestern Connecticut Community College — Joyner Hall"
+      }
+    ]
+  },
+  "project-record-09": {
+    "title": "DOT Brainard Airport: Airport Rescue & Firefighting Facility",
+    "images": [
+      {
+        "path": "project-images/originals/state-street-rail-station/dotbrainard.jpg",
+        "display_path": "project-images/display/37-dotbrainard.webp",
+        "alt": "DOT Brainard Airport: Airport Rescue & Firefighting Facility"
+      }
+    ]
+  },
+  "project-record-10": {
+    "title": "State Street Rail Station",
+    "images": [
+      {
+        "path": "project-images/originals/state-street-rail-station/clintonrailstation.jpg",
+        "display_path": "project-images/display/34-clintonrailstation.webp",
+        "alt": "State Street Rail Station"
+      }
+    ]
+  },
+  "project-record-11": {
+    "title": "Hammonasset Beach State Park, West Beach Improvements",
+    "images": [
+      {
+        "path": "project-images/originals/colchestermaintfac/hammonasset.png",
+        "display_path": "project-images/display/04-hammonasset.webp",
+        "alt": "Hammonasset Beach State Park, West Beach Improvements"
+      }
+    ]
+  },
+  "project-record-12": {
+    "title": "CT DOT Maintenance Facility",
+    "images": [
+      {
+        "path": "project-images/originals/colchestermaintfac/colchestermaintfac.jpg",
+        "display_path": "project-images/display/03-colchestermaintfac.webp",
+        "alt": "CT DOT Maintenance Facility"
+      }
+    ]
+  },
+  "project-record-13": {
+    "title": "Digester Upgrade Norwich Water Pollution Control Plant",
+    "images": [
+      {
+        "path": "project-images/originals/colchestermaintfac/norwich.png",
+        "display_path": "project-images/display/05-norwich.webp",
+        "alt": "Digester Upgrade Norwich Water Pollution Control Plant"
+      }
+    ]
+  },
+  "project-record-14": {
+    "title": "Naugatuck Valley Community College — New Technology Building",
+    "images": [
+      {
+        "path": "project-images/originals/naugatuck1/Naugatuck1.jpg",
+        "display_path": "project-images/display/15-naugatuck1.webp",
+        "alt": "Naugatuck Valley Community College — New Technology Building — view 1"
+      },
+      {
+        "path": "project-images/originals/naugatuck1/Naugatuck2.jpg",
+        "display_path": "project-images/display/16-naugatuck2.webp",
+        "alt": "Naugatuck Valley Community College — New Technology Building — view 2"
+      }
+    ]
+  },
+  "project-record-15": {
+    "title": "Bradley International Airport — Terminal \"A\" Renovations",
+    "images": [
+      {
+        "path": "project-images/originals/prjbradley/prjBradley.jpg",
+        "display_path": "project-images/display/11-prjbradley.webp",
+        "alt": "Bradley International Airport — Terminal \"A\" Renovations"
+      }
+    ]
+  },
+  "project-record-16": {
+    "title": "Hartford Job Corp",
+    "images": [
+      {
+        "path": "project-images/originals/prjjobcorp/prjJobCorp.jpg",
+        "display_path": "project-images/display/20-prjjobcorp.webp",
+        "alt": "Hartford Job Corp"
+      }
+    ]
+  },
+  "project-record-17": {
+    "title": "Hartford Community Correctional Center",
+    "images": [
+      {
+        "path": "project-images/originals/hartford-correct2/hartford correct2.png",
+        "display_path": "project-images/display/13-hartford-correct2.webp",
+        "alt": "Hartford Community Correctional Center — view 1"
+      },
+      {
+        "path": "project-images/originals/hartford-correct2/hartfordcorrect1.png",
+        "display_path": "project-images/display/14-hartfordcorrect1.webp",
+        "alt": "Hartford Community Correctional Center — view 2"
+      }
+    ]
+  },
+  "project-record-18": {
+    "title": "Veterans Administration Medical Center",
+    "images": [
+      {
+        "path": "project-images/originals/vamc/vamc.png",
+        "display_path": "project-images/display/43-vamc.webp",
+        "alt": "Veterans Administration Medical Center"
+      }
+    ]
+  },
+  "project-record-19": {
+    "title": "Renovations of the Effluent Pumping Station garage",
+    "images": [
+      {
+        "path": "project-images/originals/groton/groton.png",
+        "display_path": "project-images/display/06-groton.webp",
+        "alt": "Renovations of the Effluent Pumping Station garage"
+      }
+    ]
+  },
+  "project-record-20": {
+    "title": "Stadium Seating & Support Facility Upgrades",
+    "images": [
+      {
+        "path": "project-images/originals/stadium/stadium.png",
+        "display_path": "project-images/display/32-stadium.webp",
+        "alt": "Stadium Seating & Support Facility Upgrades"
+      }
+    ]
+  },
+  "project-record-21": {
+    "title": "Salt Shed & Maintenance Facility",
+    "images": [
+      {
+        "path": "project-images/originals/saltshed/saltshed.png",
+        "display_path": "project-images/display/44-saltshed.webp",
+        "alt": "Salt Shed & Maintenance Facility"
+      }
+    ]
+  },
+  "project-record-22": {
+    "title": "State Receiving Home",
+    "images": [
+      {
+        "path": "project-images/originals/prjstatereceivinghome/prjStateReceivingHome.jpg",
+        "display_path": "project-images/display/23-prjstatereceivinghome.webp",
+        "alt": "State Receiving Home"
+      }
+    ]
+  },
+  "project-record-25": {
+    "title": "Renovations & Additions to Student Center Central Connecticut State University",
+    "images": [
+      {
+        "path": "project-images/originals/prjccsu/prjCCSU.jpg",
+        "display_path": "project-images/display/08-prjccsu.webp",
+        "alt": "Renovations & Additions to Student Center Central Connecticut State University"
+      }
+    ]
+  },
+  "project-record-26": {
+    "title": "Greenwood School Renovations",
+    "images": [
+      {
+        "path": "project-images/originals/prjgreenwood/prjGreenwood.jpg",
+        "display_path": "project-images/display/26-prjgreenwood.webp",
+        "alt": "Greenwood School Renovations"
+      }
+    ]
+  },
+  "project-record-27": {
+    "title": "Outdoor Track & Field Complex — University of Connecticut",
+    "images": [
+      {
+        "path": "project-images/originals/prjuoc/prjUoC.jpg",
+        "display_path": "project-images/display/42-prjuoc.webp",
+        "alt": "Outdoor Track & Field Complex — University of Connecticut"
+      }
+    ]
+  },
+  "project-record-28": {
+    "title": "Additions & Renovations to Oliver Wolcott Vocational Technical School",
+    "images": [
+      {
+        "path": "project-images/originals/prjoliverwolcott/prjOliverWolcott.jpg",
+        "display_path": "project-images/display/25-prjoliverwolcott.webp",
+        "alt": "Additions & Renovations to Oliver Wolcott Vocational Technical School"
+      }
+    ]
+  },
+  "project-record-29": {
+    "title": "Hubbard Elementary",
+    "images": [
+      {
+        "path": "project-images/originals/prjhubbard/prjHubbard.jpg",
+        "display_path": "project-images/display/30-prjhubbard.webp",
+        "alt": "Hubbard Elementary"
+      }
+    ]
+  },
+  "project-record-30": {
+    "title": "McAlister Middle School",
+    "images": [
+      {
+        "path": "project-images/originals/prjmcalistermiddle/prjMcalisterMiddle.jpg",
+        "display_path": "project-images/display/19-prjmcalistermiddle.webp",
+        "alt": "McAlister Middle School"
+      }
+    ]
+  },
+  "project-record-31": {
+    "title": "East Hampton Middle School",
+    "images": [
+      {
+        "path": "project-images/originals/prjeasthampton/prjEastHampton.jpg",
+        "display_path": "project-images/display/24-prjeasthampton.webp",
+        "alt": "East Hampton Middle School"
+      }
+    ]
+  },
+  "project-record-32": {
+    "title": "Killingworth Elementary School",
+    "images": [
+      {
+        "path": "project-images/originals/prjkillingworth/prjKillingworth.jpg",
+        "display_path": "project-images/display/21-prjkillingworth.webp",
+        "alt": "Killingworth Elementary School"
+      }
+    ]
+  },
+  "project-record-34": {
+    "title": "Science Classroom Addition at Guilford High School",
+    "images": [
+      {
+        "path": "project-images/originals/prjguilford/prjGuilford.jpg",
+        "display_path": "project-images/display/28-prjguilford.webp",
+        "alt": "Science Classroom Addition at Guilford High School"
+      }
+    ]
+  },
+  "project-record-35": {
+    "title": "Danbury Correctional Institution",
+    "images": [
+      {
+        "path": "project-images/originals/prjfcid/prjFCID.jpg",
+        "display_path": "project-images/display/27-prjfcid.webp",
+        "alt": "Danbury Correctional Institution"
+      }
+    ]
+  },
+  "project-record-36": {
+    "title": "J.B. Gates Correctional Center",
+    "images": [
+      {
+        "path": "project-images/originals/prjjbgates/prjJBGates.jpg",
+        "display_path": "project-images/display/31-prjjbgates.webp",
+        "alt": "J.B. Gates Correctional Center"
+      }
+    ]
+  },
+  "project-record-37": {
+    "title": "Minimum Security Dorm at Cheshire Correctional Center",
+    "images": [
+      {
+        "path": "project-images/originals/prjchesire/prjChesire.jpg",
+        "display_path": "project-images/display/09-prjchesire.webp",
+        "alt": "Minimum Security Dorm at Cheshire Correctional Center"
+      }
+    ]
+  },
+  "project-record-38": {
+    "title": "Minimum Security Dorm Visitors Center at Niantic Community Correctional Center",
+    "images": [
+      {
+        "path": "project-images/originals/prjniantic/prjNiantic.jpg",
+        "display_path": "project-images/display/22-prjniantic.webp",
+        "alt": "Minimum Security Dorm Visitors Center at Niantic Community Correctional Center"
+      }
+    ]
+  }
+}
