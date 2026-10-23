@@ -211,3 +211,11 @@
 #project-record-22 .project-photo { max-width: 2048px; }
 /* Hurley Hall gains its first photograph in its existing text-history card. */
 #project-record-33 .project-photo { width: 100%; max-width: 624px; height: auto; object-fit: contain; object-position: center; }
+
+/* Carter Hill review entry only: no unverified photograph is displayed. */
+#project-record-39 .project-visual { align-self: stretch; display: flex; }
+#project-record-39 .carter-bridge-placeholder { display: flex; flex: 1; flex-direction: column; align-items: center; justify-content: center; gap: 18px; min-height: 270px; padding: 32px 22px; border: 1px solid var(--gold); border-radius: 4px; background: linear-gradient(135deg, #244c36, var(--dark-green)); color: var(--light-gold); text-align: center; }
+#project-record-39 .carter-bridge-placeholder span { font: 400 25px/1.3 Georgia, 'Times New Roman', serif; color: var(--cream); }
+#project-record-39 .carter-bridge-placeholder small { font-size: 12px; line-height: 1.6; color: #d8ddcf; }
+@media (max-width: 900px) { #project-record-39 .carter-bridge-placeholder { min-height: 230px; } }
+@media (max-width: 700px) { #project-record-39 .carter-bridge-placeholder { min-height: 210px; } }
