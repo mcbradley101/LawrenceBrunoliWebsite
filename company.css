@@ -136,12 +136,6 @@
     font-size: 26px;
     margin-bottom: 12px;
 }
-.company-page .company-history h2 strong {
-    color: var(--light-gold);
-    font-weight: 400;
-    font-size: clamp(96px, 10vw, 150px);
-    letter-spacing: -.06em;
-}
 .company-page .company-history-date > p {
     color: #c5d0c7;
     font-size: 13px;
@@ -323,46 +317,10 @@
     .company-page .company-approach-card:hover { transform: none; }
 }
 
-/* Restrained cast-metal year: static brushed face, lit upper-left bevel,
-   and bronze extrusion toward the lower right. Only the background group moves. */
-.company-page .company-history-date { align-self: start; text-align: center; }
-.company-page .company-history h2 .company-founded-year {
-    display: inline-grid;
-    position: relative;
-    isolation: isolate;
-    padding: 0 9px 12px 0;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(96px, 10vw, 150px);
-    font-weight: 700;
-    letter-spacing: -.055em;
-    line-height: 1;
-}
-.company-page .company-history h2 .company-founded-year > span {
-    grid-area: 1 / 1;
-    display: block;
-    margin: 0;
-    font: inherit;
-    letter-spacing: inherit;
-}
-.company-page .company-year-depth {
-    z-index: -1;
-    color: #765126;
-    text-shadow: 1px 1px 0 #a17a3e, 2px 2px 0 #936a32,
-        3px 3px 0 #875d2a, 4px 4px 0 #795124,
-        5px 5px 0 #69451f, 6px 6px 0 #5c3c1b,
-        7px 8px 1px #03170e99, 10px 13px 12px #00000030;
-}
-.company-page .company-year-face {
-    color: #d0ab64;
-    background-image: repeating-linear-gradient(0deg, #fff8e711 0 1px, #61441d0a 1px 2px, transparent 2px 4px),
-        linear-gradient(135deg, #fff0c4 0%, #e5c78d 15%, #bc914c 40%, #d7b272 62%, #a57a37 88%, #805a29 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: .65px #d9b777;
-    filter: drop-shadow(-.65px -.8px 0 #fff0c4aa);
-}
+/* SVG cast-gold emblem, based on the supplied concept reference.
+   All shading is crisp, static vector artwork; no text-shadow or shine animation. */
+.company-page .company-history-date { align-self: start; text-align: center; margin-top: -24px; }
+.company-page .company-founded-year { display: block; width: clamp(280px, 32vw, 460px); max-width: 100%; height: auto; margin: 4px auto 0; overflow: visible; }
 @media (forced-colors: active) {
-    .company-page .company-year-depth { display: none; }
-    .company-page .company-year-face { background: none; -webkit-text-fill-color: currentColor; -webkit-text-stroke: 0; filter: none; }
+    .company-page .company-founded-year use { fill: CanvasText; stroke: CanvasText; }
 }

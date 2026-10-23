@@ -68,7 +68,25 @@
         <div class="company-container company-history-grid">
             <div class="company-history-date">
                 <div class="company-kicker">OUR BACKGROUND</div>
-                <h2 id="company-history-title"><span>Founded in</span><strong class="company-founded-year"><span class="company-year-depth" aria-hidden="true">1987</span><span class="company-year-face">1987</span></strong></h2>
+                <h2 id="company-history-title"><span>Founded in</span><svg class="company-founded-year" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 125" role="img" aria-labelledby="company-year-svg-title" focusable="false">
+                    <title id="company-year-svg-title">1987</title>
+                    <defs>
+                        <linearGradient id="company-year-metal" x1="0" y1="0" x2=".85" y2="1">
+                            <stop offset="0" stop-color="#fff6ce"/><stop offset=".23" stop-color="#efce78"/><stop offset=".48" stop-color="#a87928"/><stop offset=".68" stop-color="#f7dc9a"/><stop offset="1" stop-color="#97681f"/>
+                        </linearGradient>
+                        <linearGradient id="company-year-bevel" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="#fff6d7"/><stop offset=".28" stop-color="#ffe9ad"/><stop offset=".65" stop-color="#b18b48"/><stop offset="1" stop-color="#65431e"/>
+                        </linearGradient>
+                        <text id="company-year-glyphs" x="162" y="87" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="99">1987</text>
+                    </defs>
+                    <g aria-hidden="true" stroke-linejoin="round">
+                        <use href="#company-year-glyphs" transform="translate(3 7)" fill="#473315" stroke="#473315" stroke-width="4"/>
+                        <use href="#company-year-glyphs" transform="translate(2.3 5.2)" fill="#795225" stroke="#795225" stroke-width="3.3"/>
+                        <use href="#company-year-glyphs" transform="translate(1.3 2.8)" fill="#aa7c37" stroke="#91662c" stroke-width="2.5"/>
+                        <use href="#company-year-glyphs" fill="url(#company-year-bevel)" stroke="url(#company-year-bevel)" stroke-width="2.4"/>
+                        <use href="#company-year-glyphs" transform="translate(-.3 -.45)" fill="url(#company-year-metal)" stroke="#ffe9ad" stroke-width=".8"/>
+                    </g>
+                </svg></h2>
                 <p>General contractors since 1987.</p>
             </div>
             <div class="company-history-copy">
