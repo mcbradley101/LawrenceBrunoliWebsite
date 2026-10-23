@@ -827,5 +827,35 @@
       "alt": "Salt Shed & Maintenance Facility",
       "source": "Company-supplied project ZIP archive; no independent photo copyright or license assertion."
     }
-  ]
+  ],
+  "replacement_updates": [
+    {
+      "project_id": "project-record-35",
+      "project_title": "Danbury Correctional Institution",
+      "path": "project-images/replacements/DAN_lrg.jpg",
+      "width": 960,
+      "height": 475,
+      "sha256": "6722f4c18e364eb2e91639c4a1eb81f5673e9c2b3ab9f33dcf62a67dc53102cf",
+      "source": "User-supplied ZIP photograph; no new copyright or licensing assertion."
+    },
+    {
+      "project_id": "project-record-22",
+      "project_title": "State Receiving Home",
+      "path": "project-images/replacements/East windsor.jpg",
+      "width": 2048,
+      "height": 1230,
+      "sha256": "5b2d688e146b57691afe3b04ea216939f81f8bc1656214e19048079249552d4f",
+      "source": "User-supplied ZIP photograph; no new copyright or licensing assertion."
+    },
+    {
+      "project_id": "project-record-33",
+      "project_title": "Hurley Hall Additions and Renovations at Eastern Connecticut State University",
+      "path": "project-images/replacements/hurley.jpg",
+      "width": 624,
+      "height": 425,
+      "sha256": "f84dbfe9124f980f6e5e3cbb3c334345de81ea0ee0ebc4b383915118ac60b1d6",
+      "source": "User-supplied ZIP photograph; no new copyright or licensing assertion."
+    }
+  ],
+  "replacement_note": "Original inventory above is retained as historical provenance. These three user-supplied originals supersede the active Danbury and State Receiving Home/Connecticut Children’s Place previews and add the first Hurley Hall photograph. Current active gallery counts: 36 project records, 42 photographs."
 }

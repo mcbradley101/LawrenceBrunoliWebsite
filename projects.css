@@ -202,3 +202,12 @@
     #project-record-34, #project-record-35, #project-record-36,
     #project-record-37, #project-record-38) .project-photo-link::before { max-height: 340px; }
 }
+
+/* Supplied replacements: retain the two existing panel sizes, but respect
+   each new JPEG's proportions and resolution. Other project images are untouched. */
+#project-record-22 .project-photo,
+#project-record-35 .project-photo { object-fit: contain; object-position: center; }
+#project-record-35 .project-photo { max-width: 960px; }
+#project-record-22 .project-photo { max-width: 2048px; }
+/* Hurley Hall gains its first photograph in its existing text-history card. */
+#project-record-33 .project-photo { width: 100%; max-width: 624px; height: auto; object-fit: contain; object-position: center; }
