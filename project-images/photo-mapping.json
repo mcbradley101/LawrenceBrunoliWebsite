@@ -864,6 +864,17 @@
       "height": 800,
       "sha256": "2391787520ec8821351a43b409ec7244de15c927aa971984413a1aa849738ad0",
       "source": "User-supplied Joyner.zip original; no resampling, sharpening, or new copyright assertion."
+    },
+    {
+      "project_id": "project-record-38",
+      "project_title": "Minimum Security Dorm Visitors Center at Niantic Community Correctional Center",
+      "path": "project-images/replacements/niantic-visitors-center.jpg",
+      "original_archive": "york prison.zip",
+      "original_filename": "york prison.jpg",
+      "width": 1320,
+      "height": 1051,
+      "sha256": "8a701cbf7e35b40abd4d3d2c887ca4d53f46920446524dfc31fa0d19dd3755f2",
+      "source": "User explicitly assigns this supplied photograph to Niantic Community Correctional Center; filename does not change the project title. Image bytes unchanged."
     }
   ],
   "replacement_note": "Original inventory above is retained as historical provenance. These three user-supplied originals supersede the active Danbury and State Receiving Home/Connecticut Children’s Place previews and add the first Hurley Hall photograph. Current active gallery counts: 36 project records, 42 photographs."
