@@ -5,13 +5,12 @@
   "category": "Bridge & Infrastructure Construction",
   "state_project_no": "027-126",
   "bridge_no": "04610",
-  "reported_replacement_year": 2022,
   "description_source": "User-supplied project description; not independently verified against accessible town records.",
-  "publication_status": "Review branch only. Confirm Lawrence Brunoli involvement and role before publishing as company project experience.",
+  "publication_status": "Prepared for review; company involvement and acceptance date confirmed by owner. AI illustration is explicitly labeled.",
   "company_role": {
-    "status": "Unverified",
+    "status": "Owner-confirmed: Lawrence Brunoli built this bridge",
     "repository_search": "No matching project records, image filenames, or commit messages found for Carter Hill, Bridge 04610, State Project 027-126 or Menunketesuck.",
-    "claim_displayed": false
+    "claim_displayed": true
   },
   "photograph": {
     "supplied_archive": "bridge.zip",
@@ -19,11 +18,11 @@
     "width": 576,
     "height": 432,
     "sha256": "4b415835264376688319c214dc47976fcb8136172c69d73831deb45cd24c9926",
-    "identity": "Unverified: no documentation ties this photograph to Bridge 04610.",
+    "identity": "Rejected by owner: supplied bridge.jpg does not depict Carter Hill Road Bridge.",
     "rights": "Unverified: no source, photographer, or reuse permission provided.",
     "historical_status": "Unverified; do not label it pre-replacement without evidence.",
     "public_image_path": null,
-    "disposition": "Kept in local scratch only, not committed or linked on the website. Green-and-gold placeholder used."
+    "disposition": "Excluded from website and commit; ignore this unrelated photograph."
   },
   "references": [
     {
@@ -35,5 +34,13 @@
       "access": "HTTP 403"
     }
   ],
-  "contract_value": "Not displayed. Neither bid listings nor state budget allocations are treated as final company contract value."
+  "contract_value": "Not displayed. Neither bid listings nor state budget allocations are treated as final company contract value.",
+  "acceptance_date": "2026-01-05",
+  "acceptance_source": "Owner confirms CON-501M Certificate of Acceptance; certificate itself not supplied or independently reviewed.",
+  "illustration": {
+    "path": "project-images/carter-hill-ai-illustration.png",
+    "source": "AI-generated at owner request",
+    "caption": "AI-generated illustration — not the actual Carter Hill Road Bridge.",
+    "accuracy": "Generic concept; not a representation of actual bridge design."
+  }
 }
