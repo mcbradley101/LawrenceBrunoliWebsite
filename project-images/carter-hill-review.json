@@ -1,0 +1,39 @@
+{
+  "project_id": "project-record-39",
+  "title": "Replacement of Bridge No. 04610 — Carter Hill Road over the Menunketesuck River",
+  "location": "Clinton, Connecticut",
+  "category": "Bridge & Infrastructure Construction",
+  "state_project_no": "027-126",
+  "bridge_no": "04610",
+  "reported_replacement_year": 2022,
+  "description_source": "User-supplied project description; not independently verified against accessible town records.",
+  "publication_status": "Review branch only. Confirm Lawrence Brunoli involvement and role before publishing as company project experience.",
+  "company_role": {
+    "status": "Unverified",
+    "repository_search": "No matching project records, image filenames, or commit messages found for Carter Hill, Bridge 04610, State Project 027-126 or Menunketesuck.",
+    "claim_displayed": false
+  },
+  "photograph": {
+    "supplied_archive": "bridge.zip",
+    "original_filename": "bridge.jpg",
+    "width": 576,
+    "height": 432,
+    "sha256": "4b415835264376688319c214dc47976fcb8136172c69d73831deb45cd24c9926",
+    "identity": "Unverified: no documentation ties this photograph to Bridge 04610.",
+    "rights": "Unverified: no source, photographer, or reuse permission provided.",
+    "historical_status": "Unverified; do not label it pre-replacement without evidence.",
+    "public_image_path": null,
+    "disposition": "Kept in local scratch only, not committed or linked on the website. Green-and-gold placeholder used."
+  },
+  "references": [
+    {
+      "url": "https://www.clintonct.org/503/Carter-Hill-Road-Bridge-over-the-Menunke",
+      "access": "HTTP 403"
+    },
+    {
+      "url": "https://www.clintonct.org/DocumentCenter/View/3835/Town-of-Clinton-Consultants-Study-and-Probable-Budget",
+      "access": "HTTP 403"
+    }
+  ],
+  "contract_value": "Not displayed. Neither bid listings nor state budget allocations are treated as final company contract value."
+}

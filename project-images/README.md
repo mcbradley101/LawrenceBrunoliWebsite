@@ -86,3 +86,11 @@ Hurley Hall previously had no assigned project photograph. Its existing text car
 ## Joyner Hall photograph update
 
 Northwestern Connecticut Community College — Joyner Hall now uses `replacements/Joyner.jpg` (1200 × 800), supplied in `Joyner.zip`, for both the card and enlarged viewer. The JPEG is unchanged. The previous small preview remains archived, and all other galleries are unchanged. Existing project-specific containment and card dimensions are preserved.
+
+## Carter Hill Road Bridge — review-only addition
+
+New record `project-record-39` identifies Bridge 04610 / State Project 027-126 in Clinton, with the user-supplied scope and reported replacement year 2022. It uses the existing Transportation & infrastructure filter and the supplied Bridge & Infrastructure Construction category label.
+
+The company’s involvement and role were not found in repository records. Both supplied Town of Clinton references returned HTTP 403, so independent confirmation remains outstanding. Do not publish this as company project experience until the role is confirmed. No contract amount or bid/budget figure is displayed.
+
+The uploaded `bridge.jpg` has no verified bridge identity, historical date, or reuse permission. It is kept locally for review only, not added to public assets or displayed. The card uses a clearly labeled green-and-gold placeholder. See `carter-hill-review.json` for the verification record. All existing project cards and photographs are unchanged.
