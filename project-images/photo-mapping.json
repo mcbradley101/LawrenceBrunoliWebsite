@@ -855,6 +855,15 @@
       "height": 425,
       "sha256": "f84dbfe9124f980f6e5e3cbb3c334345de81ea0ee0ebc4b383915118ac60b1d6",
       "source": "User-supplied ZIP photograph; no new copyright or licensing assertion."
+    },
+    {
+      "project_id": "project-record-08",
+      "project_title": "Northwestern Connecticut Community College — Joyner Hall",
+      "path": "project-images/replacements/Joyner.jpg",
+      "width": 1200,
+      "height": 800,
+      "sha256": "2391787520ec8821351a43b409ec7244de15c927aa971984413a1aa849738ad0",
+      "source": "User-supplied Joyner.zip original; no resampling, sharpening, or new copyright assertion."
     }
   ],
   "replacement_note": "Original inventory above is retained as historical provenance. These three user-supplied originals supersede the active Danbury and State Receiving Home/Connecticut Children’s Place previews and add the first Hurley Hall photograph. Current active gallery counts: 36 project records, 42 photographs."

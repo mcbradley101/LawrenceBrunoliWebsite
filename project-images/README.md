@@ -82,3 +82,7 @@ The original 44-file inventory above remains archived. Current gallery reference
 | Hurley Hall, Eastern Connecticut State University | `replacements/hurley.jpg` | 624 × 425 |
 
 Hurley Hall previously had no assigned project photograph. Its existing text card now includes this image; it has not been duplicated or assigned to any other university entry. Its modest source resolution is respected by capping displayed width at 624px. The two existing replacement cards keep their original panel minimums and full-image containment. Other photographs, homepage references, and archived thumbnails are untouched.
+
+## Joyner Hall photograph update
+
+Northwestern Connecticut Community College — Joyner Hall now uses `replacements/Joyner.jpg` (1200 × 800), supplied in `Joyner.zip`, for both the card and enlarged viewer. The JPEG is unchanged. The previous small preview remains archived, and all other galleries are unchanged. Existing project-specific containment and card dimensions are preserved.
