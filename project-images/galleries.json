@@ -243,9 +243,9 @@
     "title": "State Receiving Home",
     "images": [
       {
-        "path": "project-images/originals/prjstatereceivinghome/prjStateReceivingHome.jpg",
-        "display_path": "project-images/display/23-prjstatereceivinghome.webp",
-        "alt": "State Receiving Home"
+        "path": "project-images/replacements/East windsor.jpg",
+        "display_path": "project-images/replacements/East windsor.jpg",
+        "alt": "Connecticut Children’s Place additions and renovations in East Windsor"
       }
     ]
   },
@@ -343,9 +343,9 @@
     "title": "Danbury Correctional Institution",
     "images": [
       {
-        "path": "project-images/originals/prjfcid/prjFCID.jpg",
-        "display_path": "project-images/display/27-prjfcid.webp",
-        "alt": "Danbury Correctional Institution"
+        "path": "project-images/replacements/DAN_lrg.jpg",
+        "display_path": "project-images/replacements/DAN_lrg.jpg",
+        "alt": "Danbury Federal Prison front entrance and landscaping"
       }
     ]
   },
@@ -376,6 +376,16 @@
         "path": "project-images/originals/prjniantic/prjNiantic.jpg",
         "display_path": "project-images/display/22-prjniantic.webp",
         "alt": "Minimum Security Dorm Visitors Center at Niantic Community Correctional Center"
+      }
+    ]
+  },
+  "project-record-33": {
+    "title": "Hurley Hall Additions and Renovations at Eastern Connecticut State University",
+    "images": [
+      {
+        "path": "project-images/replacements/hurley.jpg",
+        "display_path": "project-images/replacements/hurley.jpg",
+        "alt": "Hurley Hall dining interior at Eastern Connecticut State University"
       }
     ]
   }

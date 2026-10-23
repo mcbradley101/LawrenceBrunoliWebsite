@@ -4,7 +4,7 @@ All 44 supplied original files are preserved byte-for-byte under `originals/<arc
 
 ## Review summary
 
-- 41 photographs assigned to 35 existing project records.
+- Original supplied inventory: 41 photographs assigned to 35 existing project records. The replacements below bring the current gallery to 42 photographs across 36 project records.
 - Three logos/seals retained as reference files, not displayed as project photographs.
 - No photographs remain unassigned. Owner confirmed that both wall photographs show the same U.S. Rt. 1 project and that clintonrailstation.jpg depicts State Street Rail Station despite its filename.
 - All 38 existing project-history records retained. The five former featured entries are integrated into their matching records; the Children’s Place name and Danbury front-entrance scope are also retained.
@@ -65,9 +65,20 @@ All 44 supplied original files are preserved byte-for-byte under `originals/<arc
 
 - D.O.T. Repair and Maintenance Facility — original details retained in the text-only project history.
 - Water Pollution Control Plant — original details retained in the text-only project history.
-- Hurley Hall Additions and Renovations at Eastern Connecticut State University — original details retained in the text-only project history.
 
 ## Owner confirmations in this assignment
 
 - Both supplied stone-wall photographs belong to the existing U.S. Rt. 1 / Groton–Mystic rehabilitation project, despite the Rt. 2 filename on one file.
 - `clintonrailstation.jpg` in `State Street Rail Station.zip` depicts State Street Rail Station; the owner confirmed that the JPEG filename is incorrect.
+
+## Higher-resolution replacements
+
+The original 44-file inventory above remains archived. Current gallery references use these supplied original JPEGs without resampling or sharpening:
+
+| Project | New file | Resolution |
+|---|---|---|
+| Danbury Federal Prison / Danbury Correctional Institution | `replacements/DAN_lrg.jpg` | 960 × 475 |
+| Connecticut Children’s Place / State Receiving Home | `replacements/East windsor.jpg` | 2048 × 1230 |
+| Hurley Hall, Eastern Connecticut State University | `replacements/hurley.jpg` | 624 × 425 |
+
+Hurley Hall previously had no assigned project photograph. Its existing text card now includes this image; it has not been duplicated or assigned to any other university entry. Its modest source resolution is respected by capping displayed width at 624px. The two existing replacement cards keep their original panel minimums and full-image containment. Other photographs, homepage references, and archived thumbnails are untouched.
