@@ -877,5 +877,21 @@
       "source": "User explicitly assigns this supplied photograph to Niantic Community Correctional Center; filename does not change the project title. Image bytes unchanged."
     }
   ],
-  "replacement_note": "Original inventory above is retained as historical provenance. These three user-supplied originals supersede the active Danbury and State Receiving Home/Connecticut Children’s Place previews and add the first Hurley Hall photograph. Current active gallery counts: 36 project records, 42 photographs."
+  "replacement_note": "Original inventory above is retained as historical provenance. These three user-supplied originals supersede the active Danbury and State Receiving Home/Connecticut Children’s Place previews and add the first Hurley Hall photograph. Current active gallery counts: 36 project records, 43 photographs.",
+  "joyner_gallery_order": {
+    "project_id": "project-record-08",
+    "primary": "project-images/originals/state-street-rail-station/joyner.png",
+    "second": "project-images/replacements/Joyner.jpg",
+    "primary_source": "joyner (2).zip / joyner.png; SHA-256 matches the already preserved original.",
+    "primary_sha256": "ef1bc4ddc31ca702089afbe9806cefee163bed093feae2f7e2459ccc9aad077c",
+    "primary_dimensions": [
+      256,
+      169
+    ],
+    "quality_note": "Primary is shown without enlarging beyond its native width; current 1200x800 photograph preserved second.",
+    "active_gallery_counts": {
+      "projects": 36,
+      "photographs": 43
+    }
+  }
 }

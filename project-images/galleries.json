@@ -93,6 +93,11 @@
     "title": "Northwestern Connecticut Community College — Joyner Hall",
     "images": [
       {
+        "path": "project-images/originals/state-street-rail-station/joyner.png",
+        "display_path": "project-images/originals/state-street-rail-station/joyner.png",
+        "alt": "Northwestern Connecticut Community College — Joyner Hall — aerial view"
+      },
+      {
         "path": "project-images/replacements/Joyner.jpg",
         "display_path": "project-images/replacements/Joyner.jpg",
         "alt": "Northwestern Connecticut Community College — Joyner Hall"

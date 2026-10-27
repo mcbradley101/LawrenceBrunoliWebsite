@@ -217,3 +217,7 @@
 #project-record-39 .carter-bridge-illustration { margin: 0; border: 1px solid var(--gold); border-radius: 4px; background: var(--cream); }
 #project-record-39 .carter-bridge-illustration img { display: block; width: 100%; height: auto; max-height: 390px; object-fit: contain; }
 #project-record-39 .carter-bridge-illustration figcaption { padding: 12px 14px; color: var(--green); font-size: 12px; line-height: 1.6; border-top: 1px solid #c6a15b66; }
+
+/* The newly selected Joyner aerial is only 256px wide. Do not enlarge it;
+   the existing high-resolution exterior retains its normal gallery framing. */
+#project-record-08 .project-photo[src="project-images/originals/state-street-rail-station/joyner.png"] { max-width: 256px; left: 50%; transform: translateX(-50%); }
