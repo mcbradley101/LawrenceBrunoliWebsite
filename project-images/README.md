@@ -4,7 +4,7 @@ All 44 supplied original files are preserved byte-for-byte under `originals/<arc
 
 ## Review summary
 
-- Original supplied inventory: 41 photographs assigned to 35 existing project records. The replacements below bring the current gallery to 42 photographs across 36 project records.
+- Original supplied inventory: 41 photographs assigned to 35 existing project records. The replacements below bring the current gallery to 43 photographs across 36 project records.
 - Three logos/seals retained as reference files, not displayed as project photographs.
 - No photographs remain unassigned. Owner confirmed that both wall photographs show the same U.S. Rt. 1 project and that clintonrailstation.jpg depicts State Street Rail Station despite its filename.
 - All 38 existing project-history records retained. The five former featured entries are integrated into their matching records; the Children’s Place name and Danbury front-entrance scope are also retained.
@@ -96,3 +96,10 @@ The owner identified uploaded `bridge.jpg` as an unrelated bridge; it is exclude
 ## Niantic Community Correctional Center photograph update
 
 The supplied `york prison.zip` contains one photograph, `york prison.jpg` (1320 × 1051). As explicitly directed by the owner, it replaces only the photograph for **Minimum Security Dorm Visitors Center at Niantic Community Correctional Center** (`project-record-38`). Saved unchanged as `replacements/niantic-visitors-center.jpg`, with both the card and enlarged viewer referencing it. Original filename and hash are recorded in `photo-mapping.json`. The project is not renamed, and no other photographs or descriptions change. Existing contained framing and card dimensions are preserved.
+
+## Joyner Hall two-photo gallery order
+
+1. **Primary:** `originals/state-street-rail-station/joyner.png` — aerial view, 256 × 169. The new `joyner (2).zip` contains this identical file (confirmed by SHA-256), so the existing original is reused without copying, alteration, or upsampling. Its displayed width is capped at 256px.
+2. **Second:** `replacements/Joyner.jpg` — existing exterior view, 1200 × 800, unchanged.
+
+The card preview, thumbnails and enlarged-viewer order are synchronized through `galleries.json`. All other galleries, project descriptions and assets are unchanged.
