@@ -221,3 +221,6 @@
 /* The newly selected Joyner aerial is only 256px wide. Do not enlarge it;
    the existing high-resolution exterior retains its normal gallery framing. */
 #project-record-08 .project-photo[src="project-images/originals/state-street-rail-station/joyner.png"] { max-width: 256px; left: 50%; transform: translateX(-50%); }
+
+/* Current West Haven project: use the existing palette and uncropped framing. */
+.portfolio-project-status { display: inline-block; margin: 0; padding: 7px 12px; border: 1px solid var(--gold); border-radius: 3px; background: var(--cream); color: var(--green); font-size: 13px; font-weight: 700; }

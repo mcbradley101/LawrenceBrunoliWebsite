@@ -393,5 +393,35 @@
         "alt": "Hurley Hall dining interior at Eastern Connecticut State University"
       }
     ]
+  },
+  "project-west-haven-pump-stations": {
+    "title": "Dawson Avenue and East Avenue Pumping Station Upgrades",
+    "images": [
+      {
+        "path": "project-images/gallery/west-haven-img_8996.webp",
+        "display_path": "project-images/display/west-haven-img_8996.webp",
+        "alt": "Shored excavation with steel bracing and a gravel pile at the West Haven pumping station upgrades"
+      },
+      {
+        "path": "project-images/gallery/west-haven-img_8997.webp",
+        "display_path": "project-images/display/west-haven-img_8997.webp",
+        "alt": "Excavation with ladders, steel bracing and covered ground areas at the West Haven pumping station upgrades"
+      },
+      {
+        "path": "project-images/gallery/west-haven-img_8998.webp",
+        "display_path": "project-images/display/west-haven-img_8998.webp",
+        "alt": "Gravel pile and excavator inside the braced excavation at the West Haven pumping station upgrades"
+      },
+      {
+        "path": "project-images/gallery/west-haven-img_8999.webp",
+        "display_path": "project-images/display/west-haven-img_8999.webp",
+        "alt": "Excavator beside gravel and covered excavations at the West Haven pumping station upgrades"
+      },
+      {
+        "path": "project-images/gallery/west-haven-img_9001.webp",
+        "display_path": "project-images/display/west-haven-img_9001.webp",
+        "alt": "Gravel foreground and covered excavation beneath steel bracing at the West Haven pumping station upgrades"
+      }
+    ]
   }
 }
