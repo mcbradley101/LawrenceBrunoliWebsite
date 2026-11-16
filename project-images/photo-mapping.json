@@ -893,5 +893,129 @@
       "projects": 36,
       "photographs": 43
     }
+  },
+  "relistofmissingprojects_update": {
+    "images": [
+      {
+        "path": "project-images/originals/relistofmissingprojects/State Street Station - IMG_1748.jpg",
+        "display_path": "project-images/display/state-street-1748.webp",
+        "alt": "State Street Railroad Station in New Haven — aerial view of the station and surrounding city",
+        "original_filename": "State Street Station - IMG_1748.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-10",
+        "project_title": "State Street Rail Station",
+        "width": 1100,
+        "height": 850,
+        "display_width": 1100,
+        "display_height": 850,
+        "sha256": "3a7d5518305cf0ac6acc836f30a17924cb7f70d2f0201b909d15b52f4d05cedc"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/State Street Station - IMG_1755.jpg",
+        "display_path": "project-images/display/state-street-1755.webp",
+        "alt": "State Street Railroad Station in New Haven — aerial close-up of the covered platform, tower and pedestrian bridge",
+        "original_filename": "State Street Station - IMG_1755.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-10",
+        "project_title": "State Street Rail Station",
+        "width": 1100,
+        "height": 850,
+        "display_width": 1100,
+        "display_height": 850,
+        "sha256": "3eca40023d8d3dc51eb17b1a63fb1974df8af2981abbccdec7fec2362db9d0e0"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/Hammonasett Beach - 20160629-IMG_5854.jpg",
+        "display_path": "project-images/display/hammonasset-5854.webp",
+        "alt": "Hammonasset Beach State Park West Beach Improvements — aerial view of the elevated beach facilities, parking and shoreline",
+        "original_filename": "Hammonasett Beach - 20160629-IMG_5854.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-11",
+        "project_title": "Hammonasset Beach State Park, West Beach Improvements",
+        "width": 3664,
+        "height": 2700,
+        "display_width": 1600,
+        "display_height": 1179,
+        "sha256": "0736f5a10bda7064bdaa9a5465959275f019f1123d1fb0ad87ba62efb1a53ed7"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/Hammonasett Beach - 20160629-IMG_5858.jpg",
+        "display_path": "project-images/display/hammonasset-5858.webp",
+        "alt": "Hammonasset Beach State Park West Beach Improvements — wide aerial view along the beach and parking areas",
+        "original_filename": "Hammonasett Beach - 20160629-IMG_5858.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-11",
+        "project_title": "Hammonasset Beach State Park, West Beach Improvements",
+        "width": 4815,
+        "height": 3233,
+        "display_width": 1600,
+        "display_height": 1074,
+        "sha256": "a50d6446d397336bd3d9b6afe6723eefed45b43ed8799f35c8675676020632e4"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/CCSU - 20140529-IMG_2425.jpg",
+        "display_path": "project-images/display/ccsu-stadium-2425.webp",
+        "alt": "CCSU Improvements to Recreation/Athletic Fields — aerial view of stadium seating, football field and running track (BI-RC-366)",
+        "original_filename": "CCSU - 20140529-IMG_2425.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-20",
+        "project_title": "Stadium Seating & Support Facility Upgrades",
+        "width": 4693,
+        "height": 3177,
+        "display_width": 1600,
+        "display_height": 1083,
+        "sha256": "53e2adc70c5886ef9ecc616d674cb216f198af48d8ed8c6ec95c4a200c9c0566"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/ccsu 4422.jpg",
+        "display_path": "project-images/display/ccsu-kaiser-4422.webp",
+        "alt": "CCSU Kaiser Hall / Huang Recreation Center in New Britain — aerial view during construction (BI-RC-393)",
+        "original_filename": "ccsu 4422.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-05",
+        "project_title": "Central CT State University — Kaiser Hall",
+        "width": 3327,
+        "height": 2408,
+        "display_width": 1600,
+        "display_height": 1158,
+        "sha256": "0708b95827cb8dabbed454bcd776d0daf94cd2a02e14f81ddd6f6b08e594a38c"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/naugatuck community college.jpg",
+        "display_path": "project-images/display/naugatuck-technology-aerial.webp",
+        "alt": "Naugatuck Valley Community College New Technology Building — oblique aerial view of the building and campus (BI-CTC-387)",
+        "original_filename": "naugatuck community college.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-14",
+        "project_title": "Naugatuck Valley Community College — New Technology Building",
+        "width": 1139,
+        "height": 816,
+        "display_width": 1139,
+        "display_height": 816,
+        "sha256": "f53d4975716c080560015c86b4214287c29f545341132563c9ba857d9dbca487"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/naugatuck 8088.jpg",
+        "display_path": "project-images/display/naugatuck-technology-8088.webp",
+        "alt": "Naugatuck Valley Community College New Technology Building — aerial view of the glazed entrance and front facade (BI-CTC-387)",
+        "original_filename": "naugatuck 8088.jpg",
+        "archive": "relistofmissingprojects.zip",
+        "project_id": "project-record-14",
+        "project_title": "Naugatuck Valley Community College — New Technology Building",
+        "width": 1532,
+        "height": 944,
+        "display_width": 1532,
+        "display_height": 944,
+        "sha256": "b26fab130e9b1ff47509c15eac219ba4ba18480b58f2b2e64d08e91d278f4483"
+      }
+    ],
+    "mapping_basis": "User supplied explicit assignments; project IDs and numbers matched to existing records. Only one Hammonasset entry: West Beach Improvements, BI-T-603; aerial photos consistent with existing image and description.",
+    "superseded_gallery_images": [
+      "34-clintonrailstation.webp",
+      "04-hammonasset.webp",
+      "32-stadium.webp",
+      "15-naugatuck1.webp"
+    ],
+    "duplicate_review": "naugatuck community college.jpg replaces the same oblique aerial photograph in Naugatuck1.jpg at higher resolution. Existing distinct Naugatuck2.jpg and both Kaiser photographs retained. Superseded assets remain archived."
   }
 }
