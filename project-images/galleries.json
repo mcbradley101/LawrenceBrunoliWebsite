@@ -58,6 +58,11 @@
     "title": "Central CT State University — Kaiser Hall",
     "images": [
       {
+        "path": "project-images/originals/relistofmissingprojects/ccsu 4422.jpg",
+        "display_path": "project-images/display/ccsu-kaiser-4422.webp",
+        "alt": "CCSU Kaiser Hall / Huang Recreation Center in New Britain — aerial view during construction (BI-RC-393)"
+      },
+      {
         "path": "project-images/originals/kaiser1/Kaiser1.jpg",
         "display_path": "project-images/display/17-kaiser1.webp",
         "alt": "Central CT State University — Kaiser Hall — view 1"
@@ -118,9 +123,14 @@
     "title": "State Street Rail Station",
     "images": [
       {
-        "path": "project-images/originals/state-street-rail-station/clintonrailstation.jpg",
-        "display_path": "project-images/display/34-clintonrailstation.webp",
-        "alt": "State Street Rail Station"
+        "path": "project-images/originals/relistofmissingprojects/State Street Station - IMG_1748.jpg",
+        "display_path": "project-images/display/state-street-1748.webp",
+        "alt": "State Street Railroad Station in New Haven — aerial view of the station and surrounding city"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/State Street Station - IMG_1755.jpg",
+        "display_path": "project-images/display/state-street-1755.webp",
+        "alt": "State Street Railroad Station in New Haven — aerial close-up of the covered platform, tower and pedestrian bridge"
       }
     ]
   },
@@ -128,9 +138,14 @@
     "title": "Hammonasset Beach State Park, West Beach Improvements",
     "images": [
       {
-        "path": "project-images/originals/colchestermaintfac/hammonasset.png",
-        "display_path": "project-images/display/04-hammonasset.webp",
-        "alt": "Hammonasset Beach State Park, West Beach Improvements"
+        "path": "project-images/originals/relistofmissingprojects/Hammonasett Beach - 20160629-IMG_5854.jpg",
+        "display_path": "project-images/display/hammonasset-5854.webp",
+        "alt": "Hammonasset Beach State Park West Beach Improvements — aerial view of the elevated beach facilities, parking and shoreline"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/Hammonasett Beach - 20160629-IMG_5858.jpg",
+        "display_path": "project-images/display/hammonasset-5858.webp",
+        "alt": "Hammonasset Beach State Park West Beach Improvements — wide aerial view along the beach and parking areas"
       }
     ]
   },
@@ -158,9 +173,14 @@
     "title": "Naugatuck Valley Community College — New Technology Building",
     "images": [
       {
-        "path": "project-images/originals/naugatuck1/Naugatuck1.jpg",
-        "display_path": "project-images/display/15-naugatuck1.webp",
-        "alt": "Naugatuck Valley Community College — New Technology Building — view 1"
+        "path": "project-images/originals/relistofmissingprojects/naugatuck community college.jpg",
+        "display_path": "project-images/display/naugatuck-technology-aerial.webp",
+        "alt": "Naugatuck Valley Community College New Technology Building — oblique aerial view of the building and campus (BI-CTC-387)"
+      },
+      {
+        "path": "project-images/originals/relistofmissingprojects/naugatuck 8088.jpg",
+        "display_path": "project-images/display/naugatuck-technology-8088.webp",
+        "alt": "Naugatuck Valley Community College New Technology Building — aerial view of the glazed entrance and front facade (BI-CTC-387)"
       },
       {
         "path": "project-images/originals/naugatuck1/Naugatuck2.jpg",
@@ -228,9 +248,9 @@
     "title": "Stadium Seating & Support Facility Upgrades",
     "images": [
       {
-        "path": "project-images/originals/stadium/stadium.png",
-        "display_path": "project-images/display/32-stadium.webp",
-        "alt": "Stadium Seating & Support Facility Upgrades"
+        "path": "project-images/originals/relistofmissingprojects/CCSU - 20140529-IMG_2425.jpg",
+        "display_path": "project-images/display/ccsu-stadium-2425.webp",
+        "alt": "CCSU Improvements to Recreation/Athletic Fields — aerial view of stadium seating, football field and running track (BI-RC-366)"
       }
     ]
   },

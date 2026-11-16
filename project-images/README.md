@@ -103,3 +103,31 @@ The supplied `york prison.zip` contains one photograph, `york prison.jpg` (1320 
 2. **Second:** `replacements/Joyner.jpg` — existing exterior view, 1200 × 800, unchanged.
 
 The card preview, thumbnails and enlarged-viewer order are synchronized through `galleries.json`. All other galleries, project descriptions and assets are unchanged.
+
+## Missing-project photographs — relistofmissingprojects.zip
+
+All eight supplied JPEGs are archived unchanged in `originals/relistofmissingprojects/`.
+EXIF orientation is applied to WebP previews capped at 1600 × 1600 without upsampling;
+combined previews are 3.37 MB versus 22.27 MB of originals. The existing contained
+photo panels, thumbnails and full-original lightbox are reused.
+
+| Supplied filename | Existing record | Active gallery |
+|---|---|---|
+| State Street Station - IMG_1748.jpg | project-record-10, State Street Rail Station | 1 of 2 |
+| State Street Station - IMG_1755.jpg | project-record-10 | 2 of 2 |
+| Hammonasett Beach - 20160629-IMG_5854.jpg | project-record-11, West Beach Improvements, BI-T-603 | 1 of 2 |
+| Hammonasett Beach - 20160629-IMG_5858.jpg | project-record-11 | 2 of 2 |
+| CCSU - 20140529-IMG_2425.jpg | project-record-20, stadium, BI-RC-366 | Only photo |
+| ccsu 4422.jpg | project-record-05, Kaiser Hall, BI-RC-393 | 1 of 3 |
+| naugatuck community college.jpg | project-record-14, New Technology Building, BI-CTC-387 | 1 of 3 |
+| naugatuck 8088.jpg | project-record-14 | 2 of 3 |
+
+There is only one Hammonasset project entry; the elevated beach buildings, ramps,
+parking and shoreline are consistent with its description and existing aerial.
+The higher-resolution Naugatuck oblique aerial replaces the same view in
+`Naugatuck1.jpg`, avoiding a repeated image. The distinct Naugatuck2 view and
+both existing Kaiser views remain accessible. Older low-resolution State Street,
+Hammonasset and stadium previews are superseded in these galleries and remain
+archived. Project names, descriptions, dates and contract information are unchanged.
+The new mapping and original hashes are in `photo-mapping.json` under
+`relistofmissingprojects_update`; earlier counts describe historical inventories.

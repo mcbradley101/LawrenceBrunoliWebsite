@@ -78,7 +78,11 @@
             const index = Number(button.dataset.photoIndex), image = gallery.images[index];
             link.href = image.path;
             link.dataset.activeIndex = String(index);
-            link.querySelector('.project-photo').src = image.display_path;
+            const preview = link.querySelector('.project-photo');
+            const thumbnail = button.querySelector('img');
+            preview.width = thumbnail.width;
+            preview.height = thumbnail.height;
+            preview.src = image.display_path;
             link.querySelector('.project-photo').alt = image.alt;
             link.querySelector('.project-photo-hint').textContent = `${index + 1} / ${gallery.images.length} · Enlarge photograph ↗`;
             thumbnails.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
